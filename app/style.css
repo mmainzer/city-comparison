@@ -1,0 +1,197 @@
+ /*Fonts for reference */
+ /*Bernina Sans Regular
+    font-family: jaf-bernina-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+Bernina Sans Italic
+    font-family: jaf-bernina-sans, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+
+Bernina Sans Bold
+    font-family: jaf-bernina-sans, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+Bernina Sans Bold Italic
+    font-family: jaf-bernina-sans, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+
+Bernina Sans Light
+    font-family: jaf-bernina-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+Bernina Sans Light Italic
+    font-family: jaf-bernina-sans, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+
+Bernina Sans Semibold
+    font-family: jaf-bernina-sans, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+Bernina Sans Semibold Italic
+    font-family: jaf-bernina-sans, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+
+Bernina Sans Extrabold
+    font-family: jaf-bernina-sans, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+
+Bernina Sans Extrabold Italic
+    font-family: jaf-bernina-sans, sans-serif;
+    font-weight: 800;
+    font-style: italic;*/
+
+body {
+      margin: 0;
+      padding: 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+.row {
+  padding-bottom: 1rem;
+}
+
+.data-section {
+  padding-top: 3rem;
+}
+
+.btn {
+  background-color: #007db9;
+  border-color: #007db9;
+}
+
+.btn:hover {
+  background-color: #003a5d;
+  border-color: #003a5d;
+}
+
+#browserAlert {
+  z-index: 9999;
+  width: 100vw;
+  background-color: #fff!important;
+  position: relative!important;
+  display: none;
+}
+
+#geoAlert {
+  z-index: 9999;
+  width: 100vw;
+  background-color: #fff!important;
+  position: relative!important;
+  display: none;
+}
+
+#loader {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	color: #4d4d4d;
+	opacity: 0.4;
+	text-align: center;
+}
+
+.select2-dropdown {
+  z-index: 1000 !important;
+}
+
+#selectBoxRow {
+  justify-content: center;
+}
+
+.button-container {
+  justify-content: center;
+}
+
+#mapRow {
+  height: 75vh;
+}
+
+#map {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  cursor: pointer;
+}
+
+.mapboxgl-ctrl {
+  left: 1rem;
+  margin: 0 0 8px;
+}
+
+.mapboxgl-ctrl-geocoder--icon-search {
+  position: absolute;
+  top: 7px;
+  left: 8px;
+  width: 23px;
+  height: 23px;
+}
+
+.mapboxgl-ctrl-geocoder--input {
+  font: inherit;
+  height: 40px;
+  padding: 6px 45px;
+  width: 100%;
+}
+
+.mapboxgl-ctrl-geocoder .mapboxgl-ctrl-geocoder--pin-right > * {
+  z-index: 2;
+  position: absolute;
+  right: 8px;
+  top: 7px;
+}
+
+.mapboxgl-marker {
+    width: 30px;
+    height: 40px;
+    background-image: url('map-marker.svg');
+    background-size: cover;
+}
+
+.mapboxgl-ctrl-bottom-right {
+  display: none;
+}
+
+.float-select {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+  border-radius: 3px;
+  max-width: 20%;
+  color: #fff;
+}
+
+#layerSelect {
+  width: 15vw !important;
+}
+
+.dataTables_filter {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+/*if device is less than or equal to 991 pixels*/
+@media only screen and (max-width: 991px)  {
+
+  #layerSelect {
+    min-width: 300px;
+  }
+
+}

@@ -15,12 +15,14 @@ const commas = (x) => {
 	return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
-let width = $(window).width();
+let windowWidth = $(window).width();
 
-if (width <= 991) {
+if (windowWidth <= 991) {
 	laborForceMax = 25;
 	uRateMax = 25;
 } else {
 	laborForceMax = 50;
 	uRateMax = 50;
 }
+
+const parseDate = d3.timeParse("%Y-%m-%d");

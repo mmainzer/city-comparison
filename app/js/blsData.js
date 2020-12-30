@@ -13,7 +13,7 @@ const makeBlsCall = (series) => {
 		  },
 		  "data": {
 		    "seriesid": series,
-		    "startyear":"2017",
+		    "startyear":"2018",
 		    "endyear":"2020",
 		  }
 		}
@@ -31,17 +31,13 @@ const makeBlsCall = (series) => {
 					laborForce.push(element);
 				}
 			});
-			console.log(unemployment);
-			console.log(laborForce);
-
+			$(".heading").show();
 			//build the bans for display later
 			// buildBans(laborForce, unemployment);
-			// build the line chart for the labor force data
-			buildLine(laborForce);
 			// break down and rebuild the datatable
 			buildBlsTable(laborForce, unemployment);
-			// handle the map layers and zoom to bounding box accordingly
-			// setLayers(geoFilter);
+			// build the line chart for the labor force data
+			buildLine(unemployment);
 
 		});
 
@@ -82,8 +78,10 @@ const buildBlsTable = (datasetOne, datasetTwo) => {
 
 	datasetOne.forEach(function(element) {
 		let seriesID = element.seriesID;
-		let geoid = [ seriesID.substr(5,7) ];
-		let area = geoid.map(id => areas.find(({ geoid }) => geoid === id).area)[0];;
+		let geoid = [ seriesID.substr(3,15) ];
+		console.log(seriesID);
+		console.log(geoid);
+		let area = geoid.map(id => areas.find(({ prefix }) => prefix === id).area)[0];
 		let latest = Number(element.data[0].value);
 		let previous = Number(element.data[12].value);
 		let m = element.data[0].periodName;
@@ -108,8 +106,8 @@ const buildBlsTable = (datasetOne, datasetTwo) => {
 
 	datasetTwo.forEach(function(element) {
 		let seriesID = element.seriesID;
-		let geoid = [ seriesID.substr(5,7) ];
-		let area = geoid.map(id => areas.find(({ geoid }) => geoid === id).area)[0];;
+		let geoid = [ seriesID.substr(3,15) ];
+		let area = geoid.map(id => areas.find(({ prefix }) => prefix === id).area)[0];;
 		let latest = Number(element.data[0].value);
 		let previous = Number(element.data[12].value);
 		let m = element.data[0].periodName;
@@ -139,28 +137,6 @@ const buildBlsTable = (datasetOne, datasetTwo) => {
 		});
 	}
 	console.log(array);
-
-	let dataOne = [];
-	let dataTwo = [];
-	let laborForce = "laborForce";
-	let unemployed = "unemployed";
-
-	console.log(dataOne);
-	console.log(dataTwo);
-
-	dataOne = dataOne.filter(d => { return d.month === "October" && (d.year === "2020" || d.year === "2019") });
-	dataTwo = dataTwo.filter(d => { return d.month === "October" && (d.year === "2020" || d.year === "2019") });
-
-	// let data = dataOne.concat(dataTwo);
-	let data = [];
-
-	for(let i=0; i<dataOne.length; i++) {
-		data.push({
-			...dataOne[i],
-			...(dataTwo.find((itemInner) => itemInner.id === dataOne[i].id))
-		});
-	}
-	console.log(data);
 
 	let tableData = [];
 	array.forEach( (element) => {
@@ -216,12 +192,12 @@ const prepData = (data, variable, newData) => {
 		// strip first 5 and last 10 characters to isolate the geoid
 		console.log(geoid);
 		if (geoid.startsWith('LAUM') === true) {
-			geoid = geoid.substr(5,7)
+			geoid = geoid.substr(3,15)
 		} else {
-			geoid = geoid.substr(5,5);
+			geoid = geoid.substr(3,15);
 		}
 		geoidArray.push(geoid);
-		let area = geoidArray.map(id => areas.find(({ geoid }) => geoid === id).area)[0];
+		let area = geoidArray.map(id => areas.find(({ prefix }) => prefix === id).area)[0];
 
 		for (index=0; index<data.length; ++index) {
 			let month = data[index].periodName;

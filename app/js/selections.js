@@ -1,6 +1,6 @@
 $("#msaSelect").select2({
 	closeOnSelect: false,
-	maximumSelectionLength: 5
+	maximumSelectionLength: 10
 });
 
 $("#layerSelect").select2({
@@ -12,7 +12,10 @@ $('.select').on('select2:select', function (e) {
 });
 
 $("#compareButton").click( () => {
+	selectedAreas = [];
+	$(".heading").hide();
 	selectedAreas = $("#msaSelect").select2('data');
+	console.log(selectedAreas);
 
 	selectedAreas.forEach((element) => {
 		msas.push(element.id);
@@ -20,7 +23,7 @@ $("#compareButton").click( () => {
 
 	console.log(msas);
 
-	map.setFilter('msaPoints',["all",["match",["get","geoid"],msas,true,false]]);
+	map.setFilter('msaPoints',["all",["match",["get","cbsa"],msas,true,false]]);
 	// get the prefixes and geoids of the selected geographies
   	let series = msas.map(id => areas.find(({ geoid }) => geoid === id).prefix);
   	// flatten the array in case a cd region was selected with a nested array
@@ -42,7 +45,7 @@ $("#compareButton").click( () => {
   	if (series.length > 25) {
   		showError();
   	} else {
-
+  		// $(".data-section").show();
   		series = series.map( serie => serie ).join(',');
   		console.log(series);
   		// make request for data

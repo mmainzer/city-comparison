@@ -52,6 +52,9 @@ Bernina Sans Extrabold Italic
 body {
       margin: 0;
       padding: 0;
+      font-family: jaf-bernina-sans, sans-serif;
+      font-weight: 400;
+      font-style: normal;
 }
 
 h2 {
@@ -183,8 +186,60 @@ h2 {
   justify-content: space-between;
 }
 
+#lineContainer {
+  width: 100%;
+}
 
 
+
+.line.GA {
+  stroke-width : 4;
+  opacity: 1;
+}
+
+.line {
+  stroke-width: 2;
+  opacity: 0.5;
+}
+
+.tick line {
+  display: none;
+}
+
+.tick text {
+  font-size: .75rem;
+}
+
+.axis path {
+  stroke-width: 2;
+  color: #dee2e6;
+}
+
+.chart-header {
+  padding-top: 2rem;
+}
+
+.chart-header h3 {
+  font-size: 1.25rem;
+  font-family: jaf-bernina-sans, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+
+}
+
+.ga {
+  color: #00bcf1;
+  text-decoration: 2px underline;
+}
+
+.compare {
+  color: #fdb714;
+  text-decoration: 2px underline;
+}
+
+.heading {
+  display: none;
+}
 
 
 /*if device is less than or equal to 991 pixels*/

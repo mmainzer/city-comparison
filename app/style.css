@@ -250,3 +250,13 @@ h2 {
   }
 
 }
+
+/*if device is less than or equal to 991 pixels*/
+@media only screen and (max-width: 575px)  {
+
+  body {
+    margin: 10px;
+    padding: 10px;
+  }
+
+}

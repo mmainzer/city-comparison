@@ -235,6 +235,38 @@ h2 {
   text-decoration: 2px underline;
 }
 
+.map-display {
+  margin-bottom: 0;
+  font-family: jaf-bernina-sans, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.key-bubbles {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: right;
+  justify-content: right;
+  -ms-flex-align: right;
+  align-items: right;
+  position: relative;
+  transform: translateY(-80%);
+}
+
+.key-bubbles-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.key-bubble {
+  border: 1px solid #4d4d4d;
+  background-color: #fdb714;
+  opacity: 0.75;
+  border-radius: 500px;
+  margin: 0 3px;
+}
+
 .heading {
   display: none;
 }

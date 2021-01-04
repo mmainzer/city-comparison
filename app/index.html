@@ -461,12 +461,19 @@
 
     
 
-    <div class="layer-select-container no-print">
-      <select id="layerSelect" class="select no-print">
-        <option>Labor Force</option>
-        <option>Unemployment Rate</option>
-        <!-- <option>Population</option> -->
-      </select>
+    <div class="layer-select-container no-print row">
+      
+      <div class="col">
+          <p class="map-display">Size MSAs by...</p>
+          <select id="layerSelect" class="select no-print">
+            <option>Labor Force</option>
+            <option>Unemployment Rate</option>
+            <!-- <option>Population</option> -->
+          </select>
+      </div>
+      <div class="col">
+
+      </div>
       
     </div>
 
@@ -477,6 +484,14 @@
 
         <div class="chart-header">
             <h3><span id="selectedMapLayer">Labor Force</span> in selected MSAs</h3>
+            <div class="key-bubbles">
+                <div class="key-bubbles-wrap">
+                  <div class="key-bubble" style="width: 17px; height: 17px;"></div>
+                  <div class="key-bubble" style="width: 27px; height: 27px;"></div>
+                  <div class="key-bubble" style="width: 37px; height: 37px;"></div>
+                  <div class="key-bubble" style="width: 47px; height: 47px;"></div>
+                </div>
+            </div>
         </div>
         <div id="mapRow" class="row">
 

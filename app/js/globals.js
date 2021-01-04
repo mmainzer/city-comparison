@@ -1,10 +1,12 @@
 let selectedAreas;
 let msas = [];
-let styleLayer;
+let msaLabels = [];
+let styleLayer = [ "Labor Force" ];
 let laborForceMin = 5;
 let laborForceMax;
 let uRateMin = 3;
 let uRateMax;
+let unemployment = [];
 
 const round = (value, precision) => {
 	const multiplier = Math.pow(10, precision || 0);

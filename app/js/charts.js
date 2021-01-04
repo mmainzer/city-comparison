@@ -3,10 +3,10 @@ let height = $(window).height() * .32;
 let width = $("#lineContainer").width();
 width = width - margin.left - margin.right;
 height = height - margin.top - margin.bottom;
+let svg;
+let x;
+let y;
 
-// Set the ranges
-let x = d3.scaleTime().range([0, width]);  
-let y = d3.scaleLinear().range([height, 0]);
 
 // Define the line
 let line = d3.line()	
@@ -14,18 +14,24 @@ let line = d3.line()
     .y(function(d) { return y(d.val); })
     .curve(d3.curveMonotoneX);
 
-// Adds the svg canvas
-let svg = d3.select("#lineContainer")
-    .append("svg")
-        .attr("width", width + margin.left + margin.right)
-        .attr("height", height + margin.top + margin.bottom)
-    .append("g")
-        .attr("transform", 
-              "translate(" + margin.left + "," + margin.top + ")");
 
-const buildLine = (dataset) => {
+
+const buildLine = (dataset, width) => {
 	console.log("Building Line Chart!");
 	console.log(dataset);
+
+	// Set the ranges
+	x = d3.scaleTime().range([0, width]);  
+	y = d3.scaleLinear().range([height, 0]);
+
+	// Adds the svg canvas
+	svg = d3.select("#lineContainer")
+	    .append("svg")
+	        .attr("width", width + margin.left + margin.right)
+	        .attr("height", height + margin.top + margin.bottom)
+	    .append("g")
+	        .attr("transform", 
+	              "translate(" + margin.left + "," + margin.top + ")");
 
 	let lineData = [];
 	dataset.forEach( (element) => {

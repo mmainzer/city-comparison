@@ -190,8 +190,6 @@ h2 {
   width: 100%;
 }
 
-
-
 .line.GA {
   stroke-width : 4;
   opacity: 1;
@@ -241,6 +239,93 @@ h2 {
   display: none;
 }
 
+#printPreview {
+  display: none;
+  margin-left: 10px;
+}
+
+#printButton {
+  display: none;
+}
+
+.btn.btn-secondary.buttons-pdf.buttons-html5 {
+  margin-left: 10px;
+}
+
+#selectedMapLayer {
+  font-weight: 700;
+}
+
+#msaSelectContainer {
+  justify-content: center;
+  text-align: center;
+}
+
+.print-only {
+  display: none;
+}
+
+.sheet {
+  margin: auto;
+}
+
+.popup-header {
+  font-size: 16px;
+  font-family: jaf-bernina-sans, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.popup-description {
+  font-family: jaf-bernina-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.mapboxgl-popup-tip {
+  display: none;
+}
+
+.mapboxgl-popup {
+  border: 0.5px solid #333;
+  border-radius: 2px;
+  border-style: unset;
+  line-height: 1.2;
+}
+
+.mapboxgl-popup-content {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-sizing: border-box;
+  text-align: left;
+  min-width: 225px;
+  position: absolute;
+  bottom: 0;
+  border-radius: 2px;
+  padding: 7px 10px;
+  pointer-events: none;
+  box-shadow: 1px 1px 2px #333;
+}
+
+.print-preview-buttons {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: none;
+  justify-content: space-evenly;
+}
+
+#exitPrint {
+  color: #fdb714;
+  background-color: #ffffff;
+  border-color: #4d4d4d;
+}
+
+#exitPrint:hover {
+  color: #ffffff;
+  background-color: #fdb714;
+}
+
 
 /*if device is less than or equal to 991 pixels*/
 @media only screen and (max-width: 991px)  {
@@ -251,7 +336,7 @@ h2 {
 
 }
 
-/*if device is less than or equal to 991 pixels*/
+/*if device is less than or equal to 575 pixels*/
 @media only screen and (max-width: 575px)  {
 
   body {
@@ -259,4 +344,16 @@ h2 {
     padding: 10px;
   }
 
+}
+
+
+/*Paper CSS for Printing goes here*/
+@page {
+  size: A4;
+}
+
+@media print {
+  .print-preview-buttons {
+    visibility: hidden;
+  }
 }

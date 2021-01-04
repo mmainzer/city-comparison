@@ -13,6 +13,9 @@ $('.select').on('select2:select', function (e) {
 
 $("#compareButton").click( () => {
 	selectedAreas = [];
+	msas = [];
+	msaLabels = [];
+
 	$(".heading").hide();
 	selectedAreas = $("#msaSelect").select2('data');
 	console.log(selectedAreas);
@@ -21,7 +24,14 @@ $("#compareButton").click( () => {
 		msas.push(element.id);
 	});
 
+	selectedAreas.forEach((element) => {
+		msaLabels.push(element.text);
+	});
+
 	console.log(msas);
+	console.log(msaLabels);
+	console.log(msaLabels.join(' | '));
+	$("#msaList").text(msaLabels.join(' | '));
 
 	map.setFilter('msaPoints',["all",["match",["get","cbsa"],msas,true,false]]);
 	// get the prefixes and geoids of the selected geographies
@@ -53,12 +63,15 @@ $("#compareButton").click( () => {
 
   	}
 
+  	$("#printPreview").show();
+
 });
 
 $("#layerSelect").change( () => {
 	console.log("changing style layer");
 	styleLayer = $("#layerSelect").select2('data');
 	styleLayer = [ styleLayer[0].text ];
+	$("#selectedMapLayer").text( styleLayer[0] );
 	
 	if (styleLayer[0] === "Labor Force") {
 		map.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","October_2020_LaborForce"],0,laborForceMin,6715275,laborForceMax]);

@@ -27,11 +27,12 @@
   <link href="https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.21/b-1.6.2/b-html5-1.6.2/datatables.min.css"/>
   <link rel="stylesheet" href="https://use.typekit.net/jxl7wvr.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/paper-css/0.3.0/paper.css"> -->
   <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 
-<body>
+<body class="A4">
 
   <!-- BROWSER ALERT IF INTERNET EXPLORER -->
   <div id="browserAlert" class="absolute fl py24 px24 bg-gray-faint">
@@ -59,9 +60,14 @@
     </form>
   </div>
 
-  <div class="container">
+    <div class="container-fluid button-container print-preview-buttons">
+        <button class="btn btn-light" id="exitPrint">Exit Print Preview</button>
+        <button class="btn btn-primary print-only" id="printButton" type="button">Print</button>
+    </div>
+
+  <div id="allContent" class="container">
     
-    <div id="selectBoxRow" class="row">
+    <div id="selectBoxRow" class="row no-print">
       <h2>Select up to five MSAs for comparison.</h2>
       <select id="msaSelect" class="select" name="msaList" multiple="multiple">
         <option value='10180'>Abilene, TX</option>
@@ -448,42 +454,60 @@
       </select>
     </div>
 
-    <div class="button-container row">
+    <div class="button-container row no-print">
       <button id="compareButton" type="button" class="btn btn-primary">Compare MSAs</button>
+      <button id="printPreview" type="button" class="btn btn-primary">Print Preview</button>
     </div>
 
-    <div class="layer-select-container">
-      <select id="layerSelect" class="select">
+    
+
+    <div class="layer-select-container no-print">
+      <select id="layerSelect" class="select no-print">
         <option>Labor Force</option>
         <option>Unemployment Rate</option>
         <!-- <option>Population</option> -->
       </select>
+      
     </div>
 
-    <div id="mapRow" class="row">
+    <section class="sheet padding-10mm">
+        <div id="msaSelectContainer" class="row msa-select-container print-only">
+            <p id="msaList" class="msa-select-container print-only"></p>
+        </div>
 
-      <div id="map"></div>
+        <div class="chart-header">
+            <h3><span id="selectedMapLayer">Labor Force</span> in selected MSAs</h3>
+        </div>
+        <div id="mapRow" class="row">
 
-    </div>
+          <div id="map"></div>
 
-    <div id="sectionLaborForce" class="row data-section">
-      <h3 class="section-heading heading">Labor Force & Unemployment</h3>
-      <div class="table-container table-responsive">
+        </div>
+    </section>
 
-        <table id="blsTable" class="table table-striped table-bordered" style="width:100%; margin:auto">
-          <thead>
-            <!-- dynamically generate rows via jquery iteration through headers array -->
-          </thead>
-          <tbody>
-            <!-- dynamically generate rows via jquery iteration through headers array -->
-          </tbody>
-        </table>
-      </div>
-      <div class="chart-header heading">
-          <h3>Unemployment rate in <span class="ga">Georgia MSAs</span> compared to all <span class="compare">other MSAs</span>.</h3>
-      </div>
-      <div id="lineContainer" class="chart-container"></div>
-    </div>
+    <section class="sheet padding-10mm">
+            <div id="sectionLaborForce" class="row data-section">
+              <h3 class="section-heading heading">Labor Force & Unemployment</h3>
+              <div class="table-container table-responsive">
+
+                <table id="blsTable" class="table table-striped table-bordered" style="width:100%; margin:auto">
+                  <thead>
+                    <!-- dynamically generate rows via jquery iteration through headers array -->
+                  </thead>
+                  <tbody>
+                    <!-- dynamically generate rows via jquery iteration through headers array -->
+                  </tbody>
+                </table>
+              </div>
+              <div class="chart-header heading">
+                  <h3>Unemployment rate in <span class="ga">Georgia MSAs</span> compared to all <span class="compare">other MSAs</span>.</h3>
+              </div>
+              <div id="lineContainer" class="chart-container col-xs-12 col-lg-12"></div>
+            </div>
+    </section>
+    
+
+
 
 
   </div>
@@ -515,8 +539,9 @@
 <script type="text/javascript" src="./js/blsData.js"></script>
 <!-- <script type="text/javascript" src="driveTime.js"></script> -->
 <!-- <script type="text/javascript" src="radius.js"></script> -->
-<!-- <script type="text/javascript" src="mapEvents.js"></script> -->
+<script type="text/javascript" src="./js/mapEvents.js"></script>
 <script type="text/javascript" src="./js/charts.js"></script>
+<script type="text/javascript" src="./js/print.js"></script>
 
 </body>
 

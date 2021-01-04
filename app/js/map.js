@@ -4,13 +4,14 @@ const map = new mapboxgl.Map({
 	container: 'map',
 	style: 'mapbox://styles/gpcecondev/ckj8yx8b755qw19pk7ay9aa0a?fresh=true',
 	bounds: [[-22.368, -12.983],[20.676, 12.704]],
-	fitBoundsOptions: {padding: 25},
+	// fitBoundsOptions: {padding: 25},
 	// center: [-0.825,1.436],
 	// zoom: 4.29,
 	scrollZoom: false,
 	doubleClickZoom: false,
 	renderWorldCopies: false,
-	dragPan: false
+	dragPan: false,
+	preserveDrawingBuffer: true
 });
 
 const popup = new mapboxgl.Popup({

@@ -21,7 +21,7 @@ const makeBlsCall = (series) => {
 		$.ajax(settings).done( (data) => {
 			data = data.Results.series;
 			console.log(data);
-			let unemployment = [];
+			unemployment = [];
 			let laborForce = [];
 			data.forEach( (element) => {
 				let series = element.seriesID;
@@ -37,7 +37,7 @@ const makeBlsCall = (series) => {
 			// break down and rebuild the datatable
 			buildBlsTable(laborForce, unemployment);
 			// build the line chart for the labor force data
-			buildLine(unemployment);
+			buildLine(unemployment, width);
 
 		});
 
@@ -107,7 +107,7 @@ const buildBlsTable = (datasetOne, datasetTwo) => {
 	datasetTwo.forEach(function(element) {
 		let seriesID = element.seriesID;
 		let geoid = [ seriesID.substr(3,15) ];
-		let area = geoid.map(id => areas.find(({ prefix }) => prefix === id).area)[0];;
+		let area = geoid.map(id => areas.find(({ prefix }) => prefix === id).label)[0];;
 		let latest = Number(element.data[0].value);
 		let previous = Number(element.data[12].value);
 		let m = element.data[0].periodName;
@@ -178,6 +178,7 @@ const buildBlsTable = (datasetOne, datasetTwo) => {
 	});
 
 	$(".dt-buttons.btn-group").prependTo("#blsTable_filter");
+	$(".dataTables_filter").addClass("no-print");
 
 }
 

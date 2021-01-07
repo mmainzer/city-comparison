@@ -13,7 +13,7 @@ const makeBlsCall = (series) => {
 		  },
 		  "data": {
 		    "seriesid": series,
-		    "startyear":"2018",
+		    "startyear":"2019",
 		    "endyear":"2020",
 		  }
 		}

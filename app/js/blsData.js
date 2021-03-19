@@ -39,6 +39,12 @@ const makeBlsCall = (series) => {
 			// build the line chart for the labor force data
 			buildLine(unemployment, width);
 
+			// now that this function has fired, the filtered mapfeatures will be visible
+			// since we only want filtered features, we wait, then query the features so we only have the
+			// data for the relevant MSAs
+			const features = map.queryRenderedFeatures( { layers : [ 'msaPoints' ] } );
+			buildAirTable(features, "airTable", airHeaders);
+
 		});
 
 }
@@ -168,6 +174,7 @@ const buildBlsTable = (datasetOne, datasetTwo) => {
 		"autoWidth" : true,
 		"paging":false,
 		"bInfo":false,
+		"searching":false,
 		"dom" : "Bfrtip",
 		"pagingType" : "full",
 		"buttons" : [
@@ -178,7 +185,7 @@ const buildBlsTable = (datasetOne, datasetTwo) => {
 	});
 
 	$(".dt-buttons.btn-group").prependTo("#blsTable_filter");
-	$(".dataTables_filter").addClass("no-print");
+	$(".dt-buttons.btn-group").addClass("no-print");
 
 }
 

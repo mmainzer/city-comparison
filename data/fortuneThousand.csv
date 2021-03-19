@@ -1,0 +1,1001 @@
+﻿RANK,COMPANY,ADDRESS,CITY,STATE,COUNTRY,MSA,REVENUE,EMPLOYEES,INDUSTRY,fortune500,fortuneThousand
+1,Walmart,702 S.W. Eighth St.,Bentonville,AR,United States,"Fayetteville-Springdale-Rogers, AR-MO",523964,2200000,General Merchandisers,1,1
+2,Amazon.com,410 Terry Ave. N.,Seattle,WA,United States,"Seattle-Tacoma-Bellevue, WA",280522,798000,Internet Services and Retailing,1,1
+3,Exxon Mobil,5959 Las Colinas Blvd.,Irving,TX,United States,"Dallas-Fort Worth-Arlington, TX",264938,74900,Petroleum Refining,1,1
+4,Apple,1 Apple Park Way,Cupertino,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",260174,137000,"Computers, Office Equipment",1,1
+5,CVS Health,1 CVS Dr.,Woonsocket,RI,United States,"Providence-Warwick, RI-MA",256776,290000,Health Care: Pharmacy and Other Services,1,1
+6,Berkshire Hathaway,3555 Farnam St.,Omaha,NE,United States,"Omaha-Council Bluffs, NE-IA",254616,391500,Insurance: Property and Casualty (Stock),1,1
+7,UnitedHealth Group,9900 Bren Rd. E.,Minnetonka,MN,United States,"Minneapolis-St. Paul-Bloomington, MN-WI",242155,325000,Health Care: Insurance and Managed Care,1,1
+8,McKesson,6535 State Hwy. 161,Irving,TX,United States,"Dallas-Fort Worth-Arlington, TX",214319,70000,Wholesalers: Health Care,1,1
+9,AT&T,208 S. Akard St.,Dallas,TX,United States,"Dallas-Fort Worth-Arlington, TX",181193,247800,Telecommunications,1,1
+10,AmerisourceBergen,1300 Morris Dr.,Chesterbrook,PA,United States,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",179589.1,21500,Wholesalers: Health Care,1,1
+11,Alphabet,1600 Amphitheatre Pkwy.,Mountain View,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",161857,118899,Internet Services and Retailing,1,1
+12,Ford Motor,1 American Rd.,Dearborn,MI,United States,"Detroit-Warren-Dearborn, MI",155900,190000,Motor Vehicles and Parts,1,1
+13,Cigna,900 Cottage Grove Rd.,Bloomfield,CT,United States,"Hartford-West Hartford-East Hartford, CT",153566,73700,Health Care: Pharmacy and Other Services,1,1
+14,Costco Wholesale,999 Lake Dr.,Issaquah,WA,United States,"Seattle-Tacoma-Bellevue, WA",152703,201500,General Merchandisers,1,1
+15,Chevron,6001 Bollinger Canyon Rd.,San Ramon,CA,United States,"San Francisco-Oakland-Hayward, CA",146516,48200,Petroleum Refining,1,1
+16,Cardinal Health,7000 Cardinal Place,Dublin,OH,United States,"Columbus, OH",145534,49500,Wholesalers: Health Care,1,1
+17,JPMorgan Chase & Co.,383 Madison Ave.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",142422,256981,Commercial Banks,1,1
+18,General Motors,300 Renaissance Center,Detroit,MI,United States,"Detroit-Warren-Dearborn, MI",137237,164000,Motor Vehicles and Parts,1,1
+19,Walgreens Boots Alliance,108 Wilmot Rd.,Deerfield,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",136866,287000,Food and Drug Stores,1,1
+20,Verizon Communications,1095 Ave. of the Americas,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",131868,135000,Telecommunications,1,1
+21,Microsoft,1 Microsoft Way,Redmond,WA,United States,"Seattle-Tacoma-Bellevue, WA",125843,144000,Computer Software,1,1
+22,Marathon Petroleum,539 S. Main St.,Findlay,OH,United States,"Findlay, OH",124813,60910,Petroleum Refining,1,1
+23,Kroger,1014 Vine St.,Cincinnati,OH,United States,"Cincinnati, OH-KY-IN",122286,435000,Food and Drug Stores,1,1
+24,Fannie Mae,1100 15th St. N.W.,Washington,DC,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",120304,7500,Diversified Financials,1,1
+25,Bank of America Corp.,100 N. Tryon St.,Charlotte,NC,United States,"Charlotte-Concord-Gastonia, NC-SC",113589,208131,Commercial Banks,1,1
+26,Home Depot,2455 Paces Ferry Rd.,Atlanta,GA,United States,"Atlanta-Sandy Springs-Roswell, GA",110225,415700,Specialty Retailers: Other,1,1
+27,Phillips 66,2331 CityWest Blvd.,Houston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",109559,14500,Petroleum Refining,1,1
+28,Comcast,1 Comcast Center,Philadelphia,PA,United States,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",108942,190000,Telecommunications,1,1
+29,Anthem,220 Virginia Ave.,Indianapolis,IN,United States,"Indianapolis-Carmel-Anderson, IN",104213,70600,Health Care: Insurance and Managed Care,1,1
+30,Wells Fargo,420 Montgomery St.,San Francisco,CA,United States,"San Francisco-Oakland-Hayward, CA",103915,259800,Commercial Banks,1,1
+31,Citigroup,388 Greenwich St.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",103449,200000,Commercial Banks,1,1
+32,Valero Energy,1 Valero Way,San Antonio,TX,United States,"San Antonio-New Braunfels, TX",102729,10222,Petroleum Refining,1,1
+33,General Electric,5 Necco St.,Boston,MA,United States,"Boston-Cambridge-Newton, MA-NH",95214,205000,Industrial Machinery,1,1
+34,Dell Technologies,1 Dell Way,Round Rock,TX,United States,"Austin-Round Rock, TX",92154,165000,"Computers, Office Equipment",1,1
+35,Johnson & Johnson,1 Johnson & Johnson Plaza,New Brunswick,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",82059,132200,Pharmaceuticals,1,1
+36,State Farm Insurance Cos.,1 State Farm Plaza,Bloomington,IL,United States,"Bloomington, IL",79395.3,57672,Insurance: Property and Casualty (Mutual),1,1
+37,Target,1000 Nicollet Mall,Minneapolis,MN,United States,"Minneapolis-St. Paul-Bloomington, MN-WI",78112,368000,General Merchandisers,1,1
+38,International Business Machines,1 New Orchard Rd.,Armonk,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",77147,383800,Information Technology Services,1,1
+39,Raytheon Technologies (formerly UT),870 Winter St.,Waltham,MA,United States,"Boston-Cambridge-Newton, MA-NH",77046,243200,Aerospace and Defense,1,1
+40,Boeing,100 N. Riverside Plaza,Chicago,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",76559,161100,Aerospace and Defense,1,1
+41,Freddie Mac,8200 Jones Branch Dr.,McLean,VA,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",75125,6892,Diversified Financials,1,1
+42,Centene,7700 Forsyth Blvd.,St. Louis,MO,United States,"St. Louis, MO-IL",74639,56600,Health Care: Insurance and Managed Care,1,1
+43,United Parcel Service,55 Glenlake Pkwy. N.E.,Atlanta,GA,United States,"Atlanta-Sandy Springs-Roswell, GA",74094,377640,"Mail, Package, and Freight Delivery",1,1
+44,Lowe's,1000 Lowe's Blvd.,Mooresville,NC,United States,"Charlotte-Concord-Gastonia, NC-SC",72148,260000,Specialty Retailers: Other,1,1
+45,Intel,2200 Mission College Blvd.,Santa Clara,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",71965,110800,Semiconductors and Other Electronic Components,1,1
+46,Facebook,1601 Willow Rd.,Menlo Park,CA,United States,"San Francisco-Oakland-Hayward, CA",70697,44942,Internet Services and Retailing,1,1
+47,FedEx,942 S. Shady Grove Rd.,Memphis,TN,United States,"Memphis, TN-MS-AR",69693,389500,"Mail, Package, and Freight Delivery",1,1
+48,MetLife,200 Park Ave.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",69620,49000,"Insurance: Life, Health (Stock)",1,1
+49,Walt Disney,500 S. Buena Vista St.,Burbank,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",69570,223000,Entertainment,1,1
+50,Procter & Gamble,1 Procter & Gamble Plaza,Cincinnati,OH,United States,"Cincinnati, OH-KY-IN",67684,97000,Household and Personal Products,1,1
+51,PepsiCo,700 Anderson Hill Rd.,Purchase,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",67161,267000,Food Consumer Products,1,1
+52,Humana,500 W. Main St.,Louisville,KY,United States,"Louisville/Jefferson County, KY-IN",64888,46000,Health Care: Insurance and Managed Care,1,1
+53,Prudential Financial,751 Broad St.,Newark,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",64807,51511,"Insurance: Life, Health (Stock)",1,1
+54,Archer Daniels Midland,77 W. Wacker Dr.,Chicago,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",64656,38100,Food Production,1,1
+55,Albertsons Cos.,250 Parkcenter Blvd.,Boise,ID,United States,"Boise City, ID",60534.5,267000,Food and Drug Stores,1,1
+56,Sysco,1390 Enclave Pkwy.,Houston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",60113.9,69000,Wholesalers: Food and Grocery,1,1
+57,Lockheed Martin,6801 Rockledge Dr.,Bethesda,MD,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",59812,110000,Aerospace and Defense,1,1
+58,HP,1501 Page Mill Rd.,Palo Alto,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",58756,56000,"Computers, Office Equipment",1,1
+59,Energy Transfer,8111 Westchester Dr.,Dallas,TX,United States,"Dallas-Fort Worth-Arlington, TX",54213,12812,Pipelines,1,1
+60,Goldman Sachs Group,200 West St.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",53922,38300,Commercial Banks,1,1
+61,Morgan Stanley,1585 Broadway,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",53823,60431,Commercial Banks,1,1
+62,Caterpillar,510 Lake Cook Rd.,Deerfield,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",53800,102300,Construction and Farm Machinery,1,1
+63,Cisco Systems,170 W. Tasman Dr.,San Jose,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",51904,75900,Network and Other Communications Equipment,1,1
+64,Pfizer,235 E. 42nd St.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",51750,88300,Pharmaceuticals,1,1
+65,HCA Healthcare,1 Park Plaza,Nashville,TN,United States,"Nashville-Davidson-Murfreesboro-Franklin, TN",51336,245000,Health Care: Medical Facilities,1,1
+66,American International Group,175 Water St.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",49746,46000,Insurance: Property and Casualty (Stock),1,1
+67,American Express,200 Vesey St.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",47020,64500,Diversified Financials,1,1
+68,Delta Air Lines,1030 Delta Blvd.,Atlanta,GA,United States,"Atlanta-Sandy Springs-Roswell, GA",47007,91224,Airlines,1,1
+69,Merck,2000 Galloping Hill Rd.,Kenilworth,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",46840,71000,Pharmaceuticals,1,1
+70,American Airlines Group,1 Skyview Dr.,Fort Worth,TX,United States,"Dallas-Fort Worth-Arlington, TX",45768,133700,Airlines,1,1
+71,Charter Communications,400 Atlantic St.,Stamford,CT,United States,"Bridgeport-Stamford-Norwalk, CT",45764,95100,Telecommunications,1,1
+72,Allstate,2775 Sanders Rd.,Northbrook,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",44675,46035,Insurance: Property and Casualty (Stock),1,1
+73,New York Life Insurance,51 Madison Ave.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",44116.6,11519,"Insurance: Life, Health (Mutual)",1,1
+74,Nationwide,1 Nationwide Plaza,Columbus,OH,United States,"Columbus, OH",43982,28114,Insurance: Property and Casualty (Mutual),1,1
+75,Best Buy,7601 Penn Ave. S.,Richfield,MN,United States,"Minneapolis-St. Paul-Bloomington, MN-WI",43638,125000,Specialty Retailers: Other,1,1
+76,United Airlines Holdings,233 S. Wacker Dr.,Chicago,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",43259,96000,Airlines,1,1
+77,Liberty Mutual Insurance Group,175 Berkeley St.,Boston,MA,United States,"Boston-Cambridge-Newton, MA-NH",43228,45000,Insurance: Property and Casualty (Stock),1,1
+78,Dow,2211 H.H. Dow Way,Midland,MI,United States,"Midland, MI",42951,36500,Chemicals,1,1
+79,Tyson Foods,2200 W. Don Tyson Pkwy.,Springdale,AR,United States,"Fayetteville-Springdale-Rogers, AR-MO",42405,141000,Food Production,1,1
+80,TJX,770 Cochituate Rd.,Framingham,MA,United States,"Boston-Cambridge-Newton, MA-NH",41717,286000,Specialty Retailers: Apparel,1,1
+81,TIAA,730 Third Ave.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",40454.4,16533,"Insurance: Life, Health (Mutual)",1,1
+82,Oracle,500 Oracle Pkwy.,Redwood City,CA,United States,"San Francisco-Oakland-Hayward, CA",39506,136000,Computer Software,1,1
+83,General Dynamics,11011 Sunset Hills Rd.,Reston,VA,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",39350,102900,Aerospace and Defense,1,1
+84,Deere,1 John Deere Place,Moline,IL,United States,"Davenport-Moline-Rock Island, IA-IL",39258,73489,Construction and Farm Machinery,1,1
+85,Nike,1 Bowerman Dr.,Beaverton,OR,United States,"Portland-Vancouver-Hillsboro, OR-WA",39117,76700,Apparel,1,1
+86,Progressive,6300 Wilson Mills Rd.,Mayfield Village,OH,United States,"Cleveland-Elyria, OH",39022.3,41571,Insurance: Property and Casualty (Stock),1,1
+87,Publix Super Markets,3300 Publix Corporate Pkwy.,Lakeland,FL,United States,"Lakeland-Winter Haven, FL",38462.8,207000,Food and Drug Stores,1,1
+88,Coca-Cola,1 Coca-Cola Plaza,Atlanta,GA,United States,"Atlanta-Sandy Springs-Roswell, GA",37266,86200,Beverages,1,1
+89,Massachusetts Mutual Life Insurance,1295 State St.,Springfield,MA,United States,"Springfield, MA",37253.4,9896,"Insurance: Life, Health (Mutual)",1,1
+90,Tech Data,5350 Tech Data Dr.,Clearwater,FL,United States,"Tampa-St. Petersburg-Clearwater, FL",36998.4,15000,Wholesalers: Electronics and Office Equipment,1,1
+91,World Fuel Services,9800 N.W. 41st St.,Miami,FL,United States,"Miami-Fort Lauderdale-West Palm Beach, FL",36819,5500,Energy,1,1
+92,Honeywell International,300 South Tryon St.,Charlotte,NC,United States,"Charlotte-Concord-Gastonia, NC-SC",36709,113000,"Electronics, Electrical Equip.",1,1
+93,ConocoPhillips,925 N. Eldridge Pkwy.,Houston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",36670,10400,"Mining, Crude-Oil Production",1,1
+94,United Services Automobile Assn.,9800 Fredericksburg Rd.,San Antonio,TX,United States,"San Antonio-New Braunfels, TX",35617.4,35076,Insurance: Property and Casualty (Stock),1,1
+95,Exelon,10 S. Dearborn St.,Chicago,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",34438,32713,Utilities: Gas and Electric,1,1
+96,Northrop Grumman,2980 Fairview Park Dr.,Falls Church,VA,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",33841,90000,Aerospace and Defense,1,1
+97,Capital One Financial,1680 Capital One Dr.,McLean,VA,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",33766,51900,Commercial Banks,1,1
+98,Plains GP Holdings,333 Clay St.,Houston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",33669,5000,Pipelines,1,1
+99,AbbVie,1 N. Waukegan Rd.,North Chicago,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",33266,30000,Pharmaceuticals,1,1
+100,INTL FCStone,155 E. 44th St.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",32897,2012,Diversified Financials,1,1
+101,Enterprise Products Partners,1100 Louisiana St.,Houston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",32789.2,7300,Pipelines,1,1
+102,Northwestern Mutual,720 E. Wisconsin Ave.,Milwaukee,WI,United States,"Milwaukee-Waukesha-West Allis, WI",32293.6,5964,"Insurance: Life, Health (Mutual)",1,1
+103,3M,3M Center,St. Paul,MN,United States,"Minneapolis-St. Paul-Bloomington, MN-WI",32136,96163,Chemicals,1,1
+104,Abbott Laboratories,100 Abbott Park Rd.,Abbott Park,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",31904,107000,Medical Products and Equipment,1,1
+105,CHS,5500 Cenex Dr.,Inver Grove Heights,MN,United States,"Minneapolis-St. Paul-Bloomington, MN-WI",31900.5,10703,Food Production,1,1
+106,Travelers Cos.,485 Lexington Ave.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",31581,30800,Insurance: Property and Casualty (Stock),1,1
+107,Philip Morris International,120 Park Ave.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",29805,73500,Tobacco,1,1
+108,Raytheon,870 Winter St.,Waltham,MA,United States,"Boston-Cambridge-Newton, MA-NH",29176,70000,Aerospace and Defense,1,1
+109,Hewlett Packard Enterprise,6280 America Center Dr.,San Jose,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",29135,61600,"Computers, Office Equipment",1,1
+110,Arrow Electronics,9201 E. Dry Creek Rd.,Centennial,CO,United States,"Denver-Aurora-Lakewood, CO",28916.8,19300,Wholesalers: Electronics and Office Equipment,1,1
+111,ViacomCBS,1515 Broadway,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",27812,26280,Entertainment,1,1
+112,Dollar General,100 Mission Ridge,Goodlettsville,TN,United States,"Nashville-Davidson-Murfreesboro-Franklin, TN",27754,143000,Specialty Retailers: Other,1,1
+113,U.S. Bancorp,800 Nicollet Mall,Minneapolis,MN,United States,"Minneapolis-St. Paul-Bloomington, MN-WI",27325,69651,Commercial Banks,1,1
+114,Starbucks,2401 Utah Ave. S.,Seattle,WA,United States,"Seattle-Tacoma-Bellevue, WA",26508.6,346000,Food Services,1,1
+115,Bristol-Myers Squibb,430 E. 29th St.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",26145,30000,Pharmaceuticals,1,1
+116,US Foods Holding,9399 W. Higgins Rd.,Rosemont,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",25939,28000,Wholesalers: Food and Grocery,1,1
+117,Mondelez International,3 Pkwy. N.,Deerfield,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",25868,80000,Food Consumer Products,1,1
+118,Paccar,777 106th Ave. N.E.,Bellevue,WA,United States,"Seattle-Tacoma-Bellevue, WA",25599.7,27000,Construction and Farm Machinery,1,1
+119,Thermo Fisher Scientific,168 Third Ave.,Waltham,MA,United States,"Boston-Cambridge-Newton, MA-NH",25542,75000,"Scientific, Photographic and Control Equipment",1,1
+120,Macy's,151 W. 34th St.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",25331,123000,General Merchandisers,1,1
+121,Jabil,10560 Dr. Martin Luther King Jr. St. N.,St. Petersburg,FL,United States,"Tampa-St. Petersburg-Clearwater, FL",25282.3,200000,Semiconductors and Other Electronic Components,1,1
+122,Kraft Heinz,200 E. Randolph St.,Chicago,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",24977,37000,Food Consumer Products,1,1
+123,Duke Energy,550 S. Tryon St.,Charlotte,NC,United States,"Charlotte-Concord-Gastonia, NC-SC",24658,28793,Utilities: Gas and Electric,1,1
+124,Tesla,3500 Deer Creek Rd.,Palo Alto,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",24578,48016,Motor Vehicles and Parts,1,1
+125,PBF Energy,1 Sylvan Way,Parsippany,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",24508.2,3442,Petroleum Refining,1,1
+126,Qualcomm,5775 Morehouse Dr.,San Diego,CA,United States,"San Diego-Carlsbad, CA",24273,37000,Semiconductors and Other Electronic Components,1,1
+127,NGL Energy Partners,6120 S. Yale Ave.,Tulsa,OK,United States,"Tulsa, OK",24087.8,1300,Pipelines,1,1
+128,CBRE Group,400 S. Hope St.,Los Angeles,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",23894.1,100000,Real Estate,1,1
+129,Baker Hughes,17021 Aldine Westfield Rd.,Houston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",23838,68000,"Oil and Gas Equipment, Services",1,1
+130,Synnex,44201 Nobel Dr.,Fremont,CA,United States,"San Francisco-Oakland-Hayward, CA",23757.3,240900,Wholesalers: Electronics and Office Equipment,1,1
+131,Dollar Tree,500 Volvo Pkwy.,Chesapeake,VA,United States,"Virginia Beach-Norfolk-Newport News, VA-NC",23610.8,125000,Specialty Retailers: Other,1,1
+132,Cummins,500 Jackson St.,Columbus,IN,United States,"Columbus, IN",23571,61615,Industrial Machinery,1,1
+133,United Natural Foods,313 Iron Horse Way,Providence,RI,United States,"Providence-Warwick, RI-MA",23481.1,19000,Wholesalers: Food and Grocery,1,1
+134,Micron Technology,8000 S. Federal Way,Boise,ID,United States,"Boise City, ID",23406,37000,Semiconductors and Other Electronic Components,1,1
+135,Amgen,1 Amgen Center Dr.,Thousand Oaks,CA,United States,"Oxnard-Thousand Oaks-Ventura, CA",23362,23400,Pharmaceuticals,1,1
+136,Penske Automotive Group,2555 Telegraph Rd.,Bloomfield Hills,MI,United States,"Detroit-Warren-Dearborn, MI",23179.4,26980,"Automotive Retailing, Services",1,1
+137,Visa,1 Market Plaza,San Francisco,CA,United States,"San Francisco-Oakland-Hayward, CA",22977,19500,Financial Data Services,1,1
+138,Broadcom,1320 Ridder Park Dr.,San Jose,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",22597,19000,Semiconductors and Other Electronic Components,1,1
+139,Nucor,1915 Rexford Rd.,Charlotte,NC,United States,"Charlotte-Concord-Gastonia, NC-SC",22588.9,26800,Metals,1,1
+140,Gilead Sciences,333 Lakeside Dr.,Foster City,CA,United States,"San Francisco-Oakland-Hayward, CA",22449,11800,Pharmaceuticals,1,1
+141,Southwest Airlines,2702 Love Field Dr.,Dallas,TX,United States,"Dallas-Fort Worth-Arlington, TX",22428,60767,Airlines,1,1
+142,Halliburton,3000 N. Sam Houston Pkwy. E.,Houston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",22408,55000,"Oil and Gas Equipment, Services",1,1
+143,CenturyLink,100 CenturyLink Dr.,Monroe,LA,United States,"Monroe, LA",22401,42500,Telecommunications,1,1
+144,International Paper,6400 Poplar Ave.,Memphis,TN,United States,"Memphis, TN-MS-AR",22376,51000,"Packaging, Containers",1,1
+145,Eli Lilly,Lilly Corporate Center,Indianapolis,IN,United States,"Indianapolis-Carmel-Anderson, IN",22319.5,33625,Pharmaceuticals,1,1
+146,Aflac,1932 Wynnton Rd.,Columbus,GA,United States,"Columbus, GA-AL",22307,11729,"Insurance: Life, Health (Stock)",1,1
+147,Lennar,700 N.W. 107th Ave.,Miami,FL,United States,"Miami-Fort Lauderdale-West Palm Beach, FL",22259.6,10106,Homebuilders,1,1
+148,Occidental Petroleum,5 Greenway Plaza,Houston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",21971,14400,"Mining, Crude-Oil Production",1,1
+149,Union Pacific,1400 Douglas St.,Omaha,NE,United States,"Omaha-Council Bluffs, NE-IA",21708,37483,Railroads,1,1
+150,Rite Aid,30 Hunter Lane,Camp Hill,PA,United States,"Harrisburg-Carlisle, PA",21674.4,42645,Food and Drug Stores,1,1
+151,PNC Financial Services Group,300 Fifth Ave.,Pittsburgh,PA,United States,"Pittsburgh, PA",21624,50968,Commercial Banks,1,1
+152,DuPont,974 Centre Rd.,Wilmington,DE,United States,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",21512,35000,Chemicals,1,1
+153,Southern,30 Ivan Allen Jr. Blvd. N.W.,Atlanta,GA,United States,"Atlanta-Sandy Springs-Roswell, GA",21419,27943,Utilities: Gas and Electric,1,1
+154,AutoNation,200 S.W. First Ave.,Fort Lauderdale,FL,United States,"Miami-Fort Lauderdale-West Palm Beach, FL",21335.7,25000,"Automotive Retailing, Services",1,1
+155,DXC Technology,1775 Tysons Blvd.,Tysons,VA,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",21184,130000,Information Technology Services,1,1
+156,McDonald's,110 N. Carpenter St.,Chicago,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",21076.5,205000,Food Services,1,1
+157,Marriott International,10400 Fernwood Rd.,Bethesda,MD,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",20972,174000,"Hotels, Casinos, Resorts",1,1
+158,ManpowerGroup,100 Manpower Place,Milwaukee,WI,United States,"Milwaukee-Waukesha-West Allis, WI",20863.5,28000,Temporary Help,1,1
+159,Bank of New York Mellon Corp.,240 Greenwich St.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",20822,48400,Commercial Banks,1,1
+160,Hartford Financial Services Group,1 Hartford Plaza,Hartford,CT,United States,"Hartford-West Hartford-East Hartford, CT",20740,19500,Insurance: Property and Casualty (Stock),1,1
+161,Danaher,2200 Pennsylvania Ave. N.W.,Washington,DC,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",20521.2,60000,Medical Products and Equipment,1,1
+162,Whirlpool,2000 N. M-63,Benton Harbor,MI,United States,"Niles-Benton Harbor, MI",20419,77000,"Electronics, Electrical Equip.",1,1
+163,AECOM,1999 Ave. of the Stars,Los Angeles,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",20173.3,86000,"Engineering, Construction",1,1
+164,Netflix,100 Winchester Circle,Los Gatos,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",20156.4,8600,Entertainment,1,1
+165,Kohl's,N56 W17000 Ridgewood Dr.,Menomonee Falls,WI,United States,"Milwaukee-Waukesha-West Allis, WI",19974,79500,General Merchandisers,1,1
+166,Lear,21557 Telegraph Rd.,Southfield,MI,United States,"Detroit-Warren-Dearborn, MI",19810.3,164100,Motor Vehicles and Parts,1,1
+167,Altria Group,6601 W. Broad St.,Richmond,VA,United States,"Richmond, VA",19796,7300,Tobacco,1,1
+168,Performance Food Group,12500 W. Creek Pkwy.,Richmond,VA,United States,"Richmond, VA",19743.5,18000,Wholesalers: Food and Grocery,1,1
+169,Avnet,2211 S. 47th St.,Phoenix,AZ,United States,"Phoenix-Mesa-Scottsdale, AZ",19518.6,15500,Wholesalers: Electronics and Office Equipment,1,1
+170,Synchrony Financial,777 Long Ridge Rd.,Stamford,CT,United States,"Bridgeport-Stamford-Norwalk, CT",19461,16500,Diversified Financials,1,1
+171,Genuine Parts,2999 Wildwood Pkwy.,Atlanta,GA,United States,"Atlanta-Sandy Springs-Roswell, GA",19392.3,55000,Wholesalers: Diversified,1,1
+172,NextEra Energy,700 Universe Blvd.,Juno Beach,FL,United States,"Miami-Fort Lauderdale-West Palm Beach, FL",19204,14800,Utilities: Gas and Electric,1,1
+173,CarMax,12800 Tuckahoe Creek Pkwy.,Richmond,VA,United States,"Richmond, VA",19146,25946,"Automotive Retailing, Services",1,1
+174,Tenet Healthcare,1445 Ross Ave.,Dallas,TX,United States,"Dallas-Fort Worth-Arlington, TX",18479,101104,Health Care: Medical Facilities,1,1
+175,Kimberly-Clark,351 Phelps Dr.,Irving,TX,United States,"Dallas-Fort Worth-Arlington, TX",18450,40000,Household and Personal Products,1,1
+176,Emerson Electric,8000 W. Florissant Ave.,St. Louis,MO,United States,"St. Louis, MO-IL",18372,88000,Industrial Machinery,1,1
+177,WestRock,1000 Abernathy Rd. N.E.,Atlanta,GA,United States,"Atlanta-Sandy Springs-Roswell, GA",18289,51100,"Packaging, Containers",1,1
+178,CDW,75 Tri-State International,Lincolnshire,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",18032.4,9900,Information Technology Services,1,1
+179,Jones Lang LaSalle,200 E. Randolph Dr.,Chicago,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",17983.2,93400,Real Estate,1,1
+180,Sherwin-Williams,101 W. Prospect Ave.,Cleveland,OH,United States,"Cleveland-Elyria, OH",17900.8,61111,Chemicals,1,1
+181,Fluor,6700 Las Colinas Blvd.,Irving,TX,United States,"Dallas-Fort Worth-Arlington, TX",17817.2,53349,"Engineering, Construction",1,1
+182,PayPal Holdings,2211 N. First St.,San Jose,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",17772,23200,Financial Data Services,1,1
+183,D.R. Horton,1341 Horton Circle,Arlington,TX,United States,"Dallas-Fort Worth-Arlington, TX",17592.9,8916,Homebuilders,1,1
+184,HollyFrontier,2828 N. Harwood,Dallas,TX,United States,"Dallas-Fort Worth-Arlington, TX",17486.6,4074,Petroleum Refining,1,1
+185,Tenneco,500 N. Field Dr.,Lake Forest,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",17450,78000,Motor Vehicles and Parts,1,1
+186,EOG Resources,1111 Bagby St.,Houston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",17380,2900,"Mining, Crude-Oil Production",1,1
+187,Becton Dickinson,1 Becton Dr.,Franklin Lakes,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",17290,70093,Medical Products and Equipment,1,1
+188,Lincoln National,150 N. Radnor Chester Rd.,Radnor,PA,United States,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",17258,11357,"Insurance: Life, Health (Stock)",1,1
+189,PG&E,77 Beale St.,San Francisco,CA,United States,"San Francisco-Oakland-Hayward, CA",17129,23000,Utilities: Gas and Electric,1,1
+190,salesforce.com,415 Mission St.,San Francisco,CA,United States,"San Francisco-Oakland-Hayward, CA",17098,49000,Computer Software,1,1
+191,Mastercard,2000 Purchase St.,Purchase,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",16883,18600,Financial Data Services,1,1
+192,General Mills,1 General Mills Blvd.,Minneapolis,MN,United States,"Minneapolis-St. Paul-Bloomington, MN-WI",16865.2,40000,Food Consumer Products,1,1
+193,Molina Healthcare,200 Oceangate,Long Beach,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",16829,10000,Health Care: Insurance and Managed Care,1,1
+194,Cognizant Technology Solutions,500 Frank W. Burr Blvd.,Teaneck,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",16783,292500,Information Technology Services,1,1
+195,Marsh & McLennan,1166 Ave. of the Americas,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",16652,76000,Diversified Financials,1,1
+196,XPO Logistics,5 American Lane,Greenwich,CT,United States,"Bridgeport-Stamford-Norwalk, CT",16648,100000,Transportation and Logistics,1,1
+197,Dominion Energy,120 Tredegar St.,Richmond,VA,United States,"Richmond, VA",16572,19100,Utilities: Gas and Electric,1,1
+198,Western Digital,5601 Great Oaks Pkwy.,San Jose,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",16569,61800,"Computers, Office Equipment",1,1
+199,Gap,2 Folsom St.,San Francisco,CA,United States,"San Francisco-Oakland-Hayward, CA",16383,129000,Specialty Retailers: Apparel,1,1
+200,Aramark,2400 Market St.,Philadelphia,PA,United States,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",16227.3,233400,Diversified Outsourcing Services,1,1
+201,Principal Financial,711 High St.,Des Moines,IA,United States,"Des Moines-West Des Moines, IA",16222.1,17601,"Insurance: Life, Health (Stock)",1,1
+202,Ross Stores,5130 Hacienda Dr.,Dublin,CA,United States,"San Francisco-Oakland-Hayward, CA",16039.1,92500,Specialty Retailers: Apparel,1,1
+203,Colgate-Palmolive,300 Park Ave.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",15693,34300,Household and Personal Products,1,1
+204,American Electric Power,1 Riverside Plaza,Columbus,OH,United States,"Columbus, OH",15561.4,17408,Utilities: Gas and Electric,1,1
+205,Nordstrom,1617 Sixth Ave.,Seattle,WA,United States,"Seattle-Tacoma-Bellevue, WA",15524,75000,General Merchandisers,1,1
+206,Jacobs Engineering Group,1999 Bryan St.,Dallas,TX,United States,"Dallas-Fort Worth-Arlington, TX",15463.6,50000,"Engineering, Construction",1,1
+207,Waste Management,1001 Fannin St.,Houston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",15455,44900,Waste Management,1,1
+208,C.H. Robinson Worldwide,14701 Charlson Rd.,Eden Prairie,MN,United States,"Minneapolis-St. Paul-Bloomington, MN-WI",15309.5,15427,Transportation and Logistics,1,1
+209,PPG Industries,1 PPG Place,Pittsburgh,PA,United States,"Pittsburgh, PA",15146,47600,Chemicals,1,1
+210,Booking Holdings,800 Connecticut Ave.,Norwalk,CT,United States,"Bridgeport-Stamford-Norwalk, CT",15066,26400,Internet Services and Retailing,1,1
+211,Omnicom Group,437 Madison Ave.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",14953.7,70000,"Advertising, Marketing",1,1
+212,Loews,667 Madison Ave.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",14931,18605,Insurance: Property and Casualty (Stock),1,1
+213,Ecolab,1 Ecolab Place,St. Paul,MN,United States,"Minneapolis-St. Paul-Bloomington, MN-WI",14906.3,50200,Chemicals,1,1
+214,Stryker,2825 Airview Blvd.,Kalamazoo,MI,United States,"Kalamazoo-Portage, MI",14884,40000,Medical Products and Equipment,1,1
+215,Estie Lauder,767 Fifth Ave.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",14863,48000,Household and Personal Products,1,1
+216,Goodyear Tire & Rubber,200 Innovation Way,Akron,OH,United States,"Akron, OH",14745,63000,Motor Vehicles and Parts,1,1
+217,Truist Financial,214 N. Tryon St.,Charlotte,NC,United States,"Charlotte-Concord-Gastonia, NC-SC",14664,59000,Commercial Banks,1,1
+218,Applied Materials,3050 Bowers Ave.,Santa Clara,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",14608,22000,Semiconductors and Other Electronic Components,1,1
+219,BlackRock,55 E. 52nd St.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",14539,16200,Securities,1,1
+220,Stanley Black & Decker,1000 Stanley Dr.,New Britain,CT,United States,"Hartford-West Hartford-East Hartford, CT",14442.2,59438,"Home Equipment, Furnishings",1,1
+221,Freeport-McMoRan,333 N. Central Ave.,Phoenix,AZ,United States,"Phoenix-Mesa-Scottsdale, AZ",14402,27500,"Mining, Crude-Oil Production",1,1
+222,Texas Instruments,12500 TI Blvd.,Dallas,TX,United States,"Dallas-Fort Worth-Arlington, TX",14383,29768,Semiconductors and Other Electronic Components,1,1
+223,Biogen,225 Binney St.,Cambridge,MA,United States,"Boston-Cambridge-Newton, MA-NH",14377.9,7400,Pharmaceuticals,1,1
+224,Parker-Hannifin,6035 Parkland Blvd.,Cleveland,OH,United States,"Cleveland-Elyria, OH",14320.3,55610,Industrial Machinery,1,1
+225,Reinsurance Group of America,16600 Swingley Ridge Rd.,Chesterfield,MO,United States,"St. Louis, MO-IL",14300,3188,"Insurance: Life, Health (Stock)",1,1
+226,Howmet Aerospace,201 Isabella St.,Pittsburgh,PA,United States,"Pittsburgh, PA",14192,41700,Aerospace and Defense,1,1
+227,Automatic Data Processing,1 ADP Blvd.,Roseland,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",14175.2,58000,Diversified Outsourcing Services,1,1
+228,Uber Technologies,1455 Market St.,San Francisco,CA,United States,"San Francisco-Oakland-Hayward, CA",14147,26900,Internet Services and Retailing,1,1
+229,Illinois Tool Works,155 Harlem Ave.,Glenview,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",14109,45000,Industrial Machinery,1,1
+230,DaVita,2000 16th St.,Denver,CO,United States,"Denver-Aurora-Lakewood, CO",14101.5,65000,Health Care: Medical Facilities,1,1
+231,Discover Financial Services,2500 Lake Cook Rd.,Riverwoods,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",13989,17200,Commercial Banks,1,1
+232,Land O'Lakes,4001 Lexington Ave. N.,Arden Hills,MN,United States,"Minneapolis-St. Paul-Bloomington, MN-WI",13887.7,8000,Food Consumer Products,1,1
+233,VF,8505 E. Orchard Rd.,Greenwood Village,CO,United States,"Denver-Aurora-Lakewood, CO",13870.6,75000,Apparel,1,1
+234,Corteva,974 Centre Rd.,Wilmington,DE,United States,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",13846,21000,Food Production,1,1
+235,Las Vegas Sands,3355 Las Vegas Blvd. S.,Las Vegas,NV,United States,"Las Vegas-Henderson-Paradise, NV",13739,50000,"Hotels, Casinos, Resorts",1,1
+236,Textron,40 Westminster St.,Providence,RI,United States,"Providence-Warwick, RI-MA",13630,35000,Aerospace and Defense,1,1
+237,Kellogg,1 Kellogg Sq.,Battle Creek,MI,United States,"Battle Creek, MI",13578,31000,Food Consumer Products,1,1
+238,Guardian Life Ins. Co. of America,10 Hudson Yards,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",13476.7,9032,"Insurance: Life, Health (Mutual)",1,1
+239,Qurate Retail,12300 Liberty Blvd.,Englewood,CO,United States,"Denver-Aurora-Lakewood, CO",13458,25314,Internet Services and Retailing,1,1
+240,Core-Mark Holding,1500 Solana Blvd.,Westlake,TX,United States,"Dallas-Fort Worth-Arlington, TX",13329.2,8555,Wholesalers: Food and Grocery,1,1
+241,Community Health Systems,4000 Meridian Blvd.,Franklin,TN,United States,"Nashville-Davidson-Murfreesboro-Franklin, TN",13210,71500,Health Care: Medical Facilities,1,1
+242,Kinder Morgan,1001 Louisiana St.,Houston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",13209,11086,Pipelines,1,1
+243,BJ's Wholesale Club,25 Research Dr.,Westborough,MA,United States,"Worcester, MA-CT",13190.7,27231,General Merchandisers,1,1
+244,State Street Corp.,1 Lincoln St.,Boston,MA,United States,"Boston-Cambridge-Newton, MA-NH",13131,39103,Commercial Banks,1,1
+245,Ameriprise Financial,1099 Ameriprise Financial Center,Minneapolis,MN,United States,"Minneapolis-St. Paul-Bloomington, MN-WI",13103,12500,Diversified Financials,1,1
+246,Global Partners,800 South St.,Waltham,MA,United States,"Boston-Cambridge-Newton, MA-NH",13081.7,3860,Wholesalers: Diversified,1,1
+247,United States Steel,600 Grant St.,Pittsburgh,PA,United States,"Pittsburgh, PA",12937,27500,Metals,1,1
+248,L Brands,3 Limited Pkwy.,Columbus,OH,United States,"Columbus, OH",12914.2,59950,Specialty Retailers: Apparel,1,1
+249,MGM Resorts International,3600 Las Vegas Blvd. S.,Las Vegas,NV,United States,"Las Vegas-Henderson-Paradise, NV",12899.7,72000,"Hotels, Casinos, Resorts",1,1
+250,L3Harris Technologies,1025 W. NASA Blvd.,Melbourne,FL,United States,"Palm Bay-Melbourne-Titusville, FL",12856,50000,Aerospace and Defense,1,1
+251,DISH Network,9601 S. Meridian Blvd.,Englewood,CO,United States,"Denver-Aurora-Lakewood, CO",12807.7,16000,Telecommunications,1,1
+252,Lithia Motors,150 N. Bartlett St.,Medford,OR,United States,"Medford, OR",12672.7,14320,"Automotive Retailing, Services",1,1
+253,DTE Energy,1 Energy Plaza,Detroit,MI,United States,"Detroit-Warren-Dearborn, MI",12669,10700,Utilities: Gas and Electric,1,1
+254,American Family Insurance Group,6000 American Pkwy.,Madison,WI,United States,"Madison, WI",12633.2,13531,Insurance: Property and Casualty (Stock),1,1
+255,Farmers Insurance Exchange,6301 Owensmouth Ave.,Woodland Hills,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",12592.5,10980,Insurance: Property and Casualty (Mutual),1,1
+256,Consolidated Edison,4 Irving Place,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",12574,14890,Utilities: Gas and Electric,1,1
+257,LKQ,500 W. Madison St.,Chicago,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",12506.1,51000,Wholesalers: Diversified,1,1
+258,Sempra Energy,488 Eighth Ave.,San Diego,CA,United States,"San Diego-Carlsbad, CA",12443,13969,Utilities: Gas and Electric,1,1
+259,Edison International,2244 Walnut Grove Ave.,Rosemead,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",12347,12937,Utilities: Gas and Electric,1,1
+260,CenterPoint Energy,1111 Louisiana St.,Houston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",12301,14262,Utilities: Gas and Electric,1,1
+261,Quanta Services,2800 Post Oak Blvd.,Houston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",12112.2,40300,"Engineering, Construction",1,1
+262,Murphy USA,200 Peach St.,El Dorado,AR,United States,"El Dorado, AR",12101.3,7250,Specialty Retailers: Other,1,1
+263,Expedia Group,1111 Expedia Group Way W.,Seattle,WA,United States,"Seattle-Tacoma-Bellevue, WA",12067,25400,Internet Services and Retailing,1,1
+264,Group 1 Automotive,800 Gessner Rd.,Houston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",12043.8,15296,"Automotive Retailing, Services",1,1
+265,Bed Bath & Beyond,650 Liberty Ave.,Union,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",12028.8,62000,Specialty Retailers: Other,1,1
+266,Unum Group,1 Fountain Sq.,Chattanooga,TN,United States,"Chattanooga, TN-GA",11998.9,10300,"Insurance: Life, Health (Stock)",1,1
+267,CSX,500 Water St.,Jacksonville,FL,United States,"Jacksonville, FL",11937,20908,Railroads,1,1
+268,AutoZone,123 S. Front St.,Memphis,TN,United States,"Memphis, TN-MS-AR",11863.7,75840,Specialty Retailers: Other,1,1
+269,Pacific Life,700 Newport Center Dr.,Newport Beach,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",11847,3815,"Insurance: Life, Health (Stock)",1,1
+270,Vistra Energy,6555 Sierra Dr.,Irving,TX,United States,"Dallas-Fort Worth-Arlington, TX",11809,5475,Energy,1,1
+271,Charles Schwab,211 Main St.,San Francisco,CA,United States,"San Francisco-Oakland-Hayward, CA",11785,19700,Securities,1,1
+272,Crown Holdings,770 Township Line Rd.,Yardley,PA,United States,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",11665,33043,"Packaging, Containers",1,1
+273,Ally Financial,500 Woodward Ave.,Detroit,MI,United States,"Detroit-Warren-Dearborn, MI",11618,8700,Diversified Financials,1,1
+274,Laboratory Corp. of America,358 S. Main St.,Burlington,NC,United States,"Burlington, NC",11554.8,65000,Health Care: Pharmacy and Other Services,1,1
+275,Live Nation Entertainment,9348 Civic Center Dr.,Beverly Hills,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",11548,18200,Entertainment,1,1
+276,Xcel Energy,414 Nicollet Mall,Minneapolis,MN,United States,"Minneapolis-St. Paul-Bloomington, MN-WI",11529,11295,Utilities: Gas and Electric,1,1
+277,Corning,1 Riverfront Plaza,Corning,NY,United States,"Corning, NY",11503,49500,"Electronics, Electrical Equip.",1,1
+278,W.W. Grainger,100 Grainger Pkwy.,Lake Forest,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",11486,24550,Wholesalers: Diversified,1,1
+279,Ball,10 Longs Peak Dr.,Broomfield,CO,United States,"Denver-Aurora-Lakewood, CO",11474,18300,"Packaging, Containers",1,1
+280,Fox,1211 Ave. of the Americas,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",11389,7700,Entertainment,1,1
+281,Universal Health Services,367 S. Gulph Rd.,King of Prussia,PA,United States,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",11378.3,79050,Health Care: Medical Facilities,1,1
+282,Baxter International,1 Baxter Pkwy.,Deerfield,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",11362,50000,Medical Products and Equipment,1,1
+283,Norfolk Southern,3 Commercial Place,Norfolk,VA,United States,"Virginia Beach-Norfolk-Newport News, VA-NC",11296,24587,Railroads,1,1
+284,Navistar International,2701 Navistar Dr.,Lisle,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",11251,12300,Construction and Farm Machinery,1,1
+285,Adobe,345 Park Ave.,San Jose,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",11171.3,22634,Computer Software,1,1
+286,J.C. Penney,6501 Legacy Dr.,Plano,TX,United States,"Dallas-Fort Worth-Arlington, TX",11167,90000,General Merchandisers,1,1
+287,Discovery,8403 Colesville Rd.,Silver Spring,MD,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",11144,9200,Entertainment,1,1
+288,Keurig Dr Pepper,53 South Ave.,Burlington,MA,United States,"Boston-Cambridge-Newton, MA-NH",11120,25500,Beverages,1,1
+289,Leidos Holdings,11951 Freedom Dr.,Reston,VA,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",11094,34000,Information Technology Services,1,1
+290,IQVIA Holdings,4820 Emperor Blvd.,Durham,NC,United States,"Durham-Chapel Hill, NC",11088,67000,Health Care: Pharmacy and Other Services,1,1
+291,Reliance Steel & Aluminum,350 S. Grand Ave.,Los Angeles,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",10973.8,15300,Metals,1,1
+292,Nvidia,2788 San Tomas Expressway,Santa Clara,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",10918,13775,Semiconductors and Other Electronic Components,1,1
+293,Entergy,639 Loyola Ave.,New Orleans,LA,United States,"New Orleans-Metairie, LA",10878.7,13635,Utilities: Gas and Electric,1,1
+294,FirstEnergy,76 S. Main St.,Akron,OH,United States,"Akron, OH",10850,12316,Utilities: Gas and Electric,1,1
+295,eBay,2025 Hamilton Ave.,San Jose,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",10800,13300,Internet Services and Retailing,1,1
+296,Boston Scientific,300 Boston Scientific Way,Marlborough,MA,United States,"Boston-Cambridge-Newton, MA-NH",10735,36000,Medical Products and Equipment,1,1
+297,Office Depot,6600 N. Military Trail,Boca Raton,FL,United States,"Miami-Fort Lauderdale-West Palm Beach, FL",10647,40000,Specialty Retailers: Other,1,1
+298,Molson Coors Beverage,1801 California St.,Denver,CO,United States,"Denver-Aurora-Lakewood, CO",10579.4,17700,Beverages,1,1
+299,Steel Dynamics,7575 W. Jefferson Blvd.,Fort Wayne,IN,United States,"Fort Wayne, IN",10465,8385,Metals,1,1
+300,Mutual of Omaha Insurance,Mutual of Omaha Plaza,Omaha,NE,United States,"Omaha-Council Bluffs, NE-IA",10455.7,6072,"Insurance: Life, Health (Stock)",1,1
+301,Sonic Automotive,4401 Colwick Rd.,Charlotte,NC,United States,"Charlotte-Concord-Gastonia, NC-SC",10454.3,9300,"Automotive Retailing, Services",1,1
+302,Alcoa,201 Isabella St.,Pittsburgh,PA,United States,"Pittsburgh, PA",10433,13800,Metals,1,1
+303,Fidelity National Information Services,601 Riverside Ave.,Jacksonville,FL,United States,"Jacksonville, FL",10333,55000,Financial Data Services,1,1
+304,Henry Schein,135 Duryea Rd.,Melville,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",10305.3,19000,Wholesalers: Health Care,1,1
+305,Republic Services,18500 N. Allied Way,Phoenix,AZ,United States,"Phoenix-Mesa-Scottsdale, AZ",10299.4,36000,Waste Management,1,1
+306,Liberty Media,12300 Liberty Blvd.,Englewood,CO,United States,"Denver-Aurora-Lakewood, CO",10292,6753,Entertainment,1,1
+307,Peter Kiewit Sons',3555 Farnam St.,Omaha,NE,United States,"Omaha-Council Bluffs, NE-IA",10283,23000,"Engineering, Construction",1,1
+308,Interpublic Group,909 Third Ave.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",10221.3,54300,"Advertising, Marketing",1,1
+309,PulteGroup,3350 Peachtree Rd. N.E.,Atlanta,GA,United States,"Atlanta-Sandy Springs-Roswell, GA",10213,5245,Homebuilders,1,1
+310,AES,4300 Wilson Blvd.,Arlington,VA,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",10189,8000,Utilities: Gas and Electric,1,1
+311,Fiserv,255 Fiserv Dr.,Brookfield,WI,United States,"Milwaukee-Waukesha-West Allis, WI",10187,44000,Financial Data Services,1,1
+312,BorgWarner,3850 Hamlin Rd.,Auburn Hills,MI,United States,"Detroit-Warren-Dearborn, MI",10168,29000,Motor Vehicles and Parts,1,1
+313,Oneok,100 W. Fifth St.,Tulsa,OK,United States,"Tulsa, OK",10164.4,2882,Pipelines,1,1
+314,O'Reilly Automotive,233 S. Patterson Ave.,Springfield,MO,United States,"Springfield, MO",10150,67663,Specialty Retailers: Other,1,1
+315,Assurant,28 Liberty St.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",10086.8,13900,Insurance: Property and Casualty (Stock),1,1
+316,Newell Brands,6655 Peachtree Dunwoody Rd.,Atlanta,GA,United States,"Atlanta-Sandy Springs-Roswell, GA",10083.1,30000,"Home Equipment, Furnishings",1,1
+317,Public Service Enterprise Group,80 Park Plaza,Newark,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",10076,12992,Utilities: Gas and Electric,1,1
+318,News Corp.,1211 Ave. of the Americas,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",10074,28000,"Publishing, Printing",1,1
+319,Calpine,717 Texas Ave.,Houston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",10072,2256,Energy,1,1
+320,Auto-Owners Insurance,6101 Anacapri Blvd.,Lansing,MI,United States,"Lansing-East Lansing, MI",10007.4,6141,Insurance: Property and Casualty (Mutual),1,1
+321,Mohawk Industries,160 S. Industrial Blvd.,Calhoun,GA,United States,"Calhoun, GA",9970.7,41800,"Home Equipment, Furnishings",1,1
+322,Campbell Soup,1 Campbell Place,Camden,NJ,United States,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",9909,19000,Food Consumer Products,1,1
+323,PVH,200 Madison Ave.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",9909,30750,Apparel,1,1
+324,NRG Energy,804 Carnegie Center,Princeton,NJ,United States,"Trenton, NJ",9871,4577,Energy,1,1
+325,Fifth Third Bancorp,38 Fountain Square Plaza,Cincinnati,OH,United States,"Cincinnati, OH-KY-IN",9790,19869,Commercial Banks,1,1
+326,Hertz Global Holdings,8501 Williams Rd.,Estero,FL,United States,"Cape Coral-Fort Myers, FL",9779,38000,"Automotive Retailing, Services",1,1
+327,Altice USA,1 Court Square W.,Long Island City,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",9760.9,10700,Telecommunications,1,1
+328,Newmont,6363 S. Fiddler's Green Circle,Greenwood Village,CO,United States,"Denver-Aurora-Lakewood, CO",9740,16600,"Mining, Crude-Oil Production",1,1
+329,Cheniere Energy,700 Milam St.,Houston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",9730,1530,Energy,1,1
+330,Advance Auto Parts,2635 E. Millbrook Rd.,Raleigh,NC,United States,"Raleigh, NC",9709,53000,Specialty Retailers: Other,1,1
+331,Lam Research,4650 Cushing Pkwy.,Fremont,CA,United States,"San Francisco-Oakland-Hayward, CA",9653.6,10700,Semiconductors and Other Electronic Components,1,1
+332,Owens & Minor,9120 Lockwood Blvd.,Mechanicsville,VA,United States,"Richmond, VA",9650,15400,Wholesalers: Health Care,1,1
+333,Equitable Holdings,1290 Ave. of the Americas,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",9591,10100,"Insurance: Life, Health (Stock)",1,1
+334,Conagra Brands,222 W. Merchandise Mart Plaza,Chicago,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",9538.4,18000,Food Consumer Products,1,1
+335,Markel,4521 Highwoods Pkwy.,Glen Allen,VA,United States,"Richmond, VA",9526.2,18600,Insurance: Property and Casualty (Stock),1,1
+336,Jones Financial (Edward Jones),12555 Manchester Rd.,Des Peres,MO,United States,"St. Louis, MO-IL",9526,49000,Securities,1,1
+337,Hormel Foods,1 Hormel Place,Austin,MN,United States,"Austin, MN",9497.3,18800,Food Consumer Products,1,1
+338,Hilton Worldwide Holdings,7930 Jones Branch Dr.,McLean,VA,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",9452,173000,"Hotels, Casinos, Resorts",1,1
+339,Univar Solutions,3075 Highland Pkwy.,Downers Grove,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",9443.8,10300,Wholesalers: Diversified,1,1
+340,United Rentals,100 First Stamford Place,Stamford,CT,United States,"Bridgeport-Stamford-Norwalk, CT",9351,19100,Equipment Leasing,1,1
+341,Pioneer Natural Resources,777 Hidden Rdige,Irving,TX,United States,"Dallas-Fort Worth-Arlington, TX",9304,2323,"Mining, Crude-Oil Production",1,1
+342,Delek US Holdings,7102 Commerce Way,Brentwood,TN,United States,"Nashville-Davidson-Murfreesboro-Franklin, TN",9298.2,3707,Petroleum Refining,1,1
+343,Eastman Chemical,200 S. Wilcox Dr.,Kingsport,TN,United States,"Kingsport-Bristol-Bristol, TN-VA",9273,14500,Chemicals,1,1
+344,EMCOR Group,301 Merritt Seven,Norwalk,CT,United States,"Bridgeport-Stamford-Norwalk, CT",9174.6,36000,"Engineering, Construction",1,1
+345,Avis Budget Group,6 Sylvan Way,Parsippany,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",9172,25600,"Automotive Retailing, Services",1,1
+346,J.B. Hunt Transport Services,615 J.B. Hunt Corporate Dr.,Lowell,AR,United States,"Fayetteville-Springdale-Rogers, AR-MO",9165.3,29056,"Trucking, Truck Leasing",1,1
+347,Xerox Holdings,201 Merritt Seven,Norwalk,CT,United States,"Bridgeport-Stamford-Norwalk, CT",9145,27000,"Computers, Office Equipment",1,1
+348,Wayfair,4 Copley Place,Boston,MA,United States,"Boston-Cambridge-Newton, MA-NH",9127.1,16985,Internet Services and Retailing,1,1
+349,KKR,9 W. 57th St.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",9120.3,1384,Securities,1,1
+350,AGCO,4205 River Green Pkwy.,Duluth,GA,United States,"Atlanta-Sandy Springs-Roswell, GA",9041.4,20961,Construction and Farm Machinery,1,1
+351,Alleghany,1411 Broadway,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",9040.7,10786,Insurance: Property and Casualty (Stock),1,1
+352,Icahn Enterprises,767 Fifth Ave.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",8992,28033,Diversified Financials,1,1
+353,Voya Financial,230 Park Ave.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",8942,6000,Diversified Financials,1,1
+354,Ryder System,11690 N.W. 105th St.,Miami,FL,United States,"Miami-Fort Lauderdale-West Palm Beach, FL",8925.8,39900,"Trucking, Truck Leasing",1,1
+355,Air Products & Chemicals,7201 Hamilton Blvd.,Allentown,PA,United States,"Allentown-Bethlehem-Easton, PA-NJ",8918.9,17570,Chemicals,1,1
+356,Mosaic,101 E. Kennedy Blvd.,Tampa,FL,United States,"Tampa-St. Petersburg-Clearwater, FL",8906.3,12600,Chemicals,1,1
+357,Huntington Ingalls Industries,4101 Washington Ave.,Newport News,VA,United States,"Virginia Beach-Norfolk-Newport News, VA-NC",8899,42000,Aerospace and Defense,1,1
+358,Berry Global Group,101 Oakley St.,Evansville,IN,United States,"Evansville, IN-KY",8878,48000,"Packaging, Containers",1,1
+359,Anixter International,2301 Patriot Blvd.,Glenview,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",8845.6,9400,Wholesalers: Electronics and Office Equipment,1,1
+360,Alaska Air Group,19300 International Blvd.,Seattle,WA,United States,"Seattle-Tacoma-Bellevue, WA",8781,24134,Airlines,1,1
+361,Yum China Holdings,7100 Corporate Dr.,Plano,TX,United States,"Dallas-Fort Worth-Arlington, TX",8776,450000,Food Services,1,1
+362,Dick's Sporting Goods,345 Court St.,Coraopolis,PA,United States,"Pittsburgh, PA",8750.7,28450,Specialty Retailers: Other,1,1
+363,Caesars Entertainment,1 Caesars Palace Dr.,Las Vegas,NV,United States,"Las Vegas-Henderson-Paradise, NV",8742,64000,"Hotels, Casinos, Resorts",1,1
+364,Genworth Financial,6620 W. Broad St.,Richmond,VA,United States,"Richmond, VA",8681,3100,"Insurance: Life, Health (Stock)",1,1
+365,Targa Resources,811 Louisiana St.,Houston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",8671.1,2680,Pipelines,1,1
+366,Coty,350 Fifth Ave.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",8648.5,19000,Household and Personal Products,1,1
+367,Dana,3939 Technology Dr.,Maumee,OH,United States,"Toledo, OH",8620,36300,Motor Vehicles and Parts,1,1
+368,Thrivent Financial for Lutherans,625 Fourth Ave. S.,Minneapolis,MN,United States,"Minneapolis-St. Paul-Bloomington, MN-WI",8611.7,3235,"Insurance: Life, Health (Mutual)",1,1
+369,Autoliv,1320 Pacific Dr.,Auburn Hills,MI,United States,"Detroit-Warren-Dearborn, MI",8547.6,61957,Motor Vehicles and Parts,1,1
+370,SpartanNash,850 76th St. S.W.,Byron Center,MI,United States,"Grand Rapids-Wyoming, MI",8536.1,13800,Wholesalers: Food and Grocery,1,1
+371,Eversource Energy,300 Cadwell Dr.,Springfield,MA,United States,"Springfield, MA",8526.5,8234,Utilities: Gas and Electric,1,1
+372,Darden Restaurants,1000 Darden Center Dr.,Orlando,FL,United States,"Orlando-Kissimmee-Sanford, FL",8510.4,184514,Food Services,1,1
+373,Chesapeake Energy,6100 N. Western Ave.,Oklahoma City,OK,United States,"Oklahoma City, OK",8489,2300,"Mining, Crude-Oil Production",1,1
+374,National Oilwell Varco,7909 Parkwood Circle Dr.,Houston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",8479,34645,"Oil and Gas Equipment, Services",1,1
+375,Fidelity National Financial,601 Riverside Ave.,Jacksonville,FL,United States,"Jacksonville, FL",8469,23484,Insurance: Property and Casualty (Stock),1,1
+376,Erie Insurance Group,100 Erie Insurance Place,Erie,PA,United States,"Erie, PA",8443.3,5778,Insurance: Property and Casualty (Mutual),1,1
+377,Oshkosh,1917 Four Wheel Dr.,Oshkosh,WI,United States,"Oshkosh-Neenah, WI",8382,15400,Construction and Farm Machinery,1,1
+378,Casey's General Stores,1 S.E. Convenience Blvd.,Ankeny,IA,United States,"Des Moines-West Des Moines, IA",8364.9,26866,Specialty Retailers: Other,1,1
+379,WESCO International,225 W. Station Square Dr.,Pittsburgh,PA,United States,"Pittsburgh, PA",8358.9,9500,Wholesalers: Diversified,1,1
+380,Tractor Supply,5401 Virginia Way,Brentwood,TN,United States,"Nashville-Davidson-Murfreesboro-Franklin, TN",8351.9,24000,Specialty Retailers: Other,1,1
+381,CommScope Holding,1100 CommScope Place S.E.,Hickory,NC,United States,"Hickory-Lenoir-Morganton, NC",8345.1,30000,Network and Other Communications Equipment,1,1
+382,Huntsman,10003 Woodloch Forest Dr.,The Woodlands,TX,United States,"Houston-The Woodlands-Sugar Land, TX",8342,10000,Chemicals,1,1
+383,American Financial Group,301 E. Fourth St.,Cincinnati,OH,United States,"Cincinnati, OH-KY-IN",8237,7700,Insurance: Property and Casualty (Stock),1,1
+384,Masco,17450 College Pkwy.,Livonia,MI,United States,"Detroit-Warren-Dearborn, MI",8235,22000,"Home Equipment, Furnishings",1,1
+385,Sanmina,2700 N. First St.,San Jose,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",8233.9,38500,Semiconductors and Other Electronic Components,1,1
+386,Amphenol,358 Hall Ave.,Wallingford,CT,United States,"New Haven-Milford, CT",8225.4,74000,Network and Other Communications Equipment,1,1
+387,Williams,1 Williams Center,Tulsa,OK,United States,"Tulsa, OK",8201,4812,Pipelines,1,1
+388,Westinghouse Air Brake Technologies,30 Isabella St.,Pittsburgh,PA,United States,"Pittsburgh, PA",8200,27500,Industrial Machinery,1,1
+389,Expeditors International of Washington,1015 Third Ave.,Seattle,WA,United States,"Seattle-Tacoma-Bellevue, WA",8175.4,18000,Transportation and Logistics,1,1
+390,Andersons,1947 Briarfield Blvd.,Maumee,OH,United States,"Toledo, OH",8170.2,2284,Food Production,1,1
+391,Westlake Chemical,2801 Post Oak Blvd.,Houston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",8118,9430,Chemicals,1,1
+392,Constellation Brands,207 High Point Dr.,Victor,NY,United States,"Rochester, NY",8116,9800,Beverages,1,1
+393,Frontier Communications,401 Merritt Seven,Norwalk,CT,United States,"Bridgeport-Stamford-Norwalk, CT",8107,18317,Telecommunications,1,1
+394,JetBlue Airways,27-01 Queens Plaza N.,Long Island City,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",8094,19032,Airlines,1,1
+395,Citizens Financial Group,1 Citizens Plaza,Providence,RI,United States,"Providence-Warwick, RI-MA",8066,17997,Commercial Banks,1,1
+396,Raymond James Financial,880 Carillon Pkwy.,St. Petersburg,FL,United States,"Tampa-St. Petersburg-Clearwater, FL",8023,14200,Securities,1,1
+397,Foot Locker,330 W. 34th St.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",8005,33294,Specialty Retailers: Apparel,1,1
+398,Hershey,19 E. Chocolate Ave.,Hershey,PA,United States,"Harrisburg-Carlisle, PA",7986.3,15330,Food Consumer Products,1,1
+399,Zimmer Biomet Holdings,345 E. Main St.,Warsaw,IN,United States,"Warsaw, IN",7982.2,19900,Medical Products and Equipment,1,1
+400,Cincinnati Financial,6200 S. Gilmore Rd.,Fairfield,OH,United States,"Cincinnati, OH-KY-IN",7924.2,5200,Insurance: Property and Casualty (Stock),1,1
+401,Western & Southern Financial Group,400 Broadway,Cincinnati,OH,United States,"Cincinnati, OH-KY-IN",7920.5,2787,"Insurance: Life, Health (Mutual)",1,1
+402,W.R. Berkley,475 Steamboat Rd.,Greenwich,CT,United States,"Bridgeport-Stamford-Norwalk, CT",7902.2,7493,Insurance: Property and Casualty (Stock),1,1
+403,Motorola Solutions,500 W. Monroe St.,Chicago,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",7887,17000,Network and Other Communications Equipment,1,1
+404,Thor Industries,601 E. Beardsley Ave.,Elkhart,IN,United States,"Elkhart-Goshen, IN",7864.8,21750,Motor Vehicles and Parts,1,1
+405,Regeneron Pharmaceuticals,777 Old Saw Mill River Rd.,Tarrytown,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",7863.4,8100,Pharmaceuticals,1,1
+406,Spirit AeroSystems Holdings,3801 S. Oliver St.,Wichita,KS,United States,"Wichita, KS",7863.1,18200,Aerospace and Defense,1,1
+407,J.M. Smucker,1 Strawberry Lane,Orrville,OH,United States,"Wooster, OH",7838,7400,Food Consumer Products,1,1
+408,PPL,2 N. Ninth St.,Allentown,PA,United States,"Allentown-Bethlehem-Easton, PA-NJ",7769,12280,Utilities: Gas and Electric,1,1
+409,Insight Enterprises,6820 S. Harl Ave.,Tempe,AZ,United States,"Phoenix-Mesa-Scottsdale, AZ",7731.2,11261,Information Technology Services,1,1
+410,Quest Diagnostics,500 Plaza Dr.,Secaucus,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",7726,47000,Health Care: Pharmacy and Other Services,1,1
+411,KeyCorp,127 Public Sq.,Cleveland,OH,United States,"Cleveland-Elyria, OH",7694,17045,Commercial Banks,1,1
+412,Veritiv,1000 Abernathy Rd. N.E.,Atlanta,GA,United States,"Atlanta-Sandy Springs-Roswell, GA",7659.4,8000,Wholesalers: Diversified,1,1
+413,DCP Midstream,370 17th St.,Denver,CO,United States,"Denver-Aurora-Lakewood, CO",7625,2250,Pipelines,1,1
+414,American Tower,116 Huntington Ave.,Boston,MA,United States,"Boston-Cambridge-Newton, MA-NH",7580.3,5454,Real Estate,1,1
+415,Graybar Electric,34 N. Meramec Ave.,St. Louis,MO,United States,"St. Louis, MO-IL",7523.9,9000,Wholesalers: Diversified,1,1
+416,WEC Energy Group,231 W. Michigan St.,Milwaukee,WI,United States,"Milwaukee-Waukesha-West Allis, WI",7523.1,7509,Utilities: Gas and Electric,1,1
+417,NVR,11700 Plaza America Dr.,Reston,VA,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",7428.4,5700,Homebuilders,1,1
+418,Ulta Beauty,1000 Remington Blvd.,Bolingbrook,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",7398.1,31000,Specialty Retailers: Other,1,1
+419,Devon Energy,333 W. Sheridan Ave.,Oklahoma City,OK,United States,"Oklahoma City, OK",7372,1800,"Mining, Crude-Oil Production",1,1
+420,Blackstone Group,345 Park Ave.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",7338.3,2905,Diversified Financials,1,1
+421,Dean Foods,2711 N. Haskell Ave.,Dallas,TX,United States,"Dallas-Fort Worth-Arlington, TX",7328.7,14500,Food Consumer Products,1,1
+422,Fortive,6920 Seaway Blvd.,Everett,WA,United States,"Seattle-Tacoma-Bellevue, WA",7326.1,25000,Industrial Machinery,1,1
+423,UGI,460 N. Gulph Rd.,King of Prussia,PA,United States,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",7320.4,12800,Energy,1,1
+424,Burlington Stores,2006 Route 130 N.,Burlington,NJ,United States,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",7286.4,47000,Specialty Retailers: Apparel,1,1
+425,Builders FirstSource,2001 Bryan St.,Dallas,TX,United States,"Dallas-Fort Worth-Arlington, TX",7280.4,15800,"Building Materials, Glass",1,1
+426,Toll Brothers,250 Gibraltar Rd.,Horsham,PA,United States,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",7224,5100,Homebuilders,1,1
+427,Old Republic International,307 N. Michigan Ave.,Chicago,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",7213.7,9000,Insurance: Property and Casualty (Stock),1,1
+428,Asbury Automotive Group,2905 Premiere Pkwy. N.W.,Duluth,GA,United States,"Atlanta-Sandy Springs-Roswell, GA",7210.3,8500,"Automotive Retailing, Services",1,1
+429,Arthur J. Gallagher,2850 Golf Rd.,Rolling Meadows,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",7195,33247,Diversified Financials,1,1
+430,MasTec,800 S. Douglas Rd.,Coral Gables,FL,United States,"Miami-Fort Lauderdale-West Palm Beach, FL",7183.2,21000,"Engineering, Construction",1,1
+431,Owens Corning,1 Owens Corning Pkwy.,Toledo,OH,United States,"Toledo, OH",7160,19000,"Building Materials, Glass",1,1
+432,Magellan Health,4801 E. Washington St.,Phoenix,AZ,United States,"Phoenix-Mesa-Scottsdale, AZ",7159.4,10100,Health Care: Insurance and Managed Care,1,1
+433,Dover,3005 Highland Pkwy.,Downers Grove,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",7136.4,24000,Industrial Machinery,1,1
+434,Beacon Roofing Supply,505 Huntmar Park Dr.,Herndon,VA,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",7105.2,8147,Wholesalers: Diversified,1,1
+435,Avery Dennison,207 Goode Ave.,Glendale,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",7070.1,30000,"Packaging, Containers",1,1
+436,Hanesbrands,1000 E. Hanes Mill Rd.,Winston-Salem,NC,United States,"Winston-Salem, NC",6966.9,63000,Apparel,1,1
+437,Packaging Corp. of America,1955 W. Field Court,Lake Forest,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",6964.3,15500,"Packaging, Containers",1,1
+438,M&T Bank Corp.,1 M&T Plaza,Buffalo,NY,United States,"Buffalo-Cheektowaga-Niagara Falls, NY",6941.3,17386,Commercial Banks,1,1
+439,NCR,864 Spring St. N.W.,Atlanta,GA,United States,"Atlanta-Sandy Springs-Roswell, GA",6915,36000,"Computers, Office Equipment",1,1
+440,Northern Trust,50 S. LaSalle St.,Chicago,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",6895.1,19800,Commercial Banks,1,1
+441,Cintas,6800 Cintas Blvd.,Cincinnati,OH,United States,"Cincinnati, OH-KY-IN",6892.3,45000,Diversified Outsourcing Services,1,1
+442,Polaris,2100 Hwy. 55,Medina,MN,United States,"Minneapolis-St. Paul-Bloomington, MN-WI",6863.4,14000,Transportation Equipment,1,1
+443,CMS Energy,1 Energy Plaza,Jackson,MI,United States,"Jackson, MI",6845,8459,Utilities: Gas and Electric,1,1
+444,Seaboard,9000 W. 67th St.,Merriam,KS,United States,"Kansas City, MO-KS",6840,13100,Food Production,1,1
+445,Intuit,2700 Coast Ave.,Mountain View,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",6784,9400,Computer Software,1,1
+446,Regions Financial,1900 Fifth Ave. N.,Birmingham,AL,United States,"Birmingham-Hoover, AL",6755,19564,Commercial Banks,1,1
+447,FM Global,270 Central Ave.,Johnston,RI,United States,"Providence-Warwick, RI-MA",6743.1,5591,Insurance: Property and Casualty (Stock),1,1
+448,Advanced Micro Devices,2485 Augustine Dr.,Santa Clara,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",6731,11400,Semiconductors and Other Electronic Components,1,1
+449,Ovintiv,370 17th St.,Denver,CO,United States,"Denver-Aurora-Lakewood, CO",6726,2571,"Mining, Crude-Oil Production",1,1
+450,Booz Allen Hamilton Holding,8283 Greensboro Dr.,McLean,VA,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",6704,26100,Information Technology Services,1,1
+451,S&P Global,55 Water St.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",6699,22500,Financial Data Services,1,1
+452,Rockwell Automation,1201 S. Second St.,Milwaukee,WI,United States,"Milwaukee-Waukesha-West Allis, WI",6694.8,23000,"Electronics, Electrical Equip.",1,1
+453,O-I Glass,1 Michael Owens Way,Perrysburg,OH,United States,"Toledo, OH",6691,27500,"Packaging, Containers",1,1
+454,Wynn Resorts,3131 Las Vegas Blvd. S.,Las Vegas,NV,United States,"Las Vegas-Henderson-Paradise, NV",6611.1,30200,"Hotels, Casinos, Resorts",1,1
+455,Securian Financial Group,400 Robert St. N.,St. Paul,MN,United States,"Minneapolis-St. Paul-Bloomington, MN-WI",6600.6,6400,"Insurance: Life, Health (Stock)",1,1
+456,Alliance Data Systems,3075 Loyalty Circle,Columbus,OH,United States,"Columbus, OH",6580.9,8500,Financial Data Services,1,1
+457,Brighthouse Financial,11225 N. Community House Rd.,Charlotte,NC,United States,"Charlotte-Concord-Gastonia, NC-SC",6554,1330,"Insurance: Life, Health (Stock)",1,1
+458,Weyerhaeuser,220 Occidental Ave. S.,Seattle,WA,United States,"Seattle-Tacoma-Bellevue, WA",6554,9400,Forest and Paper Products,1,1
+459,Intercontinental Exchange,5660 New Northside Dr.,Atlanta,GA,United States,"Atlanta-Sandy Springs-Roswell, GA",6547,5989,Securities,1,1
+460,American Axle & Manufacturing,1 Dauch Dr.,Detroit,MI,United States,"Detroit-Warren-Dearborn, MI",6530.9,20000,Motor Vehicles and Parts,1,1
+461,Hess,1185 Ave. of the Americas,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",6510,1775,"Mining, Crude-Oil Production",1,1
+462,ABM Industries,1 Liberty Plaza,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",6498.6,140000,Diversified Outsourcing Services,1,1
+463,Activision Blizzard,3100 Ocean Park Blvd.,Santa Monica,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",6489,9200,Entertainment,1,1
+464,GameStop,625 Westport Pkwy.,Grapevine,TX,United States,"Dallas-Fort Worth-Arlington, TX",6466,30000,Specialty Retailers: Other,1,1
+465,Apache,2000 Post Oak Blvd.,Houston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",6411,3163,"Mining, Crude-Oil Production",1,1
+466,Science Applications International,12010 Sunset Hills Rd.,Reston,VA,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",6379,24311,Information Technology Services,1,1
+467,AK Steel Holding,9227 Centre Pointe Dr.,West Chester,OH,United States,"Cincinnati, OH-KY-IN",6359.4,9300,Metals,1,1
+468,Dillard's,1600 Cantrell Rd.,Little Rock,AR,United States,"Little Rock-North Little Rock-Conway, AR",6343.2,30400,General Merchandisers,1,1
+469,Ralph Lauren,650 Madison Ave.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",6313,18650,Apparel,1,1
+470,Celanese,222 W. Las Colinas Blvd.,Irving,TX,United States,"Dallas-Fort Worth-Arlington, TX",6297,7714,Chemicals,1,1
+471,R.R. Donnelley & Sons,35 W. Wacker Dr.,Chicago,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",6276.2,36400,"Publishing, Printing",1,1
+472,Zoetis,10 Sylvan Way,Parsippany,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",6260,10600,Pharmaceuticals,1,1
+473,Ascena Retail Group,933 MacArthur Blvd.,Mahwah,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",6242.8,33000,Specialty Retailers: Apparel,1,1
+474,Clorox,1221 Broadway,Oakland,CA,United States,"San Francisco-Oakland-Hayward, CA",6214,8800,Household and Personal Products,1,1
+475,Ingredion,5 Westbrook Corporate Center,Westchester,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",6209,11000,Food Production,1,1
+476,First American Financial,1 First American Way,Santa Ana,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",6202.1,18412,Insurance: Property and Casualty (Stock),1,1
+477,Graphic Packaging Holding,1500 Riveredge Pkwy.,Atlanta,GA,United States,"Atlanta-Sandy Springs-Roswell, GA",6160.1,18000,"Packaging, Containers",1,1
+478,HD Supply Holdings,3100 Cumberland Blvd. S.E.,Atlanta,GA,United States,"Atlanta-Sandy Springs-Roswell, GA",6146,11500,Wholesalers: Diversified,1,1
+479,NetApp,1395 Crossman Ave.,Sunnyvale,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",6146,10500,"Computers, Office Equipment",1,1
+480,TravelCenters of America,24601 Center Ridge Rd.,Westlake,OH,United States,"Cleveland-Elyria, OH",6117.4,18594,Specialty Retailers: Other,1,1
+481,Olin,190 Carondelet Plaza,Clayton,MO,United States,"St. Louis, MO-IL",6110,6500,Chemicals,1,1
+482,Robert Half International,2884 Sand Hill Rd.,Menlo Park,CA,United States,"San Francisco-Oakland-Hayward, CA",6074.4,16000,Temporary Help,1,1
+483,EnLink Midstream,1722 Routh St.,Dallas,TX,United States,"Dallas-Fort Worth-Arlington, TX",6052.9,1355,Pipelines,1,1
+484,Avantor,100 Matsonford Rd.,Radnor,PA,United States,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",6040.3,12000,"Scientific, Photographic and Control Equipment",1,1
+485,Tapestry,10 Hudson Yards,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",6027.1,17400,Apparel,1,1
+486,TD Ameritrade Holding,200 S. 108th Ave.,Omaha,NE,United States,"Omaha-Council Bluffs, NE-IA",6016,9226,Securities,1,1
+487,Analog Devices,1 Technology Way,Norwood,MA,United States,"Boston-Cambridge-Newton, MA-NH",5991.1,16400,Semiconductors and Other Electronic Components,1,1
+488,Ameren,1901 Chouteau Ave.,St. Louis,MO,United States,"St. Louis, MO-IL",5910,9323,Utilities: Gas and Electric,1,1
+489,Williams-Sonoma,3250 Van Ness Ave.,San Francisco,CA,United States,N/A,5898,19300,Specialty Retailers: Other,1,1
+490,Realogy Holdings,175 Park Ave.,Madison,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",5870,10150,Real Estate,1,1
+491,Commercial Metals,6565 N. MacArthur Blvd.,Irving,TX,United States,"Dallas-Fort Worth-Arlington, TX",5829,11524,Metals,1,1
+492,Rush Enterprises,555 IH-35 S.,New Braunfels,TX,United States,"San Antonio-New Braunfels, TX",5809.8,7244,"Automotive Retailing, Services",1,1
+493,Franklin Resources,1 Franklin Pkwy.,San Mateo,CA,United States,"San Francisco-Oakland-Hayward, CA",5774.5,9597,Securities,1,1
+494,Fortune Brands Home & Security,520 Lake Cook Rd.,Deerfield,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",5764.6,24700,"Home Equipment, Furnishings",1,1
+495,Levi Strauss,1155 Battery St.,San Francisco,CA,United States,"San Francisco-Oakland-Hayward, CA",5763.1,15800,Apparel,1,1
+496,Crown Castle International,1220 Augusta Dr.,Houston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",5763,5100,Real Estate,1,1
+497,Simon Property Group,225 W. Washington St.,Indianapolis,IN,United States,"Indianapolis-Carmel-Anderson, IN",5755.2,3750,Real Estate,1,1
+498,Cerner,2800 Rockcreek Pkwy.,North Kansas City,MO,United States,"Kansas City, MO-KS",5692.6,27400,Health Care: Pharmacy and Other Services,1,1
+499,Post Holdings,2503 S. Hanley Rd.,St. Louis,MO,United States,"St. Louis, MO-IL",5681.1,10100,Food Consumer Products,1,1
+500,Huntington Bancshares,41 S. High St.,Columbus,OH,United States,"Columbus, OH",5655,15664,Commercial Banks,1,1
+501,KBR,601 Jefferson St.,Houston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",5639,28000,"Engineering, Construction",0,1
+502,Sprouts Farmers Market,5455 E. High St.,Phoenix,AZ,United States,"Phoenix-Mesa-Scottsdale, AZ",5634.8,30000,Food and Drug Stores,0,1
+503,LPL Financial Holdings,4707 Executive Dr.,San Diego,CA,United States,"San Diego-Carlsbad, CA",5624.9,4343,Securities,0,1
+504,T. Rowe Price,100 E. Pratt St.,Baltimore,MD,United States,"Baltimore-Columbia-Towson, MD",5617.9,7365,Securities,0,1
+505,Yum Brands,1441 Gardiner Lane,Louisville,KY,United States,"Louisville/Jefferson County, KY-IN",5597,34000,Food Services,0,1
+506,Chipotle Mexican Grill,610 Newport Center Dr.,Newport Beach,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",5586.4,83000,Food Services,0,1
+507,Patterson,1031 Mendota Heights Rd.,St. Paul,MN,United States,"Minneapolis-St. Paul-Bloomington, MN-WI",5574.5,7800,Wholesalers: Health Care,0,1
+508,RPM International,2628 Pearl Rd.,Medina,OH,United States,"Cleveland-Elyria, OH",5564.6,14957,Chemicals,0,1
+509,Equinix,1 Lagoon Dr.,Redwood City,CA,United States,"San Francisco-Oakland-Hayward, CA",5562.1,8378,Real Estate,0,1
+510,Navient,123 Justison St.,Wilmington,DE,United States,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",5529,5800,Diversified Financials,0,1
+511,Chemours,1007 Market St.,Wilmington,DE,United States,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",5526,7000,Chemicals,0,1
+512,ON Semiconductor,5005 E. McDowell Rd.,Phoenix,AZ,United States,"Phoenix-Mesa-Scottsdale, AZ",5517.9,34800,Semiconductors and Other Electronic Components,0,1
+513,TransDigm Group,1301 E. Ninth St.,Cleveland,OH,United States,"Cleveland-Elyria, OH",5517.2,18300,Aerospace and Defense,0,1
+514,Host Hotels & Resorts,6903 Rockledge Dr.,Bethesda,MD,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",5469,175,Real Estate,0,1
+515,Select Medical Holdings,4714 Gettysburg Rd.,Mechanicsburg,PA,United States,"Harrisburg-Carlisle, PA",5453.9,42800,Health Care: Medical Facilities,0,1
+516,Par Pacific Holdings,825 Town & Country Lane,Houston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",5401.5,1408,Petroleum Refining,0,1
+517,Sonoco Products,1 N. Second St.,Hartsville,SC,United States,"Florence, SC",5374.2,23000,"Packaging, Containers",0,1
+518,Roper Technologies,6901 Professional Pkwy. E.,Sarasota,FL,United States,"North Port-Sarasota-Bradenton, FL",5366.8,16460,"Scientific, Photographic and Control Equipment",0,1
+519,Harley-Davidson,3700 W. Juneau Ave.,Milwaukee,WI,United States,"Milwaukee-Waukesha-West Allis, WI",5361.8,5600,Transportation Equipment,0,1
+520,Jefferies Financial Group,520 Madison Ave.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",5358.7,4800,Diversified Financials,0,1
+521,Kelly Services,999 W. Big Beaver Rd.,Troy,MI,United States,"Detroit-Warren-Dearborn, MI",5355.6,7700,Temporary Help,0,1
+522,Microchip Technology,2355 W. Chandler Blvd.,Chandler,AZ,United States,"Phoenix-Mesa-Scottsdale, AZ",5349.5,18286,Semiconductors and Other Electronic Components,0,1
+523,McCormick,24 Schilling Rd.,Hunt Valley,MD,United States,"Baltimore-Columbia-Towson, MD",5347.4,12400,Food Consumer Products,0,1
+524,MDU Resources Group,1200 W. Century Ave.,Bismarck,ND,United States,"Bismarck, ND",5336.9,13359,Energy,0,1
+525,Fastenal,2001 Theurer Blvd.,Winona,MN,United States,"Winona, MN",5333.7,21948,Wholesalers: Diversified,0,1
+526,Big Lots,4900 E. Dublin-Granville Rd.,Columbus,OH,United States,"Columbus, OH",5323.2,22250,Specialty Retailers: Other,0,1
+527,Penn National Gaming,825 Berkshire Blvd.,Wyomissing,PA,United States,"Reading, PA",5301.4,28300,"Hotels, Casinos, Resorts",0,1
+528,Western Union,7001 E. Belleview Ave.,Denver,CO,United States,"Denver-Aurora-Lakewood, CO",5292.1,11500,Financial Data Services,0,1
+529,Under Armour,1020 Hull St.,Baltimore,MD,United States,"Baltimore-Columbia-Towson, MD",5267.1,11700,Apparel,0,1
+530,Xylem,1 International Dr.,Rye Brook,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",5249,16300,Industrial Machinery,0,1
+531,Skechers U.S.A.,228 Manhattan Beach Blvd.,Manhattan Beach,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",5242.5,8550,Apparel,0,1
+532,Domtar,234 Kingsley Park Dr.,Fort Mill,SC,United States,"Charlotte-Concord-Gastonia, NC-SC",5220,10000,Forest and Paper Products,0,1
+533,NiSource,801 E. 86th Ave.,Merrillville,IN,United States,"Chicago-Naperville-Elgin, IL-IN-WI",5208.9,8363,Utilities: Gas and Electric,0,1
+534,Marathon Oil,5555 San Felipe St.,Houston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",5190,2000,"Mining, Crude-Oil Production",0,1
+535,National General Holdings,59 Maiden Lane,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",5179.6,9200,Insurance: Property and Casualty (Stock),0,1
+536,Telephone & Data Systems,30 N. LaSalle St.,Chicago,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",5176,9400,Telecommunications,0,1
+537,Agilent Technologies,5301 Stevens Creek Blvd.,Santa Clara,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",5163,16300,"Scientific, Photographic and Control Equipment",0,1
+538,Ametek,1100 Cassatt Rd.,Berwyn,PA,United States,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",5158.6,18100,"Scientific, Photographic and Control Equipment",0,1
+539,Evergy,1200 Main St.,Kansas City,MO,United States,"Kansas City, MO-KS",5147.8,4617,Utilities: Gas and Electric,0,1
+540,International Flavors & Fragrances,521 W. 57th St.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",5140.1,13668,Chemicals,0,1
+541,ADT,1501 Yamato Rd.,Boca Raton,FL,United States,"Miami-Fort Lauderdale-West Palm Beach, FL",5125.7,17500,Diversified Outsourcing Services,0,1
+542,Welltower,4500 Dorr St.,Toledo,OH,United States,"Toledo, OH",5121.3,443,Real Estate,0,1
+543,Windstream Holdings,4001 Rodney Parham Rd.,Little Rock,AR,United States,"Little Rock-North Little Rock-Conway, AR",5115.4,11945,Telecommunications,0,1
+544,Michaels Cos.,8000 Bent Branch Dr.,Irving,TX,United States,"Dallas-Fort Worth-Arlington, TX",5072,28000,Specialty Retailers: Other,0,1
+545,Kemper,200 E. Randolph St.,Chicago,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",5039.2,8900,Insurance: Property and Casualty (Stock),0,1
+546,Hyatt Hotels,150 N. Riverside Plaza,Chicago,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",5020,55000,"Hotels, Casinos, Resorts",0,1
+547,Alexion Pharmaceuticals,121 Seaport Blvd.,Boston,MA,United States,"Boston-Cambridge-Newton, MA-NH",4991.1,3082,Pharmaceuticals,0,1
+548,Resideo Technologies,901 E. Sixth St.,Austin,TX,United States,"Austin-Round Rock, TX",4988,13000,"Building Materials, Glass",0,1
+549,CACI International,1100 N. Glebe Rd.,Arlington,VA,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",4986.3,22100,Information Technology Services,0,1
+550,Electronic Arts,209 Redwood Shores Pkwy.,Redwood City,CA,United States,"San Francisco-Oakland-Hayward, CA",4950,9700,Entertainment,0,1
+551,Vulcan Materials,1200 Urban Center Dr.,Birmingham,AL,United States,"Birmingham-Hoover, AL",4929.1,9173,"Building Materials, Glass",0,1
+552,TreeHouse Foods,2021 Spring Rd.,Oak Brook,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",4926.9,10800,Food Consumer Products,0,1
+553,Global Payments,3550 Lenox Rd.,Atlanta,GA,United States,"Atlanta-Sandy Springs-Roswell, GA",4911.9,24000,Financial Data Services,0,1
+554,Hanover Insurance Group,440 Lincoln St.,Worcester,MA,United States,"Worcester, MA-CT",4897.4,4300,Insurance: Property and Casualty (Stock),0,1
+555,Camping World Holdings,250 Parkway Dr.,Lincolnshire,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",4892,11508,"Automotive Retailing, Services",0,1
+556,Cornerstone Building Brands,5020 Weston Pkwy.,Cary,NC,United States,"Raleigh, NC",4889.7,20100,"Building Materials, Glass",0,1
+557,YRC Worldwide,10990 Roe Ave.,Overland Park,KS,United States,"Kansas City, MO-KS",4871.2,29000,"Trucking, Truck Leasing",0,1
+558,CME Group,20 S. Wacker Dr.,Chicago,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",4868,4360,Securities,0,1
+559,Chewy,1855 Griffin Rd.,Dania Beach,FL,United States,"Miami-Fort Lauderdale-West Palm Beach, FL",4846.7,12000,Internet Services and Retailing,0,1
+560,Knight-Swift Transportation Holdings,20002 N. 19th Ave.,Phoenix,AZ,United States,"Phoenix-Mesa-Scottsdale, AZ",4844,23700,"Trucking, Truck Leasing",0,1
+561,Moody's,250 Greenwich St.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",4829,11081,Financial Data Services,0,1
+562,Coca-Cola Consolidated,4100 Coca-Cola Plaza,Charlotte,NC,United States,"Charlotte-Concord-Gastonia, NC-SC",4826.5,15850,Beverages,0,1
+563,Carlisle,16430 N. Scottsdale Rd.,Scottsdale,AZ,United States,"Phoenix-Mesa-Scottsdale, AZ",4811.6,14000,"Building Materials, Glass",0,1
+564,Sealed Air,2415 Cascade Pointe Blvd.,Charlotte,NC,United States,"Charlotte-Concord-Gastonia, NC-SC",4791.1,16500,"Packaging, Containers",0,1
+565,A-Mark Precious Metals,2121 Rosecrans Ave.,El Segundo,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",4783.2,183,zMiscellaneous,0,1
+566,Watsco,2665 S. Bayshore Dr.,Miami,FL,United States,"Miami-Fort Lauderdale-West Palm Beach, FL",4770.4,5800,Wholesalers: Diversified,0,1
+567,Taylor Morrison Home,4900 N. Scottsdale Rd.,Scottsdale,AZ,United States,"Phoenix-Mesa-Scottsdale, AZ",4762.1,2300,Homebuilders,0,1
+568,IAC/InterActiveCorp,555 W. 18th St.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",4757.1,8700,Internet Services and Retailing,0,1
+569,Leggett & Platt,1 Leggett Rd.,Carthage,MO,United States,"Joplin, MO",4752.5,22000,"Home Equipment, Furnishings",0,1
+570,OneMain Holdings,601 N.W. Second St.,Evansville,IN,United States,"Evansville, IN-KY",4749,9700,Diversified Financials,0,1
+571,Schneider National,3101 S. Packerland Dr.,Green Bay,WI,United States,"Green Bay, WI",4747,15650,"Trucking, Truck Leasing",0,1
+572,Martin Marietta Materials,2710 Wycliff Rd.,Raleigh,NC,United States,"Raleigh, NC",4739.1,8846,"Building Materials, Glass",0,1
+573,NortonLifeLock,60 E. Rio Salado Pkwy.,Tempe,AZ,United States,"Phoenix-Mesa-Scottsdale, AZ",4731,11900,Computer Software,0,1
+574,Hasbro,1027 Newport Ave.,Pawtucket,RI,United States,"Providence-Warwick, RI-MA",4720.2,5600,"Toys, Sporting Goods",0,1
+575,Square,1455 Market St.,San Francisco,CA,United States,"San Francisco-Oakland-Hayward, CA",4713.5,3835,Financial Data Services,0,1
+576,Terex,200 Nyala Farm Rd.,Westport,CT,United States,"Bridgeport-Stamford-Norwalk, CT",4680.3,9500,Construction and Farm Machinery,0,1
+577,Syneos Health,1030 Sync St.,Morrisville,NC,United States,"Raleigh, NC",4675.8,24000,Health Care: Pharmacy and Other Services,0,1
+578,FMC,2929 Walnut St.,Philadelphia,PA,United States,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",4661.9,6400,Chemicals,0,1
+579,Boise Cascade,1111 W. Jefferson St.,Boise,ID,United States,"Boise City, ID",4643.4,6010,Wholesalers: Diversified,0,1
+580,SS&C Technologies Holdings,80 Lamberton Rd.,Windsor,CT,United States,"Hartford-West Hartford-East Hartford, CT",4632.9,22800,Computer Software,0,1
+581,Continental Resources,20 N. Broadway,Oklahoma City,OK,United States,"Oklahoma City, OK",4631.9,1260,"Mining, Crude-Oil Production",0,1
+582,Peabody Energy,701 Market St.,St. Louis,MO,United States,"St. Louis, MO-IL",4623.4,6600,"Mining, Crude-Oil Production",0,1
+583,Encompass Health,9001 Liberty Pkwy.,Birmingham,AL,United States,"Birmingham-Hoover, AL",4605,35690,Health Care: Medical Facilities,0,1
+584,Greif,425 Winter Rd.,Delaware,OH,United States,"Columbus, OH",4595,17000,"Packaging, Containers",0,1
+585,Concho Resources,600 W. Illinois Ave.,Midland,TX,United States,"Midland, TX",4592,1453,"Mining, Crude-Oil Production",0,1
+586,Hubbell,40 Waterview Dr.,Shelton,CT,United States,"Bridgeport-Stamford-Norwalk, CT",4591,18800,"Electronics, Electrical Equip.",0,1
+587,CF Industries Holdings,4 Pkwy. N.,Deerfield,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",4590,2987,Chemicals,0,1
+588,KLA,1 Technology Dr.,Milpitas,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",4568.9,10020,Semiconductors and Other Electronic Components,0,1
+589,Genesis Healthcare,101 E. State St.,Kennett Square,PA,United States,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",4565.8,55000,Health Care: Medical Facilities,0,1
+590,Brunswick,26125 N. Riverwoods Blvd.,Mettawa,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",4556.7,12828,Transportation Equipment,0,1
+591,KB Home,10990 Wilshire Blvd.,Los Angeles,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",4552.7,2140,Homebuilders,0,1
+592,Globe Life,3700 S. Stonebridge Dr.,McKinney,TX,United States,"Dallas-Fort Worth-Arlington, TX",4527.5,3196,"Insurance: Life, Health (Stock)",0,1
+593,Mattel,333 Continental Blvd.,El Segundo,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",4504.6,24000,"Toys, Sporting Goods",0,1
+594,Ryerson Holding,227 W. Monroe St.,Chicago,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",4501.6,4500,Metals,0,1
+595,Silgan Holdings,4 Landmark Sq.,Stamford,CT,United States,"Bridgeport-Stamford-Norwalk, CT",4489.9,13220,"Packaging, Containers",0,1
+596,Zebra Technologies,3 Overlook Point,Lincolnshire,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",4485,8200,"Electronics, Electrical Equip.",0,1
+597,Intuitive Surgical,1020 Kifer Rd.,Sunnyvale,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",4478.5,7326,Medical Products and Equipment,0,1
+598,Warner Music Group,1633 Broadway,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",4475,5400,Entertainment,0,1
+599,Conduent,100 Campus Dr.,Florham Park,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",4467,67000,Diversified Outsourcing Services,0,1
+600,Tutor Perini,15901 Olden St.,Sylmar,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",4450.8,9100,"Engineering, Construction",0,1
+601,Juniper Networks,1133 Innovation Way,Sunnyvale,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",4445.4,9419,Network and Other Communications Equipment,0,1
+602,Noble Energy,1001 Noble Energy Way,Houston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",4438,2282,"Mining, Crude-Oil Production",0,1
+603,Vertiv Holdings,1050 Dearborn Dr.,Columbus,OH,United States,"Columbus, OH",4431.2,19800,"Electronics, Electrical Equip.",0,1
+604,Tiffany,200 Fifth Ave.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",4424,14100,Specialty Retailers: Other,0,1
+605,EQT,625 Liberty Ave.,Pittsburgh,PA,United States,"Pittsburgh, PA",4416.5,647,Energy,0,1
+606,Universal Forest Products,2801 E. Beltline N.E.,Grand Rapids,MI,United States,"Grand Rapids-Wyoming, MI",4416,12000,"Building Materials, Glass",0,1
+607,Diebold Nixdorf,5995 Mayfair Rd.,North Canton,OH,United States,"Akron, OH",4408.7,22000,"Computers, Office Equipment",0,1
+608,Antero Resources,1615 Wynkoop St.,Denver,CO,United States,"Denver-Aurora-Lakewood, CO",4408.7,547,"Mining, Crude-Oil Production",0,1
+609,Meritor,2135 W. Maple Rd.,Troy,MI,United States,"Detroit-Warren-Dearborn, MI",4388,9100,Motor Vehicles and Parts,0,1
+610,Broadridge Financial Solutions,5 Dakota Dr.,Lake Success,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",4362.2,11000,Financial Data Services,0,1
+611,Church & Dwight,500 Charles Ewing Blvd.,Ewing,NJ,United States,"Trenton, NJ",4357.7,4800,Household and Personal Products,0,1
+612,Marriott Vacations Worldwide,6649 Westwood Blvd.,Orlando,FL,United States,"Orlando-Kissimmee-Sanford, FL",4355,22000,"Hotels, Casinos, Resorts",0,1
+613,Edwards Lifesciences,1 Edwards Way,Irvine,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",4348,13900,Medical Products and Equipment,0,1
+614,Colfax,420 National Business Pkwy.,Annapolis Junction,MD,United States,"Baltimore-Columbia-Towson, MD",4326.3,15000,Industrial Machinery,0,1
+615,Insperity,19001 Crescent Springs Dr.,Kingwood,TX,United States,"Houston-The Woodlands-Sugar Land, TX",4314.8,3500,Diversified Outsourcing Services,0,1
+616,American Eagle Outfitters,77 Hot Metal St.,Pittsburgh,PA,United States,"Pittsburgh, PA",4308.2,27000,Specialty Retailers: Apparel,0,1
+617,Keysight Technologies,1400 Fountaingrove Pkwy.,Santa Rosa,CA,United States,"Santa Rosa, CA",4303,13600,"Scientific, Photographic and Control Equipment",0,1
+618,JELD-WEN Holding,2645 Silver Crescent Dr.,Charlotte,NC,United States,"Charlotte-Concord-Gastonia, NC-SC",4289.8,23300,"Building Materials, Glass",0,1
+619,Iron Mountain,1 Federal St.,Boston,MA,United States,"Boston-Cambridge-Newton, MA-NH",4262.6,25000,Diversified Outsourcing Services,0,1
+620,Nasdaq,151 W. 42nd St.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",4262,4361,Securities,0,1
+621,Gartner,56 Top Gallant Rd.,Stamford,CT,United States,"Bridgeport-Stamford-Norwalk, CT",4245.3,16724,Information Technology Services,0,1
+622,Sinclair Broadcast Group,10706 Beaver Dam Rd.,Hunt Valley,MD,United States,"Baltimore-Columbia-Towson, MD",4240,11800,Entertainment,0,1
+623,Ingles Markets,2913 U.S. Hwy. 70 W.,Black Mountain,NC,United States,"Asheville, NC",4202,18630,Food and Drug Stores,0,1
+624,Monster Beverage,1 Monster Way,Corona,CA,United States,"Riverside-San Bernardino-Ontario, CA",4200.8,3092,Beverages,0,1
+625,Murphy Oil,300 Peach St.,El Dorado,AR,United States,"El Dorado, AR",4194,822,"Mining, Crude-Oil Production",0,1
+626,Vertex Pharmaceuticals,50 Northern Ave.,Boston,MA,United States,"Boston-Cambridge-Newton, MA-NH",4162.8,3000,Pharmaceuticals,0,1
+627,First Republic Bank,111 Pine St.,San Francisco,CA,United States,"San Francisco-Oakland-Hayward, CA",4156.7,4812,Commercial Banks,0,1
+628,Bloomin' Brands,2202 N. West Shore Blvd.,Tampa,FL,United States,"Tampa-St. Petersburg-Clearwater, FL",4139.4,94000,Food Services,0,1
+629,Spectrum Brands Holdings,3001 Deming Way,Middleton,WI,United States,"Madison, WI",4138.8,13000,Household and Personal Products,0,1
+630,Quad/Graphics,N61 W23044 Harry's Way,Sussex,WI,United States,"Milwaukee-Waukesha-West Allis, WI",4137.2,19600,"Publishing, Printing",0,1
+631,Flowers Foods,1919 Flowers Circle,Thomasville,GA,United States,"Thomasville, GA",4124,9700,Food Consumer Products,0,1
+632,CUNA Mutual Group,5910 Mineral Point Rd.,Madison,WI,United States,"Madison, WI",4122.7,3600,"Insurance: Life, Health (Stock)",0,1
+633,Allegheny Technologies,1000 Six PPG Place,Pittsburgh,PA,United States,"Pittsburgh, PA",4122.5,8100,Metals,0,1
+634,Old Dominion Freight Line,500 Old Dominion Way,Thomasville,NC,United States,"Winston-Salem, NC",4109.1,20105,"Trucking, Truck Leasing",0,1
+635,Landstar System,13410 Sutton Park Dr. S.,Jacksonville,FL,United States,"Jacksonville, FL",4089.6,1333,"Trucking, Truck Leasing",0,1
+636,American National Insurance,1 Moody Plaza,Galveston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",4070.1,4640,"Insurance: Life, Health (Stock)",0,1
+637,Snap-on,2801 80th St.,Kenosha,WI,United States,"Chicago-Naperville-Elgin, IL-IN-WI",4067.7,12800,Industrial Machinery,0,1
+638,Brookdale Senior Living,111 Westwood Place,Brentwood,TN,United States,"Nashville-Davidson-Murfreesboro-Franklin, TN",4057.1,48400,Health Care: Medical Facilities,0,1
+639,Amkor Technology,2045 E. Innovation Circle,Tempe,AZ,United States,"Phoenix-Mesa-Scottsdale, AZ",4052.7,29650,Semiconductors and Other Electronic Components,0,1
+640,Wyndham Destinations,6277 Sea Harbor Dr.,Orlando,FL,United States,"Orlando-Kissimmee-Sanford, FL",4043,22500,"Hotels, Casinos, Resorts",0,1
+641,PPD,929 North Front St.,Wilmington,NC,United States,"Wilmington, NC",4031,23000,Health Care: Pharmacy and Other Services,0,1
+642,Dentsply Sirona,13320 Ballantyne Corporate Place,Charlotte,NC,United States,"Charlotte-Concord-Gastonia, NC-SC",4029.2,15200,Medical Products and Equipment,0,1
+643,CNO Financial Group,11825 N. Pennsylvania St.,Carmel,IN,United States,"Indianapolis-Carmel-Anderson, IN",4015.8,3300,"Insurance: Life, Health (Stock)",0,1
+644,Urban Outfitters,5000 S. Broad St.,Philadelphia,PA,United States,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",3983.8,16800,Specialty Retailers: Apparel,0,1
+645,Sabre,3150 Sabre Dr.,Southlake,TX,United States,"Dallas-Fort Worth-Arlington, TX",3975,9250,Internet Services and Retailing,0,1
+646,Mercury General,4484 Wilshire Blvd.,Los Angeles,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",3972.5,4500,Insurance: Property and Casualty (Stock),0,1
+647,Diamondback Energy,500 W. Texas Ave.,Midland,TX,United States,"Midland, TX",3964,712,"Mining, Crude-Oil Production",0,1
+648,Parsons,5875 Trinity Pkwy.,Centreville,VA,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",3954.8,15879,Aerospace and Defense,0,1
+649,Aaron's,400 Galleria Pkwy. S.E.,Atlanta,GA,United States,"Atlanta-Sandy Springs-Roswell, GA",3947.7,12100,Specialty Retailers: Other,0,1
+650,Flowserve,5215 N. O'Connor Blvd.,Irving,TX,United States,"Dallas-Fort Worth-Arlington, TX",3944.9,17000,Industrial Machinery,0,1
+651,Carvana,1930 W. Rio Salado Pkwy.,Tempe,AZ,United States,"Phoenix-Mesa-Scottsdale, AZ",3939.9,7324,"Automotive Retailing, Services",0,1
+652,ASGN,26745 Malibu Hills Rd.,Calabasas,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",3923.9,4300,Temporary Help,0,1
+653,Sally Beauty Holdings,3001 Colorado Blvd.,Denton,TX,United States,"Dallas-Fort Worth-Arlington, TX",3876.4,30050,Specialty Retailers: Other,0,1
+654,ScanSource,6 Logue Court,Greenville,SC,United States,"Greenville-Anderson-Mauldin, SC",3873.1,2700,Wholesalers: Electronics and Office Equipment,0,1
+655,Ventas,353 N. Clark St.,Chicago,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",3872.8,516,Real Estate,0,1
+656,Country Financial,1701 N. Towanda Ave.,Bloomington,IL,United States,"Bloomington, IL",3868.1,3839,Insurance: Property and Casualty (Mutual),0,1
+657,TriNet Group,One Park Place,Dublin,CA,United States,"San Francisco-Oakland-Hayward, CA",3856,2900,Diversified Outsourcing Services,0,1
+658,Spirit Airlines,2800 Executive Way,Miramar,FL,United States,"Miami-Fort Lauderdale-West Palm Beach, FL",3830.5,8938,Airlines,0,1
+659,Comerica,1717 Main St.,Dallas,TX,United States,"Dallas-Fort Worth-Arlington, TX",3817,7708,Commercial Banks,0,1
+660,Lennox International,2140 Lake Park Blvd.,Richardson,TX,United States,"Dallas-Fort Worth-Arlington, TX",3807.2,11200,Industrial Machinery,0,1
+661,Timken,4500 Mount Pleasant St. N.W.,North Canton,OH,United States,"Canton-Massillon, OH",3789.9,18829,Industrial Machinery,0,1
+662,Paychex,911 Panorama Trail S.,Rochester,NY,United States,"Rochester, NY",3772.5,15450,Diversified Outsourcing Services,0,1
+663,Amerco,5555 Kietzke Lane,Reno,NV,United States,"Reno, NV",3768.7,21900,"Trucking, Truck Leasing",0,1
+664,Worthington Industries,200 Old Wilson Bridge Rd.,Columbus,OH,United States,"Columbus, OH",3759.6,12000,Metals,0,1
+665,Lamb Weston Holdings,599 S. Rivershore Lane,Eagle,ID,United States,"Boise City, ID",3756.5,7600,Food Consumer Products,0,1
+666,Laureate Education,650 S. Exeter St.,Baltimore,MD,United States,"Baltimore-Columbia-Towson, MD",3752.1,41000,Education,0,1
+667,Penn Mutual Life Insurance,600 Dresher Rd.,Horsham,PA,United States,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",3705.1,3318,"Insurance: Life, Health (Stock)",0,1
+668,iHeartMedia,20880 Stone Oak Pkwy.,San Antonio,TX,United States,"San Antonio-New Braunfels, TX",3683.5,11400,Entertainment,0,1
+669,Brink's,1801 Bayberry Court,Richmond,VA,United States,"Richmond, VA",3683.2,64300,Diversified Outsourcing Services,0,1
+670,Sentry Insurance Group,1800 N. Point Dr.,Stevens Point,WI,United States,"Stevens Point, WI",3680.8,4217,Insurance: Property and Casualty (Mutual),0,1
+671,Acuity Brands,1170 Peachtree St. N.E.,Atlanta,GA,United States,"Atlanta-Sandy Springs-Roswell, GA",3672.7,12000,"Electronics, Electrical Equip.",0,1
+672,Hub Group,2000 Clearwater Dr.,Oak Brook,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",3668.1,5000,Transportation and Logistics,0,1
+673,Meritage Homes,8800 E. Raintree Dr.,Scottsdale,AZ,United States,"Phoenix-Mesa-Scottsdale, AZ",3666.9,1510,Homebuilders,0,1
+674,MRC Global,1301 McKinney St.,Houston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",3662,3345,"Oil and Gas Equipment, Services",0,1
+675,Alliant Energy,4902 N. Biltmore Lane,Madison,WI,United States,"Madison, WI",3647.7,3597,Utilities: Gas and Electric,0,1
+676,Workday,6110 Stoneridge Mall Rd.,Pleasanton,CA,United States,"San Francisco-Oakland-Hayward, CA",3627.2,12200,Computer Software,0,1
+677,BMC Stock Holdings,8020 Arco Corporate Dr.,Raleigh,NC,United States,"Raleigh, NC",3626.6,10200,Wholesalers: Diversified,0,1
+678,Abercrombie & Fitch,6301 Fitch Path,New Albany,OH,United States,"Columbus, OH",3623.1,26000,Specialty Retailers: Apparel,0,1
+679,Domino's Pizza,30 Frank Lloyd Wright Dr.,Ann Arbor,MI,United States,"Ann Arbor, MI",3618.8,13100,Food Services,0,1
+680,Lyft,185 Berry St.,San Francisco,CA,United States,"San Francisco-Oakland-Hayward, CA",3616,5683,Internet Services and Retailing,0,1
+681,Meredith,1716 Locust St.,Des Moines,IA,United States,"Des Moines-West Des Moines, IA",3611.9,5615,"Publishing, Printing",0,1
+682,American Water Works,1 Water St.,Camden,NJ,United States,N/A,3610,6800,zMiscellaneous,0,1
+683,Albemarle,4250 Congress St.,Charlotte,NC,United States,"Charlotte-Concord-Gastonia, NC-SC",3589.4,6000,Chemicals,0,1
+684,Ciena,7035 Ridge Rd.,Hanover,MD,United States,"Baltimore-Columbia-Towson, MD",3572.1,6383,Network and Other Communications Equipment,0,1
+685,Barnes & Noble,122 Fifth Ave.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",3552.7,15538,Specialty Retailers: Other,0,1
+686,Weis Markets,1000 S. Second St.,Sunbury,PA,United States,"Sunbury, PA",3543.3,23000,Food and Drug Stores,0,1
+687,Illumina,5200 Illumina Way,San Diego,CA,United States,"San Diego-Carlsbad, CA",3543,7700,"Scientific, Photographic and Control Equipment",0,1
+688,SVB Financial Group,3003 Tasman Dr.,Santa Clara,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",3530.9,3564,Commercial Banks,0,1
+689,Carter's,3438 Peachtree Rd. N.E.,Atlanta,GA,United States,"Atlanta-Sandy Springs-Roswell, GA",3519.3,20300,Apparel,0,1
+690,Stifel Financial,501 N. Broadway,St. Louis,MO,United States,"St. Louis, MO-IL",3515,8205,Securities,0,1
+691,Mednax,1301 Concord Terrace,Sunrise,FL,United States,"Miami-Fort Lauderdale-West Palm Beach, FL",3513.5,9480,Health Care: Pharmacy and Other Services,0,1
+692,Equifax,1550 Peachtree St. N.W.,Atlanta,GA,United States,"Atlanta-Sandy Springs-Roswell, GA",3507.6,11200,Financial Data Services,0,1
+693,Kar Auction Services,11299 N. Illinois St.,Carmel,IN,United States,"Indianapolis-Carmel-Anderson, IN",3505.5,13311,Wholesalers: Diversified,0,1
+694,Ashland Global Holdings,50 E. RiverCenter Blvd.,Covington,KY,United States,"Cincinnati, OH-KY-IN",3505,4700,Chemicals,0,1
+695,Medical Mutual of Ohio,2060 E. Ninth St.,Cleveland,OH,United States,"Cleveland-Elyria, OH",3502.7,2801,"Insurance: Life, Health (Mutual)",0,1
+696,Sprague Resources,185 International Dr.,Portsmouth,NH,United States,"Boston-Cambridge-Newton, MA-NH",3502.4,770,"Oil and Gas Equipment, Services",0,1
+697,Super Micro Computer,980 Rock Ave.,San Jose,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",3500.4,3670,"Computers, Office Equipment",0,1
+698,Designer Brands,810 DSW Dr.,Columbus,OH,United States,"Columbus, OH",3492.7,16100,Specialty Retailers: Apparel,0,1
+699,Pitney Bowes,3001 Summer St.,Stamford,CT,United States,"Bridgeport-Stamford-Norwalk, CT",3477.7,11000,"Computers, Office Equipment",0,1
+700,Applied Industrial Technologies,1 Applied Plaza,Cleveland,OH,United States,"Cleveland-Elyria, OH",3472.7,6650,Wholesalers: Diversified,0,1
+701,Pinnacle West Capital,400 N. Fifth St.,Phoenix,AZ,United States,"Phoenix-Mesa-Scottsdale, AZ",3471.2,6210,Utilities: Gas and Electric,0,1
+702,American Equity Investment Life Holding,6000 Westown Pkwy.,West Des Moines,IA,United States,"Des Moines-West Des Moines, IA",3464.3,608,"Insurance: Life, Health (Stock)",0,1
+703,ServiceNow,2225 Lawson Lane,Santa Clara,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",3460.4,10371,Computer Software,0,1
+704,Twitter,1355 Market St.,San Francisco,CA,United States,"San Francisco-Oakland-Hayward, CA",3459.3,4900,Internet Services and Retailing,0,1
+705,Calumet Specialty Products Partners,2780 Waterfront Pkwy. E. Dr.,Indianapolis,IN,United States,"Indianapolis-Carmel-Anderson, IN",3452.6,1500,Petroleum Refining,0,1
+706,Steelcase,901 44th St. S.E.,Grand Rapids,MI,United States,"Grand Rapids-Wyoming, MI",3443.2,12700,"Home Equipment, Furnishings",0,1
+707,Sanderson Farms,127 Flynt Rd.,Laurel,MS,United States,"Laurel, MS",3440.3,17055,Food Production,0,1
+708,WABCO Holdings,1220 Pacific Dr.,Auburn Hills,MI,United States,"Detroit-Warren-Dearborn, MI",3421.4,13911,Motor Vehicles and Parts,0,1
+709,Clean Harbors,42 Longwater Dr.,Norwell,MA,United States,"Boston-Cambridge-Newton, MA-NH",3412.2,14400,Waste Management,0,1
+710,Puget Energy,355 110th Ave. N.E.,Bellevue,WA,United States,"Seattle-Tacoma-Bellevue, WA",3401.1,3130,Utilities: Gas and Electric,0,1
+711,Scientific Games,6601 Bermuda Rd.,Las Vegas,NV,United States,"Las Vegas-Henderson-Paradise, NV",3400,9800,"Hotels, Casinos, Resorts",0,1
+712,Granite Construction,585 W. Beach St.,Watsonville,CA,United States,"Santa Cruz-Watsonville, CA",3389.8,4200,"Engineering, Construction",0,1
+713,Carlyle Group,1001 Pennsylvania Ave. N.W.,Washington,DC,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",3377,1775,Securities,0,1
+714,Skyworks Solutions,5221 California Ave.,Irvine,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",3376.8,9000,Semiconductors and Other Electronic Components,0,1
+715,Aleris,25825 Science Park Dr.,Cleveland,OH,United States,"Cleveland-Elyria, OH",3375.9,5600,Metals,0,1
+716,Triple-S Management,1441 F.D. Roosevelt Ave.,San Juan,PR,United States,N/A,3375.6,3992,Health Care: Insurance and Managed Care,0,1
+717,Hexion,180 E. Broad St.,Columbus,OH,United States,"Columbus, OH",3374,4000,Chemicals,0,1
+718,Hologic,250 Campus Dr.,Marlborough,MA,United States,"Boston-Cambridge-Newton, MA-NH",3367.3,6478,Medical Products and Equipment,0,1
+719,Triumph Group,899 Cassatt Rd.,Berwyn,PA,United States,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",3364.9,10776,Aerospace and Defense,0,1
+720,Darling Ingredients,5601 N. MacArthur Blvd.,Irving,TX,United States,"Dallas-Fort Worth-Arlington, TX",3363.9,10100,Food Production,0,1
+721,MSC Industrial Direct,75 Maxess Rd.,Melville,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",3363.8,6700,Wholesalers: Diversified,0,1
+722,Red Hat,100 E. Davie St.,Raleigh,NC,United States,"Raleigh, NC",3362.1,13360,Computer Software,0,1
+723,Synopsys,690 E. Middlefield Rd.,Mountain View,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",3360.7,13896,Computer Software,0,1
+724,PolyOne,33587 Walker Rd.,Avon Lake,OH,United States,"Cleveland-Elyria, OH",3351.6,5600,Chemicals,0,1
+725,Dycom Industries,11780 U.S. Highway 1,Palm Beach Gardens,FL,United States,"Miami-Fort Lauderdale-West Palm Beach, FL",3339.7,15230,"Engineering, Construction",0,1
+726,Cabot,2 Seaport Lane,Boston,MA,United States,"Boston-Cambridge-Newton, MA-NH",3337,4500,Chemicals,0,1
+727,Prologis,"Pier 1, Bay 1",San Francisco,CA,United States,"San Francisco-Oakland-Hayward, CA",3330.6,1712,Real Estate,0,1
+728,Boyd Gaming,3883 Howard Hughes Pkwy.,Las Vegas,NV,United States,"Las Vegas-Henderson-Paradise, NV",3326.1,24300,"Hotels, Casinos, Resorts",0,1
+729,LSC Communications,191 N. Wacker Dr.,Chicago,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",3326,20000,"Publishing, Printing",0,1
+730,Brown-Forman,850 Dixie Hwy.,Louisville,KY,United States,"Louisville/Jefferson County, KY-IN",3324,4700,Beverages,0,1
+731,Stericycle,2355 Waukegan Rd.,Bannockburn,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",3308.9,19500,Waste Management,0,1
+732,CIT Group,11 W. 42nd St.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",3296.1,3609,Commercial Banks,0,1
+733,MDC Holdings,4350 S. Monaco St.,Denver,CO,United States,"Denver-Aurora-Lakewood, CO",3293.3,1656,Homebuilders,0,1
+734,Hyster-Yale Materials Handling,5875 Landerbrook Dr.,Cleveland,OH,United States,"Cleveland-Elyria, OH",3291.8,7900,Industrial Machinery,0,1
+735,Crane,100 First Stamford Place,Stamford,CT,United States,"Bridgeport-Stamford-Norwalk, CT",3283.1,13000,Industrial Machinery,0,1
+736,Cinemark Holdings,3900 Dallas Pkwy.,Plano,TX,United States,"Dallas-Fort Worth-Arlington, TX",3283.1,22603,Entertainment,0,1
+737,Autodesk,111 McInnis Pkwy.,San Rafael,CA,United States,"San Francisco-Oakland-Hayward, CA",3274.3,10100,Computer Software,0,1
+738,Trimble,935 Stewart Dr.,Sunnyvale,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",3264.3,11484,"Scientific, Photographic and Control Equipment",0,1
+739,Garrett Motion,47548 Halyard Dr.,Plymouth,MI,United States,"Detroit-Warren-Dearborn, MI",3248,7400,Motor Vehicles and Parts,0,1
+740,Zions Bancorp.,1 S. Main St.,Salt Lake City,UT,United States,"Salt Lake City, UT",3245,10188,Commercial Banks,0,1
+741,Regal Beloit,200 State St.,Beloit,WI,United States,"Janesville-Beloit, WI",3238,19560,"Electronics, Electrical Equip.",0,1
+742,Service Corp. International,1929 Allen Pkwy.,Houston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",3230.8,20457,zMiscellaneous,0,1
+743,Varian Medical Systems,3100 Hansen Way,Palo Alto,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",3225.1,10062,Medical Products and Equipment,0,1
+744,PriceSmart,9740 Scranton Rd.,San Diego,CA,United States,"San Diego-Carlsbad, CA",3223.9,9000,General Merchandisers,0,1
+745,Brinker International,3000 Olympus Blvd.,Dallas,TX,United States,"Dallas-Fort Worth-Arlington, TX",3217.9,56147,Food Services,0,1
+746,Digital Realty Trust,4 Embarcadero Center,San Francisco,CA,United States,"San Francisco-Oakland-Hayward, CA",3209.2,1550,Real Estate,0,1
+747,Pool,109 Northpark Blvd.,Covington,LA,United States,"New Orleans-Metairie, LA",3199.5,4500,Wholesalers: Diversified,0,1
+748,Crestwood Equity Partners,811 Main St.,Houston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",3181.9,894,Pipelines,0,1
+749,Infor,641 Ave. of the Americas,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",3171.2,17380,Computer Software,0,1
+750,Plexus,1 Plexus Way,Neenah,WI,United States,"Oshkosh-Neenah, WI",3164.4,19000,Semiconductors and Other Electronic Components,0,1
+751,Teledyne Technologies,1049 Camino Dos Rios,Thousand Oaks,CA,United States,"Oxnard-Thousand Oaks-Ventura, CA",3163.6,11790,Aerospace and Defense,0,1
+752,G-III Apparel Group,512 Seventh Ave.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",3160.5,6050,Apparel,0,1
+753,Scotts Miracle-Gro,14111 Scottslawn Rd.,Marysville,OH,United States,"Columbus, OH",3156,5850,Chemicals,0,1
+754,Apollo Global Management,9 W. 57th St.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",3145.4,1421,Securities,0,1
+755,E*Trade Financial,671 N. Glebe Rd.,Arlington,VA,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",3145,4122,Securities,0,1
+756,Toro,8111 Lyndale Ave. S.,Bloomington,MN,United States,"Minneapolis-St. Paul-Bloomington, MN-WI",3138.1,9329,Construction and Farm Machinery,0,1
+757,Southwest Gas Holdings,5241 Spring Mountain Rd.,Las Vegas,NV,United States,"Las Vegas-Henderson-Paradise, NV",3119.9,8944,Utilities: Gas and Electric,0,1
+758,GMS,100 Crescent Centre Pkwy.,Tucker,GA,United States,"Atlanta-Sandy Springs-Roswell, GA",3116,5858,Wholesalers: Diversified,0,1
+759,Cooper-Standard Holdings,39550 Orchard Hill Place Dr.,Novi,MI,United States,"Detroit-Warren-Dearborn, MI",3108.4,28000,Motor Vehicles and Parts,0,1
+760,Acadia Healthcare,6100 Tower Circle,Franklin,TN,United States,"Nashville-Davidson-Murfreesboro-Franklin, TN",3107.5,35600,Health Care: Medical Facilities,0,1
+761,Tetra Tech,3475 E. Foothill Blvd.,Pasadena,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",3107.3,20000,"Engineering, Construction",0,1
+762,Primoris Services,2300 N. Field St.,Dallas,TX,United States,"Dallas-Fort Worth-Arlington, TX",3106.3,9700,"Engineering, Construction",0,1
+763,Tempur Sealy International,1000 Tempur Way,Lexington,KY,United States,"Lexington-Fayette, KY",3106,7400,"Home Equipment, Furnishings",0,1
+764,H&R Block,1 H&R Block Way,Kansas City,MO,United States,"Kansas City, MO-KS",3094.9,44600,Diversified Financials,0,1
+765,Qorvo,7628 Thorndike Rd.,Greensboro,NC,United States,"Greensboro-High Point, NC",3090.3,8100,Semiconductors and Other Electronic Components,0,1
+766,TRI Pointe Group,19540 Jamboree Rd.,Irvine,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",3083,1386,Homebuilders,0,1
+767,Cracker Barrel Old Country Store,305 Hartmann Dr.,Lebanon,TN,United States,"Nashville-Davidson-Murfreesboro-Franklin, TN",3072,73000,Food Services,0,1
+768,Elanco Animal Health,2500 Innovation Way,Greenfield,IN,United States,"Indianapolis-Carmel-Anderson, IN",3071,6080,Pharmaceuticals,0,1
+769,PRA Health Sciences,4130 ParkLake Ave.,Raleigh,NC,United States,"Raleigh, NC",3066.3,17500,"Scientific, Photographic and Control Equipment",0,1
+770,First Solar,350 W. Washington St.,Tempe,AZ,United States,"Phoenix-Mesa-Scottsdale, AZ",3063.1,6600,Energy,0,1
+771,AMC Networks,11 Penn Plaza,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",3060.3,2588,Entertainment,0,1
+772,Xilinx,2100 Logic Dr.,San Jose,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",3059,4433,Semiconductors and Other Electronic Components,0,1
+773,Green Plains,1811 Aksarben Dr.,Omaha,NE,United States,"Omaha-Council Bluffs, NE-IA",3055.4,820,Energy,0,1
+774,Columbia Sportswear,14375 N.W. Science Park Dr.,Portland,OR,United States,"Portland-Vancouver-Hillsboro, OR-WA",3042.5,8900,Apparel,0,1
+775,Nexstar Media Group,545 E. John Carpenter Freeway,Irving,TX,United States,"Dallas-Fort Worth-Arlington, TX",3039.3,14891,Entertainment,0,1
+776,Southwestern Energy,10000 Energy Dr.,Spring,TX,United States,"Houston-The Woodlands-Sugar Land, TX",3038,923,"Mining, Crude-Oil Production",0,1
+777,Greenbrier Cos.,1 Centerpointe Dr.,Lake Oswego,OR,United States,"Portland-Vancouver-Hillsboro, OR-WA",3033.6,17100,Transportation Equipment,0,1
+778,Presidio,1 Penn Plaza,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",3026.1,2900,Information Technology Services,0,1
+779,Citrix Systems,851 W. Cypress Creek Rd.,Fort Lauderdale,FL,United States,"Miami-Fort Lauderdale-West Palm Beach, FL",3010.6,8400,Computer Software,0,1
+780,Mettler-Toledo International,1900 Polaris Pkwy.,Columbus,OH,United States,"Columbus, OH",3008.7,15525,"Scientific, Photographic and Control Equipment",0,1
+781,Trinity Industries,2525 N. Stemmons Freeway,Dallas,TX,United States,"Dallas-Fort Worth-Arlington, TX",3005.1,11875,Transportation Equipment,0,1
+782,Mutual of America Life Insurance,320 Park Ave.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",3004.7,1202,"Insurance: Life, Health (Mutual)",0,1
+783,Lincoln Electric Holdings,22801 St. Clair Ave.,Cleveland,OH,United States,"Cleveland-Elyria, OH",3003.3,11000,Industrial Machinery,0,1
+784,Tailored Brands,6380 Rogerdale Rd.,Houston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",2998.7,16500,Specialty Retailers: Apparel,0,1
+785,A.O. Smith,11270 W. Park Place,Milwaukee,WI,United States,"Milwaukee-Waukesha-West Allis, WI",2992.7,15100,"Electronics, Electrical Equip.",0,1
+786,ArcBest,8401 McClure Dr.,Fort Smith,AR,United States,"Fort Smith, AR-OK",2988.3,13000,"Trucking, Truck Leasing",0,1
+787,GoDaddy,14455 N. Hayden Rd.,Scottsdale,AZ,United States,"Phoenix-Mesa-Scottsdale, AZ",2988.1,7024,Internet Services and Retailing,0,1
+788,SkyWest,444 S. River Rd.,St. George,UT,United States,"St. George, UT",2972,13700,Airlines,0,1
+789,Boston Properties,800 Boylston St.,Boston,MA,United States,"Boston-Cambridge-Newton, MA-NH",2960.6,760,Real Estate,0,1
+790,Enable Midstream Partners,499 W. Sheridan Ave.,Oklahoma City,OK,United States,"Oklahoma City, OK",2960,1735,Pipelines,0,1
+791,Middleby,1400 Toastmaster Dr.,Elgin,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",2959.4,9778,Industrial Machinery,0,1
+792,NOW,7402 N. Eldridge Pkwy.,Houston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",2951,4300,"Oil and Gas Equipment, Services",0,1
+793,Unisys,801 Lakeview Dr.,Blue Bell,PA,United States,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",2948.7,20800,Information Technology Services,0,1
+794,Visteon,1 Village Center Dr.,Van Buren Township,MI,United States,"Detroit-Warren-Dearborn, MI",2945,11000,Motor Vehicles and Parts,0,1
+795,Graham Holdings,1300 N. 17th St.,Arlington,VA,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",2932.1,15902,Education,0,1
+796,Resolute Forest Products,5020 Highway 11 S.,Calhoun,TN,United States,"Cleveland, TN",2923,6700,Forest and Paper Products,0,1
+797,Caleres,8300 Maryland Ave.,St. Louis,MO,United States,"St. Louis, MO-IL",2921.6,11400,Specialty Retailers: Apparel,0,1
+798,AGNC Investment,2 Bethesda Metro Center,Bethesda,MD,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",2920,51,Real Estate,0,1
+799,Hill-Rom Holdings,130 E. Randolph St.,Chicago,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",2907.3,10000,Medical Products and Equipment,0,1
+800,Moog,400 Jamison Rd.,East Aurora,NY,United States,"Buffalo-Cheektowaga-Niagara Falls, NY",2904.7,12809,Aerospace and Defense,0,1
+801,Legg Mason,100 International Dr.,Baltimore,MD,United States,"Baltimore-Columbia-Towson, MD",2903.3,3246,Securities,0,1
+802,Atmos Energy,5430 L.B.J. Freeway,Dallas,TX,United States,"Dallas-Fort Worth-Arlington, TX",2901.8,4776,Utilities: Gas and Electric,0,1
+803,Woodward,1081 Woodward Way,Fort Collins,CO,United States,"Fort Collins, CO",2900.2,9023,Aerospace and Defense,0,1
+804,Palo Alto Networks,3000 Tannery Way,Santa Clara,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",2899.6,7014,Network and Other Communications Equipment,0,1
+805,H.B. Fuller,1200 Willow Lake Blvd.,St. Paul,MN,United States,"Minneapolis-St. Paul-Bloomington, MN-WI",2897,6369,Chemicals,0,1
+806,Akamai Technologies,145 Broadway,Cambridge,MA,United States,"Boston-Cambridge-Newton, MA-NH",2893.6,7724,Internet Services and Retailing,0,1
+807,Avaya Holdings,4655 Great American Pkwy.,Santa Clara,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",2887,7900,Information Technology Services,0,1
+808,Maximus,1891 Metro Center Dr.,Reston,VA,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",2886.8,29600,Information Technology Services,0,1
+809,PerkinElmer,940 Winter St.,Waltham,MA,United States,"Boston-Cambridge-Newton, MA-NH",2883.7,13000,"Scientific, Photographic and Control Equipment",0,1
+810,Hawaiian Electric Industries,1001 Bishop St.,Honolulu,HI,United States,"Urban Honolulu, HI",2874.6,3841,Utilities: Gas and Electric,0,1
+811,Kansas City Southern,427 W. 12th St.,Kansas City,MO,United States,"Kansas City, MO-KS",2866,7040,Railroads,0,1
+812,AptarGroup,265 Exchange Dr.,Crystal Lake,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",2859.7,14000,"Packaging, Containers",0,1
+813,Public Storage,701 Western Ave.,Glendale,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",2846.8,5900,Real Estate,0,1
+814,Selective Insurance Group,40 Wantage Ave.,Branchville,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",2846.5,2400,Insurance: Property and Casualty (Stock),0,1
+815,ITT,1133 Westchester Ave.,White Plains,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",2846.4,10500,Industrial Machinery,0,1
+816,Donaldson,1400 W. 94th St.,Minneapolis,MN,United States,"Minneapolis-St. Paul-Bloomington, MN-WI",2844.9,14100,Industrial Machinery,0,1
+817,Park Hotels & Resorts,1775 Tysons Blvd.,Tysons,VA,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",2844,488,Real Estate,0,1
+818,Kirby,55 Waugh Dr.,Houston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",2838.4,5550,Shipping,0,1
+819,Hawaiian Holdings,3375 Koapaka St.,Honolulu,HI,United States,"Urban Honolulu, HI",2832.2,7437,Airlines,0,1
+820,Popular,209 Muroz Rivera Ave.,Hato Rey,PR,United States,N/A,2830.7,8560,Commercial Banks,0,1
+821,Range Resources,100 Throckmorton St.,Fort Worth,TX,United States,"Dallas-Fort Worth-Arlington, TX",2827.6,655,"Mining, Crude-Oil Production",0,1
+822,PC Connection,730 Milford Rd.,Merrimack,NH,United States,"Manchester-Nashua, NH",2820,2609,Wholesalers: Electronics and Office Equipment,0,1
+823,Amica Mutual Insurance,100 Amica Way,Lincoln,RI,United States,"Providence-Warwick, RI-MA",2808.5,3983,Insurance: Property and Casualty (Mutual),0,1
+824,EnerSys,2366 Bernville Rd.,Reading,PA,United States,"Reading, PA",2808,11000,"Electronics, Electrical Equip.",0,1
+825,Helmerich & Payne,1437 S. Boulder Ave.,Tulsa,OK,United States,"Tulsa, OK",2798.5,8502,"Oil and Gas Equipment, Services",0,1
+826,NLV Financial,1 National Life Dr.,Montpelier,VT,United States,"Barre, VT",2772.1,1278,"Insurance: Life, Health (Stock)",0,1
+827,Valmont Industries,1 Valmont Plaza,Omaha,NE,United States,"Omaha-Council Bluffs, NE-IA",2767,9862,Metals,0,1
+828,PAE,7799 Leesburg Pike,Falls Church,VA,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",2763.9,20000,Aerospace and Defense,0,1
+829,Texas Roadhouse,6040 Dutchmans Lane,Louisville,KY,United States,"Louisville/Jefferson County, KY-IN",2756.2,35554,Food Services,0,1
+830,Cooper Tire & Rubber,701 Lima Ave.,Findlay,OH,United States,"Findlay, OH",2752.6,8720,Motor Vehicles and Parts,0,1
+831,Euronet Worldwide,3500 College Blvd.,Leawood,KS,United States,"Kansas City, MO-KS",2750.1,7700,Financial Data Services,0,1
+832,Zillow Group,1301 Second Ave.,Seattle,WA,United States,"Seattle-Tacoma-Bellevue, WA",2742.8,5249,Internet Services and Retailing,0,1
+833,Atlas Air Worldwide Holdings,2000 Westchester Ave.,Purchase,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",2739.2,3587,Transportation and Logistics,0,1
+834,Energizer Holdings,533 Maryville University Dr.,St. Louis,MO,United States,"St. Louis, MO-IL",2729.6,7500,Household and Personal Products,0,1
+835,Magellan Midstream Partners,1 Williams Center,Tulsa,OK,United States,"Tulsa, OK",2727.9,1884,Pipelines,0,1
+836,Hain Celestial Group,1111 Marcus Ave.,Lake Success,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",2710.6,5441,Food Consumer Products,0,1
+837,Univision Communications,605 Third Ave.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",2703.8,4500,Entertainment,0,1
+838,Equity Residential,2 N. Riverside Plaza,Chicago,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",2701.1,2700,Real Estate,0,1
+839,Allison Transmission Holdings,1 Allison Way,Indianapolis,IN,United States,"Indianapolis-Carmel-Anderson, IN",2698,3700,Motor Vehicles and Parts,0,1
+840,Colony Capital,515 S. Flower St.,Los Angeles,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",2689.6,400,Real Estate,0,1
+841,TTM Technologies,200 E. Sandpointe,Santa Ana,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",2689.3,25700,Semiconductors and Other Electronic Components,0,1
+842,Clear Channel Outdoor Holdings,4830 N. Loop 1604 W.,San Antonio,TX,United States,"San Antonio-New Braunfels, TX",2683.8,5900,"Advertising, Marketing",0,1
+843,Guess,1444 S. Alameda St.,Los Angeles,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",2678.1,15800,Specialty Retailers: Apparel,0,1
+844,Rent-A-Center,5501 Headquarters Dr.,Plano,TX,United States,"Dallas-Fort Worth-Arlington, TX",2669.9,14500,Specialty Retailers: Other,0,1
+845,Take-Two Interactive Software,110 W. 44th St.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",2668.4,4894,Entertainment,0,1
+846,Vishay Intertechnology,63 Lancaster Ave.,Malvern,PA,United States,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",2668.3,22400,Semiconductors and Other Electronic Components,0,1
+847,TransUnion,555 W. Adams St.,Chicago,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",2656.1,8000,Financial Data Services,0,1
+848,Cooper Cos.,6101 Bollinger Canyon Rd.,San Ramon,CA,United States,"San Francisco-Oakland-Hayward, CA",2653.4,12000,Medical Products and Equipment,0,1
+849,FleetCor Technologies,3280 Peachtree Rd.,Atlanta,GA,United States,"Atlanta-Sandy Springs-Roswell, GA",2648.8,8700,Financial Data Services,0,1
+850,RH,15 Koch Rd.,Corte Madera,CA,United States,"San Francisco-Oakland-Hayward, CA",2647.4,4750,Specialty Retailers: Other,0,1
+851,Renewable Energy Group,416 S. Bell Ave.,Ames,IA,United States,"Ames, IA",2643.2,829,Petroleum Refining,0,1
+852,BlueLinx Holdings,1950 Spectrum Circle,Marietta,GA,United States,"Atlanta-Sandy Springs-Roswell, GA",2637.3,2189,Wholesalers: Diversified,0,1
+853,California Resources,27200 Tourney Rd.,Santa Clarita,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",2634,1250,"Mining, Crude-Oil Production",0,1
+854,TopBuild,475 N. Williamson Blvd.,Daytona Beach,FL,United States,"Deltona-Daytona Beach-Ormond Beach, FL",2624.1,10400,"Engineering, Construction",0,1
+855,Charles River Laboratories International,251 Ballardvale St.,Wilmington,MA,United States,"Boston-Cambridge-Newton, MA-NH",2621.2,17100,Health Care: Pharmacy and Other Services,0,1
+856,Comfort Systems USA,675 Bering Dr.,Houston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",2615.3,12000,"Engineering, Construction",0,1
+857,Verisk Analytics,545 Washington Blvd.,Jersey City,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",2607.1,9180,Financial Data Services,0,1
+858,ResMed,9001 Spectrum Center Blvd.,San Diego,CA,United States,"San Diego-Carlsbad, CA",2606.6,7240,Medical Products and Equipment,0,1
+859,Teleflex,550 E. Swedesford Rd.,Wayne,PA,United States,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",2595.4,14400,Medical Products and Equipment,0,1
+860,New Jersey Resources,1415 Wyckoff Rd.,Wall,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",2592,1108,Utilities: Gas and Electric,0,1
+861,New Residential Investment,1345 Ave. of the Americas,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",2585.6,3387,Real Estate,0,1
+862,Interactive Brokers Group,1 Pickwick Plaza,Greenwich,CT,United States,"Bridgeport-Stamford-Norwalk, CT",2580,1643,Securities,0,1
+863,Zayo Group Holdings,1821 30th St.,Boulder,CO,United States,"Boulder, CO",2578,3781,Telecommunications,0,1
+864,Herman Miller,855 E. Main Ave.,Zeeland,MI,United States,"Grand Rapids-Wyoming, MI",2567.2,8000,"Home Equipment, Furnishings",0,1
+865,Grocery Outlet Holding,5650 Hollis St.,Emeryville,CA,United States,"San Francisco-Oakland-Hayward, CA",2559.6,765,Food and Drug Stores,0,1
+866,J.Crew Group,225 Liberty St.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",2540.1,9400,Specialty Retailers: Apparel,0,1
+867,Century Communities,8390 E. Crescent Pkwy.,Greenwood Village,CO,United States,"Denver-Aurora-Lakewood, CO",2535.9,1460,Homebuilders,0,1
+868,Eldorado Resorts,100 W. Liberty St.,Reno,NV,United States,"Reno, NV",2528.2,15500,"Hotels, Casinos, Resorts",0,1
+869,Catalent,14 Schoolhouse Rd.,Somerset,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",2518,12300,Pharmaceuticals,0,1
+870,Itron,2111 N. Molter Rd.,Liberty Lake,WA,United States,"Spokane-Spokane Valley, WA",2502.5,7300,"Electronics, Electrical Equip.",0,1
+871,M/I Homes,3 Easton Oval,Columbus,OH,United States,"Columbus, OH",2500.3,1401,Homebuilders,0,1
+872,Cboe Global Markets,400 S. LaSalle St.,Chicago,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",2496.1,823,Securities,0,1
+873,IDEX,1925 W. Field Court,Lake Forest,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",2494.6,7439,Industrial Machinery,0,1
+874,Belden,1 N. Brentwood Blvd.,St. Louis,MO,United States,"St. Louis, MO-IL",2491.8,7000,"Electronics, Electrical Equip.",0,1
+875,Curtiss-Wright,130 Harbour Place Dr.,Davidson,NC,United States,"Charlotte-Concord-Gastonia, NC-SC",2488,9100,Industrial Machinery,0,1
+876,Cheesecake Factory,26901 Malibu Hills Rd.,CalabasasHills,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",2482.7,46250,Food Services,0,1
+877,Genesis Energy,919 Milam St.,Houston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",2480.8,2177,Pipelines,0,1
+878,GEO Group,4955 Technology Way,Boca Raton,FL,United States,"Miami-Fort Lauderdale-West Palm Beach, FL",2477.9,22000,zMiscellaneous,0,1
+879,Patterson-UTI Energy,10713 W. Sam Houston Pkwy. N.,Houston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",2470.7,5800,"Oil and Gas Equipment, Services",0,1
+880,Werner Enterprises,14507 Frontier Rd.,Omaha,NE,United States,"Omaha-Council Bluffs, NE-IA",2463.7,12736,"Trucking, Truck Leasing",0,1
+881,Ingersoll Rand,800-A Beaty St.,Davidson,NC,United States,"Charlotte-Concord-Gastonia, NC-SC",2451.9,6600,Industrial Machinery,0,1
+882,Verso,8540 Gander Creek Dr.,Miamisburg,OH,United States,"Dayton, OH",2444,3700,Forest and Paper Products,0,1
+883,Mueller Industries,150 Schilling Blvd.,Collierville,TN,United States,"Memphis, TN-MS-AR",2430.6,4964,Industrial Machinery,0,1
+884,Nu Skin Enterprises,75 W. Center St.,Provo,UT,United States,"Provo-Orem, UT",2420.4,24900,Household and Personal Products,0,1
+885,Revlon,1 New York Plaza,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",2419.6,7100,Household and Personal Products,0,1
+886,Arista Networks,5453 Great America Pkwy.,Santa Clara,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",2410.7,2300,Network and Other Communications Equipment,0,1
+887,IDEXX Laboratories,1 IDEXX Dr.,Westbrook,ME,United States,"Portland-South Portland, ME",2406.9,9200,Medical Products and Equipment,0,1
+888,Align Technology,2820 Orchard Pkwy.,San Jose,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",2406.8,14530,Medical Products and Equipment,0,1
+889,Waters,34 Maple St.,Milford,MA,United States,"Worcester, MA-CT",2406.6,7467,"Scientific, Photographic and Control Equipment",0,1
+890,Synovus Financial Corp.,1111 Bay Ave.,Columbus,GA,United States,"Columbus, GA-AL",2406.5,5389,Commercial Banks,0,1
+891,BrightView Holdings,980 Jolly Rd.,Blue Bell,PA,United States,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",2404.6,21978,Diversified Outsourcing Services,0,1
+892,REV Group,111 E. Kilbourn Ave.,Milwaukee,WI,United States,"Milwaukee-Waukesha-West Allis, WI",2403.7,8040,Motor Vehicles and Parts,0,1
+893,Brown & Brown,220 S. Ridgewood Ave.,Daytona Beach,FL,United States,"Deltona-Daytona Beach-Ormond Beach, FL",2392.2,10083,Insurance: Property and Casualty (Stock),0,1
+894,Valvoline,100 Valvoline Way,Lexington,KY,United States,"Lexington-Fayette, KY",2390,7900,Chemicals,0,1
+895,Knights of Columbus,1 Columbus Plaza,New Haven,CT,United States,"New Haven-Milford, CT",2387.8,772,"Insurance: Life, Health (Mutual)",0,1
+896,Central Garden & Pet,1340 Treat Blvd.,Walnut Creek,CA,United States,"San Francisco-Oakland-Hayward, CA",2383,5550,Household and Personal Products,0,1
+897,Carpenter Technology,1735 Market St.,Philadelphia,PA,United States,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",2380.2,5100,Metals,0,1
+898,SLM,300 Continental Dr.,Newark,DE,United States,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",2380,1900,Diversified Financials,0,1
+899,Kennametal,525 William Penn Pl.,Pittsburgh,PA,United States,"Pittsburgh, PA",2375.2,10395,Industrial Machinery,0,1
+900,LCI Industries,3501 County Rd. 6 E.,Elkhart,IN,United States,"Elkhart-Goshen, IN",2371.5,10500,Motor Vehicles and Parts,0,1
+901,TrueBlue,1015 A St.,Tacoma,WA,United States,"Seattle-Tacoma-Bellevue, WA",2368.8,6200,Temporary Help,0,1
+902,Cimarex Energy,1700 Lincoln St.,Denver,CO,United States,"Denver-Aurora-Lakewood, CO",2363,987,"Mining, Crude-Oil Production",0,1
+903,Splunk,270 Brannan St.,San Francisco,CA,United States,"San Francisco-Oakland-Hayward, CA",2358.9,5800,Computer Software,0,1
+904,SiteOne Landscape Supply,300 Colonial Center Pkwy.,Roswell,GA,United States,"Atlanta-Sandy Springs-Roswell, GA",2357.5,4416,Wholesalers: Diversified,0,1
+905,Hexcel,281 Tresser Blvd.,Stamford,CT,United States,"Bridgeport-Stamford-Norwalk, CT",2355.7,6977,Aerospace and Defense,0,1
+906,FTI Consulting,555 12th St. N.W.,Washington,DC,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",2352.7,5567,Diversified Outsourcing Services,0,1
+907,Party City Holdco,80 Grasslands Rd.,Elmsford,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",2348.8,14350,Specialty Retailers: Other,0,1
+908,Ohio National Mutual,One Financial Way,Cincinnati,OH,United States,"Cincinnati, OH-KY-IN",2340.5,1109,"Insurance: Life, Health (Stock)",0,1
+909,Patrick Industries,107 W. Franklin St.,Elkhart,IN,United States,"Elkhart-Goshen, IN",2337.1,7500,"Building Materials, Glass",0,1
+910,Cadence Design Systems,2655 Seely Ave.,San Jose,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",2336.3,8078,Computer Software,0,1
+911,CDK Global,1950 Hassell Rd.,Hoffman Estates,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",2332.9,9000,Computer Software,0,1
+912,AvalonBay Communities,671 N. Glebe Rd.,Arlington,VA,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",2324.6,3122,Real Estate,0,1
+913,Wabash National,1000 Sagamore Pkwy. S.,Lafayette,IN,United States,"Lafayette-West Lafayette, IN",2319.1,6900,Motor Vehicles and Parts,0,1
+914,Service Properties Trust,255 Washington St.,Newton,MA,United States,"Boston-Cambridge-Newton, MA-NH",2316.1,600,Real Estate,0,1
+915,Maxim Integrated Products,160 Rio Robles,San Jose,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",2314.3,7131,Semiconductors and Other Electronic Components,0,1
+916,People's United Financial,850 Main St.,Bridgeport,CT,United States,"Bridgeport-Stamford-Norwalk, CT",2312.2,6305,Commercial Banks,0,1
+917,Bio-Rad Laboratories,1000 Alfred Nobel Dr.,Hercules,CA,United States,"San Francisco-Oakland-Hayward, CA",2311.7,8120,"Scientific, Photographic and Control Equipment",0,1
+918,Option Care Health,3000 Lakeside Dr.,Bannockburn,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",2310.4,5492,Health Care: Pharmacy and Other Services,0,1
+919,Louisiana-Pacific,414 Union St.,Nashville,TN,United States,"Nashville-Davidson-Murfreesboro-Franklin, TN",2310,4800,"Building Materials, Glass",0,1
+920,TEGNA,8350 Broad St.,Tysons,VA,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",2299.5,6883,Entertainment,0,1
+921,Teradyne,600 Riverpark Dr.,North Reading,MA,United States,"Boston-Cambridge-Newton, MA-NH",2295,5400,Semiconductors and Other Electronic Components,0,1
+922,Arch Coal,1 CityPlace Dr.,St. Louis,MO,United States,"St. Louis, MO-IL",2294.4,3700,"Mining, Crude-Oil Production",0,1
+923,EPAM Systems,41 University Dr.,Newtown,PA,United States,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",2293.8,36739,Information Technology Services,0,1
+924,WPX Energy,3500 1 Williams Center,Tulsa,OK,United States,"Tulsa, OK",2292,590,"Mining, Crude-Oil Production",0,1
+925,Contura Energy,340 Martin Luther King Jr. Blvd.,Bristol,TN,United States,"Kingsport-Bristol-Bristol, TN-VA",2290.5,4360,"Mining, Crude-Oil Production",0,1
+926,Ensign Group,29222 Rancho Viejo Rd.,San Juan Capistrano,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",2285.6,24500,Health Care: Medical Facilities,0,1
+927,First Horizon National Corp.,165 Madison Ave.,Memphis,TN,United States,"Memphis, TN-MS-AR",2278.4,4994,Commercial Banks,0,1
+928,Wolverine World Wide,9341 Cortland Dr. N.E.,Rockford,MI,United States,"Grand Rapids-Wyoming, MI",2273.7,4000,Apparel,0,1
+929,Vail Resorts,390 Interlocken Crescent,Broomfield,CO,United States,"Denver-Aurora-Lakewood, CO",2271.6,23000,"Hotels, Casinos, Resorts",0,1
+930,Benchmark Electronics,56 S. Rockford Dr.,Tempe,AZ,United States,"Phoenix-Mesa-Scottsdale, AZ",2268.1,10600,Semiconductors and Other Electronic Components,0,1
+931,HNI,600 E. Second St.,Muscatine,IA,United States,"Muscatine, IA",2246.9,8450,"Home Equipment, Furnishings",0,1
+932,F5 Networks,801 Fifth Ave.,Seattle,WA,United States,"Seattle-Tacoma-Bellevue, WA",2242.4,5325,Network and Other Communications Equipment,0,1
+933,Affiliated Managers Group,777 S. Flagler Dr.,West Palm Beach,FL,United States,"Miami-Fort Lauderdale-West Palm Beach, FL",2239.6,4000,Securities,0,1
+934,OGE Energy,321 N. Harvey Ave.,Oklahoma City,OK,United States,"Oklahoma City, OK",2231.6,2425,Utilities: Gas and Electric,0,1
+935,Universal,9201 Forest Hill Ave.,Richmond,VA,United States,"Richmond, VA",2227.2,28000,Tobacco,0,1
+936,BOK Financial,Boston Ave. at Second St.,Tulsa,OK,United States,"Tulsa, OK",2226.3,5107,Commercial Banks,0,1
+937,ManTech International,2251 Corporate Park Dr.,Herndon,VA,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",2222.6,8900,Information Technology Services,0,1
+938,Summit Materials,1550 Wynkoop St.,Denver,CO,United States,"Denver-Aurora-Lakewood, CO",2222.1,6000,"Building Materials, Glass",0,1
+939,AMN Healthcare Services,8840 Cypress Waters Blvd.,Dallas,TX,United States,"Dallas-Fort Worth-Arlington, TX",2222.1,3236,Health Care: Pharmacy and Other Services,0,1
+940,Groupon,600 W. Chicago Ave.,Chicago,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",2218.9,6345,Internet Services and Retailing,0,1
+941,Newmark Group,125 Park Ave.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",2218.1,5600,Real Estate,0,1
+942,Fossil Group,901 S. Central Expressway,Richardson,TX,United States,"Dallas-Fort Worth-Arlington, TX",2217.7,10200,Apparel,0,1
+943,Modine Manufacturing,1500 DeKoven Ave.,Racine,WI,United States,"Racine, WI",2212.7,12200,Motor Vehicles and Parts,0,1
+944,Griffon,712 Fifth Ave.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",2209.3,7300,"Building Materials, Glass",0,1
+945,Cypress Semiconductor,198 Champion Court,San Jose,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",2205.3,5871,Semiconductors and Other Electronic Components,0,1
+946,Generac Holdings,S45 W29290 Hwy. 59,Waukesha,WI,United States,"Milwaukee-Waukesha-West Allis, WI",2204.3,5551,Industrial Machinery,0,1
+947,Matson,1411 Sand Island Pkwy.,Honolulu,HI,United States,"Urban Honolulu, HI",2203.1,1988,Shipping,0,1
+948,Genesco,1415 Murfreesboro Rd.,Nashville,TN,United States,"Nashville-Davidson-Murfreesboro-Franklin, TN",2197.1,13850,Specialty Retailers: Apparel,0,1
+949,Nordson,28601 Clemens Rd.,Westlake,OH,United States,"Cleveland-Elyria, OH",2194.2,7579,Industrial Machinery,0,1
+950,NewMarket,330 S. Fourth St.,Richmond,VA,United States,"Richmond, VA",2190.3,2118,Chemicals,0,1
+951,Echo Global Logistics,600 W. Chicago Ave.,Chicago,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",2185,2539,Transportation and Logistics,0,1
+952,Rexnord,511 W. Freshwater Way,Milwaukee,WI,United States,"Milwaukee-Waukesha-West Allis, WI",2175.2,6700,Industrial Machinery,0,1
+953,Incyte,1801 Augustine Cut-Off,Wilmington,DE,United States,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",2158.8,1456,Pharmaceuticals,0,1
+954,Fortinet,899 Kifer Rd.,Sunnyvale,CA,United States,"San Jose-Sunnyvale-Santa Clara, CA",2156.2,7082,Computer Software,0,1
+955,Foundation Building Materials,2520 Red Hill Ave.,Santa Ana,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",2154.5,3500,Wholesalers: Diversified,0,1
+956,AAR,1100 N. Wood Dale Rd.,Wood Dale,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",2147.6,5650,Aerospace and Defense,0,1
+957,Centric Brands,350 Fifth Ave.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",2146.5,3250,Apparel,0,1
+958,Edgewell Personal Care,6 Research Dr.,Shelton,CT,United States,"Bridgeport-Stamford-Norwalk, CT",2141,6000,Household and Personal Products,0,1
+959,Federated Mutual Insurance,121 E. Park Sq.,Owatonna,MN,United States,"Owatonna, MN",2134.5,2638,Insurance: Property and Casualty (Mutual),0,1
+960,Schnitzer Steel Industries,299 S.W. Clay St.,Portland,OR,United States,"Portland-Vancouver-Hillsboro, OR-WA",2132.8,3363,Metals,0,1
+961,Portland General Electric,121 S.W. Salmon St.,Portland,OR,United States,"Portland-Vancouver-Hillsboro, OR-WA",2123,2949,Utilities: Gas and Electric,0,1
+962,Gray Television,4370 Peachtree Rd. N.E.,Atlanta,GA,United States,"Atlanta-Sandy Springs-Roswell, GA",2122,7465,Entertainment,0,1
+963,BGC Partners,499 Park Ave.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",2104.2,5200,Securities,0,1
+964,EchoStar,100 Inverness Terrace E.,Englewood,CO,United States,"Denver-Aurora-Lakewood, CO",2098.3,2300,Network and Other Communications Equipment,0,1
+965,Beazer Homes USA,1000 Abernathy Rd.,Atlanta,GA,United States,"Atlanta-Sandy Springs-Roswell, GA",2087.8,1205,Homebuilders,0,1
+966,LHC Group,901 Hugh Wallis Rd. S.,Lafayette,LA,United States,"Lafayette, LA",2080.2,22785,Health Care: Pharmacy and Other Services,0,1
+967,ServiceMaster Global Holdings,150 Peabody Place,Memphis,TN,United States,"Memphis, TN-MS-AR",2077,12000,Diversified Outsourcing Services,0,1
+968,Bruker,40 Manning Rd.,Billerica,MA,United States,"Boston-Cambridge-Newton, MA-NH",2072.6,7230,"Scientific, Photographic and Control Equipment",0,1
+969,Oasis Petroleum,1001 Fannin St.,Houston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",2071.7,609,"Mining, Crude-Oil Production",0,1
+970,CrossAmerica Partners,600 Hamilton St.,Allentown,PA,United States,"Allentown-Bethlehem-Easton, PA-NJ",2071.4,548,"Oil and Gas Equipment, Services",0,1
+971,MYR Group,1701 Golf Rd.,Rolling Meadows,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",2071.2,7100,"Engineering, Construction",0,1
+972,Viasat,6155 El Camino Real,Carlsbad,CA,United States,"San Diego-Carlsbad, CA",2068.3,5600,Network and Other Communications Equipment,0,1
+973,GNC Holdings,300 Sixth Ave.,Pittsburgh,PA,United States,"Pittsburgh, PA",2068.2,8400,Food and Drug Stores,0,1
+974,Cabot Oil & Gas,840 Gessner Rd.,Houston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",2066.3,547,"Mining, Crude-Oil Production",0,1
+975,Bright Horizons Family Solutions,200 Talcott Ave. S.,Watertown,MA,United States,"Boston-Cambridge-Newton, MA-NH",2062,33800,Education,0,1
+976,Vista Outdoor,1 Vista Way,Anoka,MN,United States,"Minneapolis-St. Paul-Bloomington, MN-WI",2058.5,5200,zMiscellaneous,0,1
+977,HEICO,3000 Taft St.,Hollywood,FL,United States,"Miami-Fort Lauderdale-West Palm Beach, FL",2055.6,5900,Aerospace and Defense,0,1
+978,Wyndham Hotels & Resorts,22 Sylvan Way,Parsippany,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",2053,14200,"Hotels, Casinos, Resorts",0,1
+979,TCF Financial,333 W. Fort St.,Detroit,MI,United States,"Detroit-Warren-Dearborn, MI",2052.8,7732,Commercial Banks,0,1
+980,Primerica,1 Primerica Pkwy.,Duluth,GA,United States,"Atlanta-Sandy Springs-Roswell, GA",2052.5,2502,"Insurance: Life, Health (Stock)",0,1
+981,ProPetro Holding,1706 S. Midkiff,Midland,TX,United States,"Midland, TX",2052.3,1579,"Oil and Gas Equipment, Services",0,1
+982,Oceaneering International,11911 FM 529 Rd.,Houston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",2048.1,9100,"Oil and Gas Equipment, Services",0,1
+983,Floor & Decor Holdings,2500 Windy Ridge Pkwy. S.E.,Atlanta,GA,United States,"Atlanta-Sandy Springs-Roswell, GA",2045.5,6336,Specialty Retailers: Other,0,1
+984,Copart,14185 Dallas Pkwy.,Dallas,TX,United States,"Dallas-Fort Worth-Arlington, TX",2042,7327,"Automotive Retailing, Services",0,1
+985,Chico's FAS,11215 Metro Pkwy.,Fort Myers,FL,United States,"Cape Coral-Fort Myers, FL",2037.9,10944,Specialty Retailers: Apparel,0,1
+986,Barnes & Noble Education,120 Mountain View Blvd.,Basking Ridge,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",2034.6,12400,Specialty Retailers: Other,0,1
+987,Maxar Technologies,1300 W. 120th Ave.,Westminster,CO,United States,"Denver-Aurora-Lakewood, CO",2033,5800,Aerospace and Defense,0,1
+988,Evercore,55 E. 52nd St.,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",2028.8,1900,Securities,0,1
+989,Deckers Outdoor,250 Coromar Dr.,Goleta,CA,United States,"Santa Maria-Santa Barbara, CA",2020.4,3500,Apparel,0,1
+990,Express,1 Express Dr.,Columbus,OH,United States,"Columbus, OH",2019.2,9160,Specialty Retailers: Apparel,0,1
+991,Hovnanian Enterprises,90 Matawan Rd.,Matawan,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",2016.9,1868,Homebuilders,0,1
+992,Air Lease,2000 Ave. of the Stars,Los Angeles,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",2016.9,117,Equipment Leasing,0,1
+993,Rollins,2170 Piedmont Rd. N.E.,Atlanta,GA,United States,"Atlanta-Sandy Springs-Roswell, GA",2015.5,14952,Diversified Outsourcing Services,0,1
+994,SBA Communications,8051 Congress Ave.,Boca Raton,FL,United States,"Miami-Fort Lauderdale-West Palm Beach, FL",2014.6,1475,Real Estate,0,1
+995,Deluxe,3680 Victoria St. N.,Shoreview,MN,United States,"Minneapolis-St. Paul-Bloomington, MN-WI",2008.7,6352,"Publishing, Printing",0,1
+996,Mr. Cooper Group,8950 Cypress Waters Blvd.,Coppell,TX,United States,"Dallas-Fort Worth-Arlington, TX",2007,9100,Diversified Financials,0,1
+997,Herc Holdings,27500 Riverview Center Blvd.,Bonita Springs,FL,United States,"Cape Coral-Fort Myers, FL",1999,5100,Equipment Leasing,0,1
+998,Healthpeak Properties,1920 Main St.,Irvine,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",1997.4,204,Real Estate,0,1
+999,SPX FLOW,13320 Ballantyne Corporate Place,Charlotte,NC,United States,"Charlotte-Concord-Gastonia, NC-SC",1996.3,5000,Industrial Machinery,0,1
+1000,Liberty Oilfield Services,950 17th St.,Denver,CO,United States,"Denver-Aurora-Lakewood, CO",1990.3,2571,"Oil and Gas Equipment, Services",0,1

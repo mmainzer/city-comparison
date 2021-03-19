@@ -7,6 +7,7 @@ let laborForceMax;
 let uRateMin = 3;
 let uRateMax;
 let unemployment = [];
+let airHeaders = [ 'Area', 'Airport(s)', 'Airports Serving MSA', 'Non-Stop Domestic Markets', 'Non-Stop International Markets', 'Total Non-Stop Markets' ];
 
 const round = (value, precision) => {
 	const multiplier = Math.pow(10, precision || 0);

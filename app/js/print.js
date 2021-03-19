@@ -8,12 +8,15 @@ $("#printPreview").click( () => {
 
 	$("#printButton").show();
 	$(".print-only").show();
+	$(".logo-container").css("display","flex");
 	$(".print-preview-buttons").css("display","flex");
 
 	$(".data-section").css("padding-top", "0");
 	$("#map").css("width","100%");
 
 	map.flyTo({ center:[10.911,-2.003],zoom:3.57 });
+	airMap.flyTo({ center:[10.911,-2.003],zoom:3.57 });
+	fortuneMap.flyTo({ center:[10.911,-2.003],zoom:3.57 });
 
 	$("thead").css("font-size","14px");
 	$("tbody").css("font-size","12px");
@@ -40,6 +43,8 @@ $("#exitPrint").click( () => {
 	$(".print-only").hide();
 	$(".print-preview-buttons").css("display","none");
 	map.fitBounds([[-22.368, -12.983],[20.676, 12.704]]);
+	airMap.fitBounds([[-22.368, -12.983],[20.676, 12.704]]);
+	fortuneMap.fitBounds([[-22.368, -12.983],[20.676, 12.704]]);
 
 	$("#lineContainer svg").remove();
 	let width = $("#lineContainer").width();

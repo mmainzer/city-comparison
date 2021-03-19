@@ -3,7 +3,7 @@ $("#msaSelect").select2({
 	maximumSelectionLength: 10
 });
 
-$("#layerSelect").select2({
+$(".layerSelect").select2({
 	closeOnSelect: true,
 });
 
@@ -34,6 +34,8 @@ $("#compareButton").click( () => {
 	$("#msaList").text(msaLabels.join(' | '));
 
 	map.setFilter('msaPoints',["all",["match",["get","cbsa"],msas,true,false]]);
+	airMap.setFilter('msaPointsAirLabel',["all",["match",["get","cbsa"],msas,true,false]]);
+	airMap.setFilter('msaPoints',["all",["match",["get","cbsa"],msas,true,false]]);
 	// get the prefixes and geoids of the selected geographies
   	let series = msas.map(id => areas.find(({ geoid }) => geoid === id).prefix);
   	// flatten the array in case a cd region was selected with a nested array
@@ -64,20 +66,79 @@ $("#compareButton").click( () => {
   	}
 
   	$("#printPreview").show();
+  	
 
 });
 
-$("#layerSelect").change( () => {
+$("#blsSelect").change( () => {
 	console.log("changing style layer");
-	styleLayer = $("#layerSelect").select2('data');
+	styleLayer = $("#blsSelect").select2('data');
 	styleLayer = [ styleLayer[0].text ];
-	$("#selectedMapLayer").text( styleLayer[0] );
+	$("#selectedBlsLayer").text( styleLayer[0] );
 	
 	if (styleLayer[0] === "Labor Force") {
-		map.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","October_2020_LaborForce"],0,laborForceMin,6715275,laborForceMax]);
+		map.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","December_2020_LaborForce"],0,laborForceMin,6000000,laborForceMax]);
 
 	} else if (styleLayer[0] === "Unemployment Rate") {
-		map.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","October_2020_URate"],1.9,uRateMin,22.5,uRateMax]);
+		map.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","December_2020_URate"],5,uRateMin,20,uRateMax]);
+
+	}
+});
+
+$("#airSelect").change( () => {
+	console.log("changing style layer");
+	styleLayer = $("#airSelect").select2('data');
+	styleLayer = [ styleLayer[0].text ];
+	$("#selectedAirLayer").text( styleLayer[0] );
+	
+	if (styleLayer[0] === "Total Airports") {
+		airMap.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","NUMBER_AIRPORTS"],0,5,4,25]);
+		airMap.setLayoutProperty( 'msaPointsAirLabel', 'text-field', ["to-string",["get","NUMBER_AIRPORTS"]] );
+		airMap.setFilter('msaPointsAirLabel', ["all",[">",["get","NUMBER_AIRPORTS"],0]]);
+
+	} else if (styleLayer[0] === "Domestic Markets") {
+		airMap.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","NS_DOMESTIC"],0,3,1,5,244,30]);
+		airMap.setLayoutProperty( 'msaPointsAirLabel', 'text-field', ["to-string",["get","NS_DOMESTIC"]] );
+		airMap.setFilter('msaPointsAirLabel', ["all",[">",["get","NS_DOMESTIC"],50]]);
+
+	} else if (styleLayer[0] === "International Markets") {
+		airMap.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","NS_INTERNATIONAL"],0,3,1,5,206,30]);
+		airMap.setLayoutProperty( 'msaPointsAirLabel', 'text-field', ["to-string",["get","NS_INTERNATIONAL"]] );
+		airMap.setFilter('msaPointsAirLabel', ["all",[">",["get","NS_INTERNATIONAL"],50]]);
+
+	} else if (styleLayer[0] === "Total Markets") {
+		airMap.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","NS_TOTAL"],0,3,1,5,428,50]);
+		airMap.setLayoutProperty( 'msaPointsAirLabel', 'text-field', ["to-string",["get","NS_TOTAL"]] );
+		airMap.setFilter('msaPointsAirLabel', ["all",[">",["get","NS_TOTAL"],50]]);
+
+	}
+});
+
+$("#fortuneSelect").change( () => {
+	console.log("changing style layer");
+	styleLayer = $("#fortuneSelect").select2('data');
+	styleLayer = [ styleLayer[0].text ];
+	$("#selectedFortuneLayer").text( styleLayer[0] );
+
+	if (styleLayer[0] === "Total Fortune 500") {
+		fortuneMap.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","Fortune 500"],0,3,1,5,65,35]);
+		fortuneMap.setLayoutProperty( 'msaPointsFortuneLabel', 'visibility', 'visible' );
+		fortuneMap.setLayoutProperty( 'msaPointsFortuneLabel', 'text-field', ["to-string",["get","Fortune 500"]] );
+		fortuneMap.setFilter('msaPointsFortuneLabel', ["all",[">",["get","Fortune 1000"],19]]);
+
+	} else if (styleLayer[0] === "Total Fortune 1000") {
+		fortuneMap.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","Fortune 1000"],0,3,1,5,100,35]);
+		fortuneMap.setLayoutProperty( 'msaPointsFortuneLabel', 'visibility', 'visible' );
+		fortuneMap.setLayoutProperty( 'msaPointsFortuneLabel', 'text-field', ["to-string",["get","Fortune 1000"]] );
+		fortuneMap.setFilter('msaPointsFortuneLabel', ["all",[">",["get","Fortune 500"],9]]);
+
+	} else if (styleLayer[0] === "Fortune 500 Companies") {
+		fortuneMap.setLayoutProperty( 'msaPointsFortuneLabel', 'visibility', 'none' );
+		fortuneMap.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","NS_INTERNATIONAL"],0,3,1,5,206,30]);
+
+	} else if (styleLayer[0] === "Fortune 1000 Companies") {
+		fortuneMap.setLayoutProperty( 'msaPointsFortuneLabel', 'visibility', 'none' );
+		fortuneMap.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","NS_TOTAL"],0,3,1,5,428,30]);
 
 	}
 });

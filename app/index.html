@@ -60,6 +60,34 @@
     </form>
   </div>
 
+  <nav class="navbar navbar-expand-md navbar-light bg-light no-print">
+      <a class="navbar-brand" href="https://www.selectgeorgia.com/"><img src="./assets/ga_power_ced_lockup.png" class="img-fluid" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.selectgeorgia.com/discover-georgia/georgia-overview/">Discover Georgia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.selectgeorgia.com/about-us/our-approach/">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.selectgeorgia.com/services/view-services/">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.selectgeorgia.com/resources/resources/">Resources</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.selectgeorgia.com/site-selection/site-search/">Site Location</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
     <div class="container-fluid button-container print-preview-buttons">
         <button class="btn btn-light" id="exitPrint">Exit Print Preview</button>
         <button class="btn btn-primary print-only" id="printButton" type="button">Print</button>
@@ -459,31 +487,30 @@
       <button id="printPreview" type="button" class="btn btn-primary">Print Preview</button>
     </div>
 
-    
-
-    <div class="layer-select-container no-print row">
-      
-      <div class="col">
-          <p class="map-display">Size MSAs by...</p>
-          <select id="layerSelect" class="select no-print">
-            <option>Labor Force</option>
-            <option>Unemployment Rate</option>
-            <!-- <option>Population</option> -->
-          </select>
-      </div>
-      <div class="col">
-
-      </div>
-      
-    </div>
 
     <section class="sheet padding-10mm">
         <div id="msaSelectContainer" class="row msa-select-container print-only">
             <p id="msaList" class="msa-select-container print-only"></p>
         </div>
 
+        <h2 class="section-heading">Labor Force & Unemployment</h2>
+        <div class="layer-select-container no-print row">
+      
+          <div class="col">
+              <p class="map-display">Size MSAs by...</p>
+              <select id="blsSelect" class="layerSelect select no-print">
+                <option>Labor Force</option>
+                <option>Unemployment Rate</option>
+                <!-- <option>Population</option> -->
+              </select>
+          </div>
+          <div class="col">
+
+          </div>
+          
+        </div>
         <div class="chart-header">
-            <h3><span id="selectedMapLayer">Labor Force</span> in selected MSAs</h3>
+            <h3><span id="selectedBlsLayer" class="selectedMapLayer">Labor Force</span> in selected MSAs</h3>
             <div class="key-bubbles">
                 <div class="key-bubbles-wrap">
                   <div class="key-bubble" style="width: 17px; height: 17px;"></div>
@@ -493,19 +520,23 @@
                 </div>
             </div>
         </div>
-        <div id="mapRow" class="row">
+        <div class="row mapRow">
 
           <div id="map"></div>
 
         </div>
+        <div class="row logo-container print-only">
+            <img src="./assets/ga_power_ced_lockup.png" class="img-fluid" alt="">
+        </div>
     </section>
 
     <section class="sheet padding-10mm">
+            
             <div id="sectionLaborForce" class="row data-section">
-              <h3 class="section-heading heading">Labor Force & Unemployment</h3>
+              
               <div class="table-container table-responsive">
 
-                <table id="blsTable" class="table table-striped table-bordered" style="width:100%; margin:auto">
+                <table id="blsTable" class="table" style="width:100%; margin:auto">
                   <thead>
                     <!-- dynamically generate rows via jquery iteration through headers array -->
                   </thead>
@@ -519,10 +550,140 @@
               </div>
               <div id="lineContainer" class="chart-container col-xs-12 col-lg-12"></div>
             </div>
+
+            <div class="row logo-container print-only">
+                <img src="./assets/ga_power_ced_lockup.png" class="img-fluid" alt="">
+            </div>
     </section>
     
+    <!-- NOW THE AIR TRAVEL SECTION -->
+    
+    <section class="sheet padding-10mm">
+        <h2 class="section-heading">Airport Connectivity</h2>
+        <div class="layer-select-container no-print row">
+      
+          <div class="col">
+              <p class="map-display">Size MSAs by...</p>
+              <select id="airSelect" class="layerSelect select no-print">
+                <option>Total Airports</option>
+                <option>Domestic Markets</option>
+                <option>International Markets</option>
+                <option>Total Markets</option>
+              </select>
+          </div>
+          <div class="col">
+
+          </div>
+          
+        </div>
+        <div class="chart-header">
+            <h3><span id="selectedAirLayer" class="selectedMapLayer">Total Airports</span> in selected MSAs</h3>
+            <div class="key-bubbles">
+                <div class="key-bubbles-wrap">
+                  <div class="key-bubble" style="width: 17px; height: 17px;"></div>
+                  <div class="key-bubble" style="width: 27px; height: 27px;"></div>
+                  <div class="key-bubble" style="width: 37px; height: 37px;"></div>
+                  <div class="key-bubble" style="width: 47px; height: 47px;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row mapRow">
+
+          <div id="airMap"></div>
+
+        </div>
+
+        <div class="row logo-container print-only">
+            <img src="./assets/ga_power_ced_lockup.png" class="img-fluid" alt="">
+        </div>
+    </section>
+
+    <section class="sheet padding-10mm">
+            <div id="sectionAirTravel" class="row data-section">
+              
+              <div class="table-container table-responsive">
+
+                <table id="airTable" class="table" style="width:100%; margin:auto">
+                  <thead>
+                    <!-- dynamically generate rows via jquery iteration through headers array -->
+                  </thead>
+                  <tbody>
+                    <!-- dynamically generate rows via jquery iteration through headers array -->
+                  </tbody>
+                </table>
+
+              </div>
+            </div>
+
+            <div class="row logo-container print-only">
+                <img src="./assets/ga_power_ced_lockup.png" class="img-fluid" alt="">
+            </div>
+    </section>
 
 
+    <!-- NOW THE FORTUNE THOUSAND SECTION -->
+    
+    <section class="sheet padding-10mm">
+        <h2 class="section-heading">Fortune 1000 Companies</h2>
+        <div class="layer-select-container no-print row">
+      
+          <div class="col">
+              <p class="map-display">Size MSAs by...</p>
+              <select id="fortuneSelect" class="layerSelect select no-print">
+                <option>Total Fortune 500</option>
+                <option selected>Total Fortune 1000</option>
+                <option>Fortune 500 Companies</option>
+                <option>Fortune 1000 Companies</option>
+              </select>
+          </div>
+          <div class="col">
+
+          </div>
+          
+        </div>
+        <div class="chart-header">
+            <h3><span id="selectedFortuneLayer" class="selectedMapLayer">Total Fortune 1000 Companies</span> in selected MSAs</h3>
+            <div class="key-bubbles">
+                <div class="key-bubbles-wrap">
+                  <div class="key-bubble" style="width: 17px; height: 17px;"></div>
+                  <div class="key-bubble" style="width: 27px; height: 27px;"></div>
+                  <div class="key-bubble" style="width: 37px; height: 37px;"></div>
+                  <div class="key-bubble" style="width: 47px; height: 47px;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row mapRow">
+
+          <div id="fortuneMap"></div>
+
+        </div>
+
+        <div class="row logo-container print-only">
+            <img src="./assets/ga_power_ced_lockup.png" class="img-fluid" alt="">
+        </div>
+    </section>
+
+    <section class="sheet padding-10mm">
+            <div id="sectionFortune" class="row data-section">
+              
+              <div class="table-container table-responsive">
+
+                <table id="fortuneTable" class="table" style="width:100%; margin:auto">
+                  <thead>
+                    <!-- dynamically generate rows via jquery iteration through headers array -->
+                  </thead>
+                  <tbody>
+                    <!-- dynamically generate rows via jquery iteration through headers array -->
+                  </tbody>
+                </table>
+
+              </div>
+            </div>
+
+            <div class="row logo-container print-only">
+                <img src="./assets/ga_power_ced_lockup.png" class="img-fluid" alt="">
+            </div>
+    </section>
 
 
   </div>
@@ -557,6 +718,7 @@
 <script type="text/javascript" src="./js/mapEvents.js"></script>
 <script type="text/javascript" src="./js/charts.js"></script>
 <script type="text/javascript" src="./js/print.js"></script>
+<script type="text/javascript" src="./js/mapFeatures.js"></script>
 
 </body>
 

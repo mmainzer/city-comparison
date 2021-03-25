@@ -43,7 +43,23 @@ const makeBlsCall = (series) => {
 			// since we only want filtered features, we wait, then query the features so we only have the
 			// data for the relevant MSAs
 			const features = map.queryRenderedFeatures( { layers : [ 'msaPoints' ] } );
-			buildAirTable(features, "airTable", airHeaders);
+
+			features.forEach( (feature) => {
+
+				feature.properties.TOTPOP_CY = commas( feature.properties.TOTPOP_CY );
+				feature.properties.TOTPOP_FY = commas( feature.properties.TOTPOP_FY );
+				feature.properties.POP_ANNUAL_GROWTH = round( feature.POP_ANNUAL_GROWTH, 1 ) + "%"; 
+
+			});
+
+			buildTable(features, "airTable", airHeaders, ['AIRPORT','NUMBER_AIRPORTS','NS_DOMESTIC','NS_INTERNATIONAL','NS_TOTAL'] );
+			buildTable(features, "fortuneTable", fortuneHeaders, ['Fortune 500','Fortune 1000'] );
+			buildTable(features, "personTaxTable", personTaxHeaders, ['Avg. Local Sales Tax','State Sales Tax','Total Sales Tax','Property Tax per Capita','Property Tax Rank','Graduated Individual Tax','Individual Tax Rate'] );
+			buildTable(features, "corporateTaxTable", corporateTaxHeaders, ['Franchise Tax Rate','Graduated Corporate Tax','Corporate Tax Rate','Corporate Tax Brackets'] );
+			buildTable(features, "codbTable", codbHeaders, ['MSA_CODB','UNIT_LABOR_COST','ENERGY_COST','STATE_LOCAL_TAX','OFFICE_RENT' ] );
+			buildTable(features, "employerCostsTable", employerCostsHeaders, ['Payroll Tax Notes','Taxable Wages Rate','New Employers Rate','Taxable Wage Base' ] );
+			buildTable(features, "popTable", popHeaders, ['TOTPOP_CY','TOTPOP_FY','POP_ANNUAL_GROWTH','MEDAGE_CY','DIV_INDEX' ] );
+			buildTable(features, "workTable", workHeaders, ['NUMBER_OF_COLLEGES','ENROLLMENT','COMPLETIONS','COLLEGE_DEGREE' ] );
 
 		});
 
@@ -72,9 +88,6 @@ const buildBlsTable = (datasetOne, datasetTwo) => {
 	str += '</tr>';
 
 	$('#blsTable thead').html(str);
-
-	console.log(datasetOne);
-	console.log(datasetTwo);
 
 	let arrayOne = [];
 	let arrayTwo = [];
@@ -133,8 +146,6 @@ const buildBlsTable = (datasetOne, datasetTwo) => {
 
 	});
 
-	console.log(arrayOne);
-	console.log(arrayTwo);
 	let array = [];
 	for(let i=0; i<arrayOne.length; i++) {
 		array.push({
@@ -142,7 +153,6 @@ const buildBlsTable = (datasetOne, datasetTwo) => {
 			...(arrayTwo.find((itemInner) => itemInner.geoid === arrayOne[i].geoid))
 		});
 	}
-	console.log(array);
 
 	let tableData = [];
 	array.forEach( (element) => {
@@ -154,8 +164,6 @@ const buildBlsTable = (datasetOne, datasetTwo) => {
 		tempArray.push(element.latestRate+"%");
 		tableData.push(tempArray);
 	});
-
-	console.log(tableData);
 
 	// build row and send to html table
 	tableData.forEach(function(rowData) {

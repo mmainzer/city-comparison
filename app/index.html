@@ -96,7 +96,7 @@
   <div id="allContent" class="container">
     
     <div id="selectBoxRow" class="row no-print">
-      <h2>Select up to five MSAs for comparison.</h2>
+      <h2>Select up to ten MSAs for comparison.</h2>
       <select id="msaSelect" class="select" name="msaList" multiple="multiple">
         <option value='10180'>Abilene, TX</option>
         <option value='10420'>Akron, OH</option>
@@ -493,6 +493,133 @@
             <p id="msaList" class="msa-select-container print-only"></p>
         </div>
 
+        <h1 class="section-title">Demographics & Workforce</h1>
+        <h2 class="section-heading">Population</h2>
+        <div class="layer-select-container no-print row">
+      
+          <div class="col">
+              <p class="map-display">Size MSAs by...</p>
+              <select id="popSelect" class="layerSelect select no-print">
+                <option>2020 Population</option>
+                <option>2025 Population</option>
+                <option>Population Growth Rate</option>
+                <option>Median Age</option>
+                <option>Diversity Index</option>
+              </select>
+          </div>
+          <div class="col">
+
+          </div>
+          
+        </div>
+        <div class="chart-header">
+            <h3><span id="selectedPopLayer" class="selectedMapLayer">2020 Population</span> in selected MSAs</h3>
+            <div class="key-bubbles">
+                <div class="key-bubbles-wrap">
+                  <div class="key-bubble" style="width: 17px; height: 17px;"></div>
+                  <div class="key-bubble" style="width: 27px; height: 27px;"></div>
+                  <div class="key-bubble" style="width: 37px; height: 37px;"></div>
+                  <div class="key-bubble" style="width: 47px; height: 47px;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row mapRow">
+
+          <div id="popMap"></div>
+
+        </div>
+        <div class="row logo-container print-only">
+            <img src="./assets/ga_power_ced_lockup.png" class="img-fluid" alt="">
+        </div>
+    </section>
+
+    <section class="sheet padding-10mm">
+        <h2 class="section-heading print-only">Population</h2>
+            
+            <div id="sectionPop" class="row data-section">
+              
+              <div class="table-container table-responsive">
+
+                <table id="popTable" class="table center-five" style="width:100%; margin:auto">
+                  <thead>
+                    <!-- dynamically generate rows via jquery iteration through headers array -->
+                  </thead>
+                  <tbody>
+                    <!-- dynamically generate rows via jquery iteration through headers array -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="row logo-container print-only">
+                <img src="./assets/ga_power_ced_lockup.png" class="img-fluid" alt="">
+            </div>
+    </section>
+
+    <section class="sheet padding-10mm">
+
+        <h2 class="section-heading">Future Workforce</h2>
+        <div class="layer-select-container no-print row">
+      
+          <div class="col">
+              <p class="map-display">Size MSAs by...</p>
+              <select id="workSelect" class="layerSelect select no-print">
+                <option>% Bachelor's Degree or Higher</option>
+                <option selected>Number of Colleges</option>v
+                <option>College Enrollment</option>
+                <option>Degrees Conferred</option>
+              </select>
+          </div>
+          <div class="col">
+
+          </div>
+          
+        </div>
+        <div class="chart-header">
+            <h3><span id="selectedWorkLayer" class="selectedMapLayer">Number of Colleges</span> in selected MSAs</h3>
+            <div class="key-bubbles">
+                <div class="key-bubbles-wrap">
+                  <div class="key-bubble" style="width: 17px; height: 17px;"></div>
+                  <div class="key-bubble" style="width: 27px; height: 27px;"></div>
+                  <div class="key-bubble" style="width: 37px; height: 37px;"></div>
+                  <div class="key-bubble" style="width: 47px; height: 47px;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row mapRow">
+
+          <div id="workMap"></div>
+
+        </div>
+        <div class="row logo-container print-only">
+            <img src="./assets/ga_power_ced_lockup.png" class="img-fluid" alt="">
+        </div>
+    </section>
+
+    <section class="sheet padding-10mm">
+        <h2 class="section-heading print-only">Workforce</h2>
+            
+            <div id="sectionWork" class="row data-section">
+              
+              <div class="table-container table-responsive">
+
+                <table id="workTable" class="table center-four" style="width:100%; margin:auto">
+                  <thead>
+                    <!-- dynamically generate rows via jquery iteration through headers array -->
+                  </thead>
+                  <tbody>
+                    <!-- dynamically generate rows via jquery iteration through headers array -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="row logo-container print-only">
+                <img src="./assets/ga_power_ced_lockup.png" class="img-fluid" alt="">
+            </div>
+    </section>
+
+    <section class="sheet padding-10mm">
         <h2 class="section-heading">Labor Force & Unemployment</h2>
         <div class="layer-select-container no-print row">
       
@@ -531,12 +658,13 @@
     </section>
 
     <section class="sheet padding-10mm">
+        <h2 class="section-heading print-only">Labor Force & Unemployment</h2>
             
             <div id="sectionLaborForce" class="row data-section">
               
               <div class="table-container table-responsive">
 
-                <table id="blsTable" class="table" style="width:100%; margin:auto">
+                <table id="blsTable" class="table center-four" style="width:100%; margin:auto">
                   <thead>
                     <!-- dynamically generate rows via jquery iteration through headers array -->
                   </thead>
@@ -599,11 +727,12 @@
     </section>
 
     <section class="sheet padding-10mm">
+        <h2 class="section-heading print-only">Airport Connectivity</h2>
             <div id="sectionAirTravel" class="row data-section">
               
               <div class="table-container table-responsive">
 
-                <table id="airTable" class="table" style="width:100%; margin:auto">
+                <table id="airTable" class="table center-four" style="width:100%; margin:auto">
                   <thead>
                     <!-- dynamically generate rows via jquery iteration through headers array -->
                   </thead>
@@ -632,8 +761,6 @@
               <select id="fortuneSelect" class="layerSelect select no-print">
                 <option>Total Fortune 500</option>
                 <option selected>Total Fortune 1000</option>
-                <option>Fortune 500 Companies</option>
-                <option>Fortune 1000 Companies</option>
               </select>
           </div>
           <div class="col">
@@ -664,11 +791,195 @@
     </section>
 
     <section class="sheet padding-10mm">
+        <h2 class="section-heading print-only">Fortune 1000 Companies</h2>
             <div id="sectionFortune" class="row data-section">
               
               <div class="table-container table-responsive">
 
-                <table id="fortuneTable" class="table" style="width:100%; margin:auto">
+                <table id="fortuneTable" class="table center-two" style="width:100%; margin:auto">
+                  <thead>
+                    <!-- dynamically generate rows via jquery iteration through headers array -->
+                  </thead>
+                  <tbody>
+                    <!-- dynamically generate rows via jquery iteration through headers array -->
+                  </tbody>
+                </table>
+
+              </div>
+            </div>
+
+            <div class="row logo-container print-only">
+                <img src="./assets/ga_power_ced_lockup.png" class="img-fluid" alt="">
+            </div>
+    </section>
+
+    <!-- SALES, INDIVIDUAL INCOME AND PROPERTY TAXES -->
+
+    <section class="sheet padding-10mm">
+        <h1 class="section-title">Taxes & Cost of Doing Business</h1>
+        <h2 class="section-heading">Sales, Property, and Income Taxes</h2>
+        <div class="layer-select-container no-print row">
+      
+          <div class="col">
+              <p class="map-display">Size MSAs by...</p>
+              <select id="taxSelect" class="layerSelect select no-print">
+                <option selected>Avg. Local Sales Tax Rate</option>
+                <option>State Sales Tax Rate</option>
+                <option>Total Sales Tax Rate</option>
+                <option>Property Tax Per Capita</option>
+                <option>Property Tax Rank</option>
+                <option>Individual Income Tax Rate</option>
+                <option>Corporate Income Tax Rate</option>
+              </select>
+          </div>
+          <div class="col">
+
+          </div>
+          
+        </div>
+        <div class="chart-header">
+            <h3><span id="selectedTaxLayer" class="selectedMapLayer">Avg. Local Sales Tax Rate</span> in selected MSAs</h3>
+            <div class="key-bubbles">
+                <div class="key-bubbles-wrap">
+                  <div class="key-bubble" style="width: 17px; height: 17px;"></div>
+                  <div class="key-bubble" style="width: 27px; height: 27px;"></div>
+                  <div class="key-bubble" style="width: 37px; height: 37px;"></div>
+                  <div class="key-bubble" style="width: 47px; height: 47px;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row mapRow">
+
+          <div id="taxMap"></div>
+
+        </div>
+
+        <div class="row logo-container print-only">
+            <img src="./assets/ga_power_ced_lockup.png" class="img-fluid" alt="">
+        </div>
+    </section>
+
+    <section class="sheet padding-10mm">
+        <h2 class="section-heading print-only">Sales, Individual Income and Property Taxes</h2>
+            <div id="sectionPersonTax" class="row data-section">
+              
+              <div class="table-container table-responsive">
+
+                <table id="personTaxTable" class="table center-eight" style="width:100%; margin:auto">
+                  <thead>
+                    <!-- dynamically generate rows via jquery iteration through headers array -->
+                  </thead>
+                  <tbody>
+                    <!-- dynamically generate rows via jquery iteration through headers array -->
+                  </tbody>
+                </table>
+
+              </div>
+            </div>
+
+            <div class="row logo-container print-only">
+                <img src="./assets/ga_power_ced_lockup.png" class="img-fluid" alt="">
+            </div>
+    </section>
+
+    <section class="sheet padding-10mm">
+        <h2 class="section-heading print-only">Corporate Taxes (State Level)</h2>
+            <div id="sectionCorporateTax" class="row data-section">
+              
+              <div class="table-container table-responsive">
+
+                <table id="corporateTaxTable" class="table center-three" style="width:100%; margin:auto">
+                  <thead>
+                    <!-- dynamically generate rows via jquery iteration through headers array -->
+                  </thead>
+                  <tbody>
+                    <!-- dynamically generate rows via jquery iteration through headers array -->
+                  </tbody>
+                </table>
+
+              </div>
+            </div>
+
+            <div class="row logo-container print-only">
+                <img src="./assets/ga_power_ced_lockup.png" class="img-fluid" alt="">
+            </div>
+    </section>
+
+    <!-- NOW A SECTION ON COST OF DOING BUSINESS, INCLUDING UNEMPLOYMENT INSURANCE -->
+
+    <section class="sheet padding-10mm">
+        <h2 class="section-heading">Cost of Doing Business</h2>
+        <div class="layer-select-container no-print row">
+      
+          <div class="col">
+              <p class="map-display">Size MSAs by...</p>
+              <select id="costSelect" class="layerSelect select no-print">
+                <option selected>Overall Cost of Doing Business</option>
+                <option>Labor Costs</option>
+                <option>Energy Costs</option>
+                <option>State and Local Taxes</option>
+                <option>Office Rent</option>
+                <option>New Employer's Tax Rate</option>
+                <option>Taxable Wage Base</option>
+              </select>
+          </div>
+          <div class="col">
+
+          </div>
+          
+        </div>
+        <div class="chart-header">
+            <h3><span id="selectedCostLayer" class="selectedMapLayer">Overall Cost of Doing Business</span> in selected MSAs</h3>
+            <div class="key-bubbles">
+                <div class="key-bubbles-wrap">
+                  <div class="key-bubble" style="width: 17px; height: 17px;"></div>
+                  <div class="key-bubble" style="width: 27px; height: 27px;"></div>
+                  <div class="key-bubble" style="width: 37px; height: 37px;"></div>
+                  <div class="key-bubble" style="width: 47px; height: 47px;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row mapRow">
+
+          <div id="costMap"></div>
+
+        </div>
+
+        <div class="row logo-container print-only">
+            <img src="./assets/ga_power_ced_lockup.png" class="img-fluid" alt="">
+        </div>
+    </section>
+
+    <section class="sheet padding-10mm">
+        <h2 class="section-heading print-only">Cost of Doing Business</h2>
+            <div id="sectionCodb" class="row data-section">
+              
+              <div class="table-container table-responsive">
+
+                <table id="codbTable" class="table center-five" style="width:100%; margin:auto">
+                  <thead>
+                    <!-- dynamically generate rows via jquery iteration through headers array -->
+                  </thead>
+                  <tbody>
+                    <!-- dynamically generate rows via jquery iteration through headers array -->
+                  </tbody>
+                </table>
+
+              </div>
+            </div>
+
+            <div class="row logo-container print-only">
+                <img src="./assets/ga_power_ced_lockup.png" class="img-fluid" alt="">
+            </div>
+    </section>
+
+    <section class="sheet padding-10mm">
+        <h2 class="section-heading print-only">Employer Costs</h2>
+            <div id="sectionEmployerCosts" class="row data-section">
+              
+              <div class="table-container table-responsive">
+
+                <table id="employerCostsTable" class="table center-three" style="width:100%; margin:auto">
                   <thead>
                     <!-- dynamically generate rows via jquery iteration through headers array -->
                   </thead>

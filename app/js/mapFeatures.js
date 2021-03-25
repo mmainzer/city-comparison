@@ -1,12 +1,9 @@
 
 // function to build air travel table
-const buildAirTable = ( features, table, headers ) => {
-	console.log( table );
-	console.log( features );
-	console.log( headers );
-	
+const buildTable = ( features, table, headers, props ) => {
 	// first, empty the existing table of content
 	// if Datatable currently exists, then clear and kill it
+	console.log("building table");
 	if ( $.fn.dataTable.isDataTable( "#" + table ) ) {
 		$( "#" + table ).DataTable().destroy();
 	}
@@ -28,21 +25,15 @@ const buildAirTable = ( features, table, headers ) => {
 	let tableData = [];
 
 	features.forEach( (feature) => {
-		console.log( feature );
+
 		let array = [];
 		let geoid = [ feature.properties.cbsa ];
-		console.log( geoid );
-		let area = geoid.map(id => areas.find(({ geoid }) => geoid === id).area)[0];
-		let airports = feature.properties.NUMBER_AIRPORTS;
-		let domestic = feature.properties.NS_DOMESTIC;
-		let int = feature.properties.NS_INTERNATIONAL;
-		let total = feature.properties.NS_TOTAL;
-		let airport = feature.properties.AIRPORT;
-		array.push( area, airport, airports, domestic, int, total );
-		tableData.push( array );
-	});
+		
+		let area = geoid.map(id => areas.find(({ geoid }) => geoid === id).label)[0];
+		array.push( area );
+		getProps(array, props, feature, tableData);
 
-	console.log( tableData );
+	});
 
 	// build row and send to html table
 	tableData.forEach(function(rowData) {
@@ -54,8 +45,6 @@ const buildAirTable = ( features, table, headers ) => {
 		});			
 		$("#" + table + " tbody").append(row);
 	});
-
-	console.log(table+" tbody");
 
 	$( "#" + table ).DataTable({
 		"lengthChange" : true,
@@ -75,5 +64,16 @@ const buildAirTable = ( features, table, headers ) => {
 
 	// $(".dt-buttons.btn-group").prependTo("#" + table + "_filter");
 	$(".dt-buttons.btn-group").addClass("no-print");
+
+}
+
+const getProps = ( array, propArray, feature, tableData ) => {
+
+	propArray.forEach( (prop) => {
+		let property = feature.properties[prop];
+		array.push( property );
+	});
+
+	tableData.push( array );
 
 }

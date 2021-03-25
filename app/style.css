@@ -93,6 +93,12 @@ nav {
   background-color: #fff;
 }
 
+.section-title {
+  text-align: left;
+  margin-top: .25rem;
+  font-weight: 700;
+}
+
 .section-heading {
   text-align: left;
   margin-top: .5rem;
@@ -110,7 +116,7 @@ nav {
   justify-content: center;
   padding-content: 0;
   position: absolute;
-  bottom: 37px;
+  bottom: 0;
   padding: 0;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -176,6 +182,22 @@ nav {
   cursor: pointer;
 }
 
+#popMap {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  cursor: pointer;
+}
+
+#workMap {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  cursor: pointer;
+}
+
 #airMap {
   position: relative;
   top: 0;
@@ -185,6 +207,22 @@ nav {
 }
 
 #fortuneMap {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  cursor: pointer;
+}
+
+#taxMap {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  cursor: pointer;
+}
+
+#costMap {
   position: relative;
   top: 0;
   bottom: 0;
@@ -425,19 +463,43 @@ nav {
   background-color: #fdb714;
 }
 
-#airTable thead th:nth-last-child(-n+4) {
+.center-four thead th:nth-last-child(-n+4) {
   text-align: center;
 }
 
-#airTable tbody td:nth-last-child(-n+4) {
+.center-four tbody td:nth-last-child(-n+4) {
   text-align: center;
 }
 
-#blsTable thead th:nth-last-child(-n+4) {
+.center-two thead th:nth-last-child(-n+2) {
   text-align: center;
 }
 
-#blsTable tbody td:nth-last-child(-n+4) {
+.center-two tbody td:nth-last-child(-n+2) {
+  text-align: center;
+}
+
+.center-eight thead th:nth-last-child(-n+8) {
+  text-align: center;
+}
+
+.center-eight tbody td:nth-last-child(-n+8) {
+  text-align: center;
+}
+
+.center-three thead th:nth-last-child(-n+3) {
+  text-align: center;
+}
+
+.center-three tbody td:nth-last-child(-n+3) {
+  text-align: center;
+}
+
+.center-five thead th:nth-last-child(-n+5) {
+  text-align: center;
+}
+
+.center-five tbody td:nth-last-child(-n+5) {
   text-align: center;
 }
 

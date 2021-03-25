@@ -4,7 +4,7 @@ map.on('mousemove', 'msaPoints', function(e) {
 
 	let lngLat = e.lngLat;
 	let msa = e.features[0].properties.msa;
-	console.log(e.features[0].properties.December_2020_LaborForce);
+
 	msa = '<h1 class="popup-header">'+msa+'</h1>';
 	let popupVal;
 	if (styleLayer[0] === "Labor Force") {

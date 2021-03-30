@@ -40,6 +40,7 @@ $("#compareButton").click( () => {
 	fortuneMap.setFilter('msaPoints',["all",["match",["get","cbsa"],msas,true,false]]);
 	taxMap.setFilter('msaPoints',["all",["match",["get","cbsa"],msas,true,false]]);
 	costMap.setFilter('msaPoints',["all",["match",["get","cbsa"],msas,true,false]]);
+	livingMap.setFilter('msaPoints',["all",["match",["get","cbsa"],msas,true,false]]);
 	// get the prefixes and geoids of the selected geographies
   	let series = msas.map(id => areas.find(({ geoid }) => geoid === id).prefix);
   	// flatten the array in case a cd region was selected with a nested array
@@ -83,22 +84,40 @@ $("#popSelect").change( () => {
 	if (styleLayer[0] === "2020 Population") {
 		popMap.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","TOTPOP_CY"],57491,5,19560212,50]);
 		popMap.setPaintProperty('msaPoints','circle-color','hsla(42, 985, 54%, 0.75)');
+		if ( $("#growthBubbles").css('display') == 'flex' ) {
+			$("#growthBubbles").hide();
+			$("#popBubbles").css("display","flex");
+		}
 
 	} else if (styleLayer[0] === "2025 Population") {
 		popMap.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","TOTPOP_FY"],59048,5,19803082,50]);
 		popMap.setPaintProperty('msaPoints','circle-color','hsla(42, 985, 54%, 0.75)');
+		if ( $("#growthBubbles").css('display') == 'flex' ) {
+			$("#growthBubbles").hide();
+			$("#popBubbles").css("display","flex");
+		}
 
 	} else if (styleLayer[0] === "Population Growth Rate") {
+		$("#popBubbles").hide();
+		$("#growthBubbles").css('display','flex');
 		popMap.setPaintProperty('msaPoints','circle-radius',["interpolate",["exponential",1.81],["get","POP_ANNUAL_GROWTH"],-0.71,5,3.73,50]);
 		popMap.setPaintProperty('msaPoints','circle-color',[ "case", ["<", ["get","POP_ANNUAL_GROWTH"],0],"hsla(358, 85%, 52%, 0.75)","hsla(193, 100%, 47%, 0.75)" ]);
 
 	} else if (styleLayer[0] === "Median Age") {
 		popMap.setPaintProperty('msaPoints','circle-radius',["interpolate",["exponential",1.11],["get","MEDAGE_CY"],26,3,62,35]);
 		popMap.setPaintProperty('msaPoints','circle-color','hsla(42, 985, 54%, 0.75)');
+		if ( $("#growthBubbles").css('display') == 'flex' ) {
+			$("#growthBubbles").hide();
+			$("#popBubbles").css("display","flex");
+		}
 
 	} else if (styleLayer[0] === "Diversity Index") {
 		popMap.setPaintProperty('msaPoints','circle-radius',["interpolate",["exponential",1.11],["get","DIV_INDEX"],10.7,5,87.4,35]);
 		popMap.setPaintProperty('msaPoints','circle-color','hsla(42, 985, 54%, 0.75)');
+		if ( $("#growthBubbles").css('display') == 'flex' ) {
+			$("#growthBubbles").hide();
+			$("#popBubbles").css("display","flex");
+		}
 
 	}
 });
@@ -139,10 +158,10 @@ $("#blsSelect").change( () => {
 	$("#selectedBlsLayer").text( styleLayer[0] );
 	
 	if (styleLayer[0] === "Labor Force") {
-		map.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","December_2020_LaborForce"],0,laborForceMin,6000000,laborForceMax]);
+		map.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","January_2021_LaborForce"],0,laborForceMin,6000000,laborForceMax]);
 
 	} else if (styleLayer[0] === "Unemployment Rate") {
-		map.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","December_2020_URate"],5,uRateMin,20,uRateMax]);
+		map.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","January_2021_URate"],5,uRateMin,20,uRateMax]);
 
 	}
 });
@@ -253,6 +272,93 @@ $("#costSelect").change( () => {
 
 	}  else if (styleLayer[0] === "Office Rent") {
 		costMap.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","OFFICE_RENT"],22,3,279,35]);
+
+	}
+});
+
+$("#livingSelect").change( () => {
+	console.log("changing style layer");
+	styleLayer = $("#livingSelect").select2('data');
+	styleLayer = [ styleLayer[0].text ];
+	$("#selectedLivingLayer").text( styleLayer[0] );
+
+	if (styleLayer[0] === "Median Household Income") {
+		livingMap.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","MEDHHINC_CY"],35000,5,50000,10,75000,15,100000,25,125000,50]);
+		livingMap.setPaintProperty('msaPoints','circle-color','hsla(42, 985, 54%, 0.75)');
+		if ( $("#plusBubbles").css('display') == 'flex' ) {
+			$("#plusBubbles").hide();
+			$("#livingBubbles").css("display","flex");
+		}
+
+	} else if (styleLayer[0] === "Median Home Value") {
+		livingMap.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","HOME_VALUE"],83863,5,250000,10,350000,25,500000,35,750000,45,1000000,50]);
+		livingMap.setPaintProperty('msaPoints','circle-color','hsla(42, 985, 54%, 0.75)');
+		if ( $("#plusBubbles").css('display') == 'flex' ) {
+			$("#plusBubbles").hide();
+			$("#livingBubbles").css("display","flex");
+		}
+
+	}  else if (styleLayer[0] === "YoY Change in Housing Permits") {
+		$("#livingBubbles").hide();
+		$("#plusBubbles").css('display','flex');
+		livingMap.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","PERMIT_CHANGE"],-1,35,-0.5,10,0,3,0.5,10,0.9,35]);
+		livingMap.setPaintProperty('msaPoints','circle-color',['case',['<=',['get','PERMIT_CHANGE'],0],'hsla(358, 85%, 52%, 0.75)','hsla(193, 100%, 47%, 0.75)']);
+
+	}  else if (styleLayer[0] === "Apartment Rent") {
+		livingMap.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","APT_RENT"],555,5,4738,50]);
+		livingMap.setPaintProperty('msaPoints','circle-color','hsla(42, 985, 54%, 0.75)');
+		if ( $("#plusBubbles").css('display') == 'flex' ) {
+			$("#plusBubbles").hide();
+			$("#livingBubbles").css("display","flex");
+		}
+
+	}  else if (styleLayer[0] === "Housing Cost Index") {
+		livingMap.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","HOUSING"],50.9,5,296.6,35,542.3,50]);
+		livingMap.setPaintProperty('msaPoints','circle-color','hsla(42, 985, 54%, 0.75)');
+		if ( $("#plusBubbles").css('display') == 'flex' ) {
+			$("#plusBubbles").hide();
+			$("#livingBubbles").css("display","flex");
+		}
+
+	}  else if (styleLayer[0] === "Grocery Cost Index") {
+		livingMap.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","GROCERY"],76.4,5,123.65,20,170.9,50]);
+		livingMap.setPaintProperty('msaPoints','circle-color','hsla(42, 985, 54%, 0.75)');
+		if ( $("#plusBubbles").css('display') == 'flex' ) {
+			$("#plusBubbles").hide();
+			$("#livingBubbles").css("display","flex");
+		}
+
+	}  else if (styleLayer[0] === "Utilities Cost Index") {
+		livingMap.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","UTILITIES"],75.4,5,147,20,218.6,50]);
+		livingMap.setPaintProperty('msaPoints','circle-color','hsla(42, 985, 54%, 0.75)');
+		if ( $("#plusBubbles").css('display') == 'flex' ) {
+			$("#plusBubbles").hide();
+			$("#livingBubbles").css("display","flex");
+		}
+
+	}  else if (styleLayer[0] === "Transportation Cost Index") {
+		livingMap.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","TRANSPORTATION"],78.9,5,113.6,20,148.3,50]);
+		livingMap.setPaintProperty('msaPoints','circle-color','hsla(42, 985, 54%, 0.75)');
+		if ( $("#plusBubbles").css('display') == 'flex' ) {
+			$("#plusBubbles").hide();
+			$("#livingBubbles").css("display","flex");
+		}
+
+	}  else if (styleLayer[0] === "Healthcare Cost Index") {
+		costMap.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","HEALTH_CARE"],70.2,5,112.7,15,155.2,50]);
+		popMap.setPaintProperty('msaPoints','circle-color','hsla(42, 985, 54%, 0.75)');
+		if ( $("#plusBubbles").css('display') == 'flex' ) {
+			$("#plusBubbles").hide();
+			$("#livingBubbles").css("display","flex");
+		}
+
+	}  else if (styleLayer[0] === "Cost of Living Composite Index") {
+		costMap.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","COMP_INDEX"],75,5,244.7,50]);
+		popMap.setPaintProperty('msaPoints','circle-color','hsla(42, 985, 54%, 0.75)');
+		if ( $("#plusBubbles").css('display') == 'flex' ) {
+			$("#plusBubbles").hide();
+			$("#livingBubbles").css("display","flex");
+		}
 
 	}
 });

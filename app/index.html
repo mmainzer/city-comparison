@@ -514,12 +514,24 @@
         </div>
         <div class="chart-header">
             <h3><span id="selectedPopLayer" class="selectedMapLayer">2020 Population</span> in selected MSAs</h3>
-            <div class="key-bubbles">
+            <div id="popBubbles" class="key-bubbles">
                 <div class="key-bubbles-wrap">
                   <div class="key-bubble" style="width: 17px; height: 17px;"></div>
                   <div class="key-bubble" style="width: 27px; height: 27px;"></div>
                   <div class="key-bubble" style="width: 37px; height: 37px;"></div>
                   <div class="key-bubble" style="width: 47px; height: 47px;"></div>
+                </div>
+            </div>
+            <div id="growthBubbles" class="key-bubbles">
+                <div class="key-bubbles-wrap">
+                  <div>Shrinking</div>
+                  <div class="key-bubble shrink" style="width: 30px; height: 30px;"></div>
+                  <div class="key-bubble shrink" style="width: 15px; height: 15px;"></div>
+                  <div class="key-bubble shrink" style="width: 5px; height: 5px;"></div>
+                  <div class="key-bubble growth" style="width: 5px; height: 5px;"></div>
+                  <div class="key-bubble growth" style="width: 15px; height: 15px;"></div>
+                  <div class="key-bubble growth" style="width: 30px; height: 30px;"></div>
+                  <div>Growing</div>
                 </div>
             </div>
         </div>
@@ -996,6 +1008,110 @@
             </div>
     </section>
 
+    <!-- LASTLY, COST OF LIVING -->
+    <section class="sheet padding-10mm">
+        <h2 class="section-heading">Cost of Living</h2>
+        <div class="layer-select-container no-print row">
+      
+          <div class="col">
+              <p class="map-display">Size MSAs by...</p>
+              <select id="livingSelect" class="layerSelect select no-print">
+                <option selected>Median Household Income</option>
+                <option>Median Home Value</option>
+                <option>YoY Change in Housing Permits</option>
+                <option>Apartment Rent</option>
+                <option>Housing Cost Index</option>
+                <option>Grocery Cost Index</option>
+                <option>Utilities Cost Index</option>
+                <option>Transportation Cost Index</option>
+                <option>Healthcare Cost Index</option>
+                <option>Cost of Living Composite Index</option>
+              </select>
+          </div>
+          <div class="col">
+
+          </div>
+          
+        </div>
+        <div class="chart-header">
+            <h3><span id="selectedLivingLayer" class="selectedMapLayer">Median Household Income</span> in selected MSAs</h3>
+            <div class="key-bubbles">
+                <div id="livingBubbles" class="key-bubbles-wrap">
+                  <div class="key-bubble" style="width: 17px; height: 17px;"></div>
+                  <div class="key-bubble" style="width: 27px; height: 27px;"></div>
+                  <div class="key-bubble" style="width: 37px; height: 37px;"></div>
+                  <div class="key-bubble" style="width: 47px; height: 47px;"></div>
+                </div>
+            </div>
+            <div id="plusBubbles" class="key-bubbles">
+                <div class="key-bubbles-wrap">
+                  <div>Shrinking</div>
+                  <div class="key-bubble shrink" style="width: 30px; height: 30px;"></div>
+                  <div class="key-bubble shrink" style="width: 15px; height: 15px;"></div>
+                  <div class="key-bubble shrink" style="width: 5px; height: 5px;"></div>
+                  <div class="key-bubble growth" style="width: 5px; height: 5px;"></div>
+                  <div class="key-bubble growth" style="width: 15px; height: 15px;"></div>
+                  <div class="key-bubble growth" style="width: 30px; height: 30px;"></div>
+                  <div>Growing</div>
+                </div>
+            </div>
+        </div>
+        <div class="row mapRow">
+
+          <div id="livingMap"></div>
+
+        </div>
+
+        <div class="row logo-container print-only">
+            <img src="./assets/ga_power_ced_lockup.png" class="img-fluid" alt="">
+        </div>
+    </section>
+
+    <section class="sheet padding-10mm">
+        <h2 class="section-heading print-only">Cost of Living</h2>
+            <div id="sectionLiving" class="row data-section">
+              
+              <div class="table-container table-responsive">
+
+                <table id="livingTable" class="table center-seven" style="width:100%; margin:auto">
+                  <thead>
+                    <!-- dynamically generate rows via jquery iteration through headers array -->
+                  </thead>
+                  <tbody>
+                    <!-- dynamically generate rows via jquery iteration through headers array -->
+                  </tbody>
+                </table>
+
+              </div>
+            </div>
+
+            <div class="row logo-container print-only">
+                <img src="./assets/ga_power_ced_lockup.png" class="img-fluid" alt="">
+            </div>
+    </section>
+
+    <section class="sheet padding-10mm">
+        <h2 class="section-heading print-only">Housing</h2>
+            <div id="sectionHousing" class="row data-section">
+              
+              <div class="table-container table-responsive">
+
+                <table id="housingTable" class="table center-three" style="width:100%; margin:auto">
+                  <thead>
+                    <!-- dynamically generate rows via jquery iteration through headers array -->
+                  </thead>
+                  <tbody>
+                    <!-- dynamically generate rows via jquery iteration through headers array -->
+                  </tbody>
+                </table>
+
+              </div>
+            </div>
+
+            <div class="row logo-container print-only">
+                <img src="./assets/ga_power_ced_lockup.png" class="img-fluid" alt="">
+            </div>
+    </section>
 
   </div>
 

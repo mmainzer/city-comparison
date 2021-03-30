@@ -86,6 +86,17 @@ const costMap = new mapboxgl.Map({
 	preserveDrawingBuffer: true
 });
 
+const livingMap = new mapboxgl.Map({
+	container: 'livingMap',
+	style: 'mapbox://styles/gpcecondev/ckj8yx8b755qw19pk7ay9aa0a?fresh=true',
+	bounds: [[-22.368, -12.983],[20.676, 12.704]],
+	scrollZoom: false,
+	doubleClickZoom: false,
+	renderWorldCopies: false,
+	dragPan: false,
+	preserveDrawingBuffer: true
+});
+
 const popup = new mapboxgl.Popup({
 	closeButton: false,
 	closeOnClick: false
@@ -107,13 +118,14 @@ workMap.on('load', function() {
 
 map.on('load', function() {
 	console.log("bls map is loaded");
-	map.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","December_2020_LaborForce"],0,laborForceMin,6000000,laborForceMax]);
+	map.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","January_2021_LaborForce"],0,laborForceMin,6000000,laborForceMax]);
 });
 
 airMap.on('load', function() {
 	console.log("air map is loaded");
 	airMap.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","NUMBER_AIRPORTS"],0,5,4,25]);
 	airMap.setLayoutProperty( 'msaPointsAirLabel', 'visibility', 'visible' );
+	airMap.setFilter('msaPointsAirLabel', ["all",[">",["get","NUMBER_AIRPORTS"],0],["match",["get","cbsa"],msas,true,false] ]);
 });
 
 fortuneMap.on('load', function() {
@@ -131,4 +143,9 @@ taxMap.on('load', function() {
 costMap.on('load', function() {
 	console.log("cost map is loaded");
 	costMap.setPaintProperty('msaPoints','circle-radius',["interpolate",["exponential",1.02],["get","MSA_CODB"],75,3,169,35]);
+});
+
+livingMap.on('load', function() {
+	console.log("living map is loaded");
+	livingMap.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","MEDHHINC_CY"],35000,5,50000,10,75000,15,100000,25,125000,50]);
 });

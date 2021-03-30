@@ -230,6 +230,14 @@ nav {
   cursor: pointer;
 }
 
+#livingMap {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  cursor: pointer;
+}
+
 .mapboxgl-ctrl {
   left: 1rem;
   margin: 0 0 8px;
@@ -347,6 +355,14 @@ nav {
   font-style: italic;
 }
 
+#growthBubbles {
+  display: none;
+}
+
+#plusBubbles {
+  display: none;
+}
+
 .key-bubbles {
   display: -ms-flexbox;
   display: flex;
@@ -370,6 +386,14 @@ nav {
   opacity: 0.75;
   border-radius: 500px;
   margin: 0 3px;
+}
+
+.key-bubble.shrink {
+  background-color: #ec1c24;
+}
+
+.key-bubble.growth {
+  background-color: #00bcf1;
 }
 
 .heading {
@@ -476,6 +500,14 @@ nav {
 }
 
 .center-two tbody td:nth-last-child(-n+2) {
+  text-align: center;
+}
+
+.center-seven thead th:nth-last-child(-n+7) {
+  text-align: center;
+}
+
+.center-seven tbody td:nth-last-child(-n+7) {
   text-align: center;
 }
 

@@ -14,7 +14,7 @@ const makeBlsCall = (series) => {
 		  "data": {
 		    "seriesid": series,
 		    "startyear":"2019",
-		    "endyear":"2020",
+		    "endyear":"2021",
 		  }
 		}
 
@@ -44,13 +44,95 @@ const makeBlsCall = (series) => {
 			// data for the relevant MSAs
 			const features = map.queryRenderedFeatures( { layers : [ 'msaPoints' ] } );
 
+			console.log(features);
+
 			features.forEach( (feature) => {
 
-				feature.properties.TOTPOP_CY = commas( feature.properties.TOTPOP_CY );
-				feature.properties.TOTPOP_FY = commas( feature.properties.TOTPOP_FY );
-				feature.properties.POP_ANNUAL_GROWTH = round( feature.POP_ANNUAL_GROWTH, 1 ) + "%"; 
+				feature.properties.NS_DOMESTIC = commas( feature.properties.NS_DOMESTIC );
+				feature.properties.NS_INTERNATIONAL = commas( feature.properties.NS_INTERNATIONAL );
+				feature.properties.NS_TOTAL = commas( feature.properties.NS_TOTAL );
+				feature.properties['Avg. Local Sales Tax'] = feature.properties['Avg. Local Sales Tax'].toString() + "%";
+				feature.properties['State Sales Tax'] = feature.properties['State Sales Tax'].toString() + "%";
+				feature.properties['Total Sales Tax'] = feature.properties['Total Sales Tax'].toString() + "%";
+				feature.properties['Individual Tax Rate'] = feature.properties['Individual Tax Rate'].toString() + "%";
+				feature.properties['Corporate Tax Rate'] = feature.properties['Corporate Tax Rate'].toString() + "%";
+				feature.properties['Taxable Wage Base'] = "$" + commas( feature.properties['Taxable Wage Base'] );
 
+				if (feature.properties.TOTPOP_CY === undefined) {
+					feature.properties.TOTPOP_CY = "Unknown";
+				} else {
+					feature.properties.TOTPOP_CY = commas( feature.properties.TOTPOP_CY );
+				}
+
+				if (feature.properties.TOTPOP_FY === undefined) {
+					feature.properties.TOTPOP_FY = "Unknown";
+				} else {
+					feature.properties.TOTPOP_FY = commas( feature.properties.TOTPOP_FY );
+				}
+
+				if (feature.properties.POP_ANNUAL_GROWTH === undefined) {
+					feature.properties.POP_ANNUAL_GROWTH = "Unknown";
+				} else {
+					feature.properties.POP_ANNUAL_GROWTH = feature.properties.POP_ANNUAL_GROWTH.toString() + "%";
+				}
+
+				if (feature.properties.ENROLLMENT === undefined) {
+					feature.properties.ENROLLMENT = "Unknown";
+				} else {
+					feature.properties.ENROLLMENT = commas( feature.properties.ENROLLMENT );
+				}
+
+				if (feature.properties.COMPLETIONS === undefined) {
+					feature.properties.COMPLETIONS = "Unknown";
+				} else {
+					feature.properties.COMPLETIONS = commas( feature.properties.COMPLETIONS );
+				}
+
+				if (feature.properties.COLLEGE_DEGREE === undefined) {
+					feature.properties.COLLEGE_DEGREE = "Unknown";
+				} else {
+					feature.properties.COLLEGE_DEGREE = round( ( feature.properties.COLLEGE_DEGREE * 100 ), 1 ).toString() + "%";
+				}
+
+				if (feature.properties['Property Tax per Capita'] === undefined) {
+					feature.properties['Property Tax per Capita'] = "Unknown";
+				} else {
+					feature.properties['Property Tax per Capita'] = "$" + commas( feature.properties['Property Tax per Capita'] );
+				}
+				
+				if (feature.properties['New Employers Rate'] === undefined) {
+					feature.properties['New Employers Rate'] = "Unknown";
+				} else {
+					feature.properties['New Employers Rate'] = feature.properties['New Employers Rate'].toString() + "%";
+				}
+
+				if (feature.properties.MEDHHINC_CY === undefined) {
+					feature.properties.MEDHHINC_CY = "Unknown";
+				} else {
+					feature.properties.MEDHHINC_CY = "$" + commas( feature.properties.MEDHHINC_CY );
+				}
+
+				if (feature.properties.HOME_VALUE === undefined) {
+					feature.properties.HOME_VALUE = "Unknown";
+				} else {
+					feature.properties.HOME_VALUE = "$" + commas( feature.properties.HOME_VALUE );
+				}
+
+				if (feature.properties.APT_RENT === undefined) {
+					feature.properties.APT_RENT = "Unknown";
+				} else {
+					feature.properties.APT_RENT = "$" + commas( feature.properties.APT_RENT );
+				}
+				
+				if (feature.properties.PERMIT_CHANGE === undefined) {
+					feature.properties.PERMIT_CHANGE = "Unknown";
+				} else {
+					feature.properties.PERMIT_CHANGE = round( ( feature.properties.PERMIT_CHANGE * 100 ), 1 ).toString() + "%";
+				}
+				
 			});
+
+			console.log(features);
 
 			buildTable(features, "airTable", airHeaders, ['AIRPORT','NUMBER_AIRPORTS','NS_DOMESTIC','NS_INTERNATIONAL','NS_TOTAL'] );
 			buildTable(features, "fortuneTable", fortuneHeaders, ['Fortune 500','Fortune 1000'] );
@@ -60,6 +142,8 @@ const makeBlsCall = (series) => {
 			buildTable(features, "employerCostsTable", employerCostsHeaders, ['Payroll Tax Notes','Taxable Wages Rate','New Employers Rate','Taxable Wage Base' ] );
 			buildTable(features, "popTable", popHeaders, ['TOTPOP_CY','TOTPOP_FY','POP_ANNUAL_GROWTH','MEDAGE_CY','DIV_INDEX' ] );
 			buildTable(features, "workTable", workHeaders, ['NUMBER_OF_COLLEGES','ENROLLMENT','COMPLETIONS','COLLEGE_DEGREE' ] );
+			buildTable(features, "housingTable", housingHeaders, ['HOME_VALUE','PERMIT_CHANGE','APT_RENT' ] );
+			buildTable(features, "livingTable", livingHeaders, ['MEDHHINC_CY','COMP_INDEX','GROCERY','HOUSING','UTILITIES','TRANSPORTATION','HEALTH_CARE' ] );
 
 		});
 

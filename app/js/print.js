@@ -21,6 +21,7 @@ $("#printPreview").click( () => {
 	fortuneMap.flyTo({ center:[10.911,-2.003],zoom:3.57 });
 	taxMap.flyTo({ center:[10.911,-2.003],zoom:3.57 });
 	costMap.flyTo({ center:[10.911,-2.003],zoom:3.57 });
+	livingMap.flyTo({ center:[10.911,-2.003],zoom:3.57 });
 
 	$("thead").css("font-size","14px");
 	$("tbody").css("font-size","12px");
@@ -53,6 +54,7 @@ $("#exitPrint").click( () => {
 	fortuneMap.fitBounds([[-22.368, -12.983],[20.676, 12.704]]);
 	taxMap.fitBounds([[-22.368, -12.983],[20.676, 12.704]]);
 	costMap.fitBounds([[-22.368, -12.983],[20.676, 12.704]]);
+	livingMap.fitBounds([[-22.368, -12.983],[20.676, 12.704]]);
 
 	$("#lineContainer svg").remove();
 	let width = $("#lineContainer").width();

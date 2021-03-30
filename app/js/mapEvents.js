@@ -8,10 +8,10 @@ map.on('mousemove', 'msaPoints', function(e) {
 	msa = '<h1 class="popup-header">'+msa+'</h1>';
 	let popupVal;
 	if (styleLayer[0] === "Labor Force") {
-		popupVal = e.features[0].properties.December_2020_LaborForce;
-		popupVal = '<p class="popup-description">Labor force of'+'<strong> '+commas(e.features[0].properties.December_2020_LaborForce)+' </strong>'+'in December 2020.</p>';
+		popupVal = e.features[0].properties.January_2021_LaborForce;
+		popupVal = '<p class="popup-description">Labor force of'+'<strong> '+commas(e.features[0].properties.January_2021_LaborForce)+' </strong>'+'in January 2021.</p>';
 	} else {
-		popupVal = '<p class="popup-description">'+'<strong> '+round(e.features[0].properties.December_2020_URate,1)+'% </strong>'+'unemployment rate in December 2020.</p>';
+		popupVal = '<p class="popup-description">'+'<strong> '+round(e.features[0].properties.January_2021_URate,1)+'% </strong>'+'unemployment rate in January 2021.</p>';
 	}
 	popupVal = '<strong> '+popupVal+' </strong>';
 	let html = msa+popupVal;

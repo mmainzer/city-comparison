@@ -106,46 +106,38 @@ const popup = new mapboxgl.Popup({
 // $(".mapboxgl-ctrl-top-right").append( "<select id='layerSelect' class='select'><option>Population</option><option>Labor Force</option></select>" );
 
 popMap.on('load', function() {
-	console.log("population map is loaded");
 	popMap.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","TOTPOP_CY"],57491,5,19560212,50]);
 });
 
 workMap.on('load', function() {
-	console.log("future workforce map is loaded");
 	workMap.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","NUMBER_OF_COLLEGES"],1,3,20,10,284,50]);
 	workMap.setLayoutProperty( 'msaPointsLabel', 'visibility', 'visible' );
 });
 
 map.on('load', function() {
-	console.log("bls map is loaded");
 	map.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","January_2021_LaborForce"],0,laborForceMin,6000000,laborForceMax]);
 });
 
 airMap.on('load', function() {
-	console.log("air map is loaded");
 	airMap.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","NUMBER_AIRPORTS"],0,5,4,25]);
 	airMap.setLayoutProperty( 'msaPointsAirLabel', 'visibility', 'visible' );
-	airMap.setFilter('msaPointsAirLabel', ["all",[">",["get","NUMBER_AIRPORTS"],0],["match",["get","cbsa"],msas,true,false] ]);
+	airMap.setFilter('msaPointsAirLabel', ["all",[">",["get","NUMBER_AIRPORTS"],0] ]);
 });
 
 fortuneMap.on('load', function() {
-	console.log("fortune map is loaded");
 	fortuneMap.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","Fortune 1000"],0,3,1,5,100,35]);
 	fortuneMap.setLayoutProperty( 'msaPointsFortuneLabel', 'visibility', 'visible' );
 	fortuneMap.setFilter('msaPointsFortuneLabel', ["all",[">",["get","Fortune 1000"],19]]);
 });
 
 taxMap.on('load', function() {
-	console.log("tax map is loaded");
 	taxMap.setPaintProperty('msaPoints','circle-radius',["interpolate",["exponential",1.96],["get","Avg. Local Sales Tax"],0,3,5.22,10]);
 });
 
 costMap.on('load', function() {
-	console.log("cost map is loaded");
 	costMap.setPaintProperty('msaPoints','circle-radius',["interpolate",["exponential",1.02],["get","MSA_CODB"],75,3,169,35]);
 });
 
 livingMap.on('load', function() {
-	console.log("living map is loaded");
 	livingMap.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","MEDHHINC_CY"],35000,5,50000,10,75000,15,100000,25,125000,50]);
 });

@@ -1,7 +1,5 @@
 const makeBlsCall = (series) => {
 
-	  	console.log(series);
-
 	  	const settings = {
 		  "async": true,
 		  "crossDomain": true,
@@ -20,7 +18,7 @@ const makeBlsCall = (series) => {
 
 		$.ajax(settings).done( (data) => {
 			data = data.Results.series;
-			console.log(data);
+
 			unemployment = [];
 			let laborForce = [];
 			data.forEach( (element) => {
@@ -43,8 +41,6 @@ const makeBlsCall = (series) => {
 			// since we only want filtered features, we wait, then query the features so we only have the
 			// data for the relevant MSAs
 			const features = map.queryRenderedFeatures( { layers : [ 'msaPoints' ] } );
-
-			console.log(features);
 
 			features.forEach( (feature) => {
 
@@ -132,16 +128,14 @@ const makeBlsCall = (series) => {
 				
 			});
 
-			console.log(features);
-
+			buildTable(features, "popTable", popHeaders, ['TOTPOP_CY','TOTPOP_FY','POP_ANNUAL_GROWTH','MEDAGE_CY','DIV_INDEX' ] );
+			buildTable(features, "workTable", workHeaders, ['NUMBER_OF_COLLEGES','ENROLLMENT','COMPLETIONS','COLLEGE_DEGREE' ] );
 			buildTable(features, "airTable", airHeaders, ['AIRPORT','NUMBER_AIRPORTS','NS_DOMESTIC','NS_INTERNATIONAL','NS_TOTAL'] );
 			buildTable(features, "fortuneTable", fortuneHeaders, ['Fortune 500','Fortune 1000'] );
 			buildTable(features, "personTaxTable", personTaxHeaders, ['Avg. Local Sales Tax','State Sales Tax','Total Sales Tax','Property Tax per Capita','Property Tax Rank','Graduated Individual Tax','Individual Tax Rate'] );
 			buildTable(features, "corporateTaxTable", corporateTaxHeaders, ['Franchise Tax Rate','Graduated Corporate Tax','Corporate Tax Rate','Corporate Tax Brackets'] );
 			buildTable(features, "codbTable", codbHeaders, ['MSA_CODB','UNIT_LABOR_COST','ENERGY_COST','STATE_LOCAL_TAX','OFFICE_RENT' ] );
 			buildTable(features, "employerCostsTable", employerCostsHeaders, ['Payroll Tax Notes','Taxable Wages Rate','New Employers Rate','Taxable Wage Base' ] );
-			buildTable(features, "popTable", popHeaders, ['TOTPOP_CY','TOTPOP_FY','POP_ANNUAL_GROWTH','MEDAGE_CY','DIV_INDEX' ] );
-			buildTable(features, "workTable", workHeaders, ['NUMBER_OF_COLLEGES','ENROLLMENT','COMPLETIONS','COLLEGE_DEGREE' ] );
 			buildTable(features, "housingTable", housingHeaders, ['HOME_VALUE','PERMIT_CHANGE','APT_RENT' ] );
 			buildTable(features, "livingTable", livingHeaders, ['MEDHHINC_CY','COMP_INDEX','GROCERY','HOUSING','UTILITIES','TRANSPORTATION','HEALTH_CARE' ] );
 
@@ -150,8 +144,6 @@ const makeBlsCall = (series) => {
 }
 
 const buildBlsTable = (datasetOne, datasetTwo) => {
-		console.log("building table now");
-
 	// first, empty the existing table of content
 	// if Datatable currently exists, then clear and kill it
 	if ( $.fn.dataTable.isDataTable('#blsTable') ) {
@@ -182,8 +174,6 @@ const buildBlsTable = (datasetOne, datasetTwo) => {
 	datasetOne.forEach(function(element) {
 		let seriesID = element.seriesID;
 		let geoid = [ seriesID.substr(3,15) ];
-		console.log(seriesID);
-		console.log(geoid);
 		let area = geoid.map(id => areas.find(({ prefix }) => prefix === id).area)[0];
 		let latest = Number(element.data[0].value);
 		let previous = Number(element.data[12].value);
@@ -270,8 +260,7 @@ const buildBlsTable = (datasetOne, datasetTwo) => {
 		"dom" : "Bfrtip",
 		"pagingType" : "full",
 		"buttons" : [
-			{extend: 'csv', title: 'MSA Compairson', exportOptions:{columns:':visible'}},
-			{extend: 'pdf', title: 'MSA Compairson', exportOptions:{columns:':visible'}}
+			{extend: 'csv', title: 'Labor Force & Unemployment', exportOptions:{columns:':visible'}}
 		],
 		"colReorder" : true
 	});
@@ -282,7 +271,7 @@ const buildBlsTable = (datasetOne, datasetTwo) => {
 }
 
 const prepData = (data, variable, newData) => {
-	console.log(variable);
+
 	data.forEach( (element) => {
 		// create temp variables
 		let geoidArray = [];
@@ -290,7 +279,7 @@ const prepData = (data, variable, newData) => {
 		let index;
 		let geoid = element.seriesID;		
 		// strip first 5 and last 10 characters to isolate the geoid
-		console.log(geoid);
+
 		if (geoid.startsWith('LAUM') === true) {
 			geoid = geoid.substr(3,15)
 		} else {

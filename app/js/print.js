@@ -1,7 +1,5 @@
 $("#printPreview").click( () => {
 
-	console.log("Ready to Print");
-
 	$("head link:eq(6)").after('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/paper-css/0.3.0/paper.css">');
 	$("#printPreview").hide();
 	$(".no-print").hide();
@@ -40,7 +38,7 @@ $('#printButton').click( () => {
 });
 
 $("#exitPrint").click( () => {
-	console.log("exiting print preview");
+
 	$("head link")[7].disabled=true;
 	$("#printPreview").show();
 	$(".no-print").show();

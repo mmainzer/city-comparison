@@ -1,5 +1,5 @@
 // json for cascading dropdown filters
-console.log("data loaded");
+
 const areas = [
 	{area:'Abilene, TX', geoid:'10180', prefix:'MT4810180000000',state:'TX',label:'Abilene, TX MSA'},
 	{area:'Akron, OH', geoid:'10420', prefix:'MT3910420000000',state:'OH',label:'Akron, OH MSA'},

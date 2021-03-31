@@ -17,8 +17,6 @@ let line = d3.line()
 
 
 const buildLine = (dataset, width) => {
-	console.log("Building Line Chart!");
-	console.log(dataset);
 
 	// Set the ranges
 	x = d3.scaleTime().range([0, width]);  
@@ -35,10 +33,10 @@ const buildLine = (dataset, width) => {
 
 	let lineData = [];
 	dataset.forEach( (element) => {
-		console.log(element);
+
 		let seriesID = element.seriesID;
 		let geoid = [ seriesID.substr(3,15) ];
-		console.log(geoid);
+
 		let area = geoid.map(id => areas.find(({ prefix }) => prefix === id).area)[0];
 		let state = geoid.map(id => areas.find(({ prefix }) => prefix === id).state)[0];
 		let data = element.data;
@@ -57,8 +55,6 @@ const buildLine = (dataset, width) => {
 		});
 	});
 
-	console.log(lineData);
-
 	lineData.forEach( (d) => {
 		d.date = parseDate(d.date);
 		d.val = +d.val;
@@ -73,8 +69,6 @@ const buildLine = (dataset, width) => {
 		.key((d) => {return d.area+" "+d.state;})
 		.sortKeys(d3.descending)
 		.entries(lineData);
-
-	console.log(dataNest);
 
 	// set the colour scale
     var color = d3.scaleOrdinal(d3.schemeCategory10);

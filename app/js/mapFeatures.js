@@ -3,7 +3,6 @@
 const buildTable = ( features, table, headers, props ) => {
 	// first, empty the existing table of content
 	// if Datatable currently exists, then clear and kill it
-	console.log("building table");
 	if ( $.fn.dataTable.isDataTable( "#" + table ) ) {
 		$( "#" + table ).DataTable().destroy();
 	}
@@ -46,6 +45,9 @@ const buildTable = ( features, table, headers, props ) => {
 		$("#" + table + " tbody").append(row);
 	});
 
+	let title = $( "#" + table ).attr('class').split(' ')[0];
+	title = title.replace(/\-/g, ' ');
+
 	$( "#" + table ).DataTable({
 		"lengthChange" : true,
 		"pageLength" : 5,
@@ -56,9 +58,8 @@ const buildTable = ( features, table, headers, props ) => {
 		"dom" : "Bfrtip",
 		"pagingType" : "full",
 		"buttons" : [
-			{extend: 'csv', title: 'MSA Compairson', exportOptions:{columns:':visible'}},
-			{extend: 'pdf', title: 'MSA Compairson', exportOptions:{columns:':visible'}}
-		],
+			{extend: 'csv', title: title, exportOptions:{columns:':visible'}}
+			],
 		"colReorder" : true
 	});
 

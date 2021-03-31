@@ -18,7 +18,6 @@ $("#compareButton").click( () => {
 
 	$(".heading").hide();
 	selectedAreas = $("#msaSelect").select2('data');
-	console.log(selectedAreas);
 
 	selectedAreas.forEach((element) => {
 		msas.push(element.id);
@@ -45,7 +44,6 @@ $("#compareButton").click( () => {
   	let series = msas.map(id => areas.find(({ geoid }) => geoid === id).prefix);
   	// flatten the array in case a cd region was selected with a nested array
   	series = series.flat();
-  	console.log(series);
 
   	let seriesOne = [];
   	let seriesTwo = [];
@@ -56,15 +54,12 @@ $("#compareButton").click( () => {
 
   	series = seriesOne.concat( seriesTwo );
 
-  	console.log(series);
-
   	//bls api only allows a max of 50 series per call, so check first
   	if (series.length > 25) {
   		showError();
   	} else {
   		// $(".data-section").show();
   		series = series.map( serie => serie ).join(',');
-  		console.log(series);
   		// make request for data
 		makeBlsCall(series);
 
@@ -76,7 +71,7 @@ $("#compareButton").click( () => {
 });
 
 $("#popSelect").change( () => {
-	console.log("changing style layer");
+
 	styleLayer = $("#popSelect").select2('data');
 	styleLayer = [ styleLayer[0].text ];
 	$("#selectedPopLayer").text( styleLayer[0] );
@@ -123,7 +118,7 @@ $("#popSelect").change( () => {
 });
 
 $("#workSelect").change( () => {
-	console.log("changing style layer");
+
 	styleLayer = $("#workSelect").select2('data');
 	styleLayer = [ styleLayer[0].text ];
 	$("#selectedWorkLayer").text( styleLayer[0] );
@@ -152,7 +147,7 @@ $("#workSelect").change( () => {
 });
 
 $("#blsSelect").change( () => {
-	console.log("changing style layer");
+
 	styleLayer = $("#blsSelect").select2('data');
 	styleLayer = [ styleLayer[0].text ];
 	$("#selectedBlsLayer").text( styleLayer[0] );
@@ -167,7 +162,7 @@ $("#blsSelect").change( () => {
 });
 
 $("#airSelect").change( () => {
-	console.log("changing style layer");
+
 	styleLayer = $("#airSelect").select2('data');
 	styleLayer = [ styleLayer[0].text ];
 	$("#selectedAirLayer").text( styleLayer[0] );
@@ -196,7 +191,7 @@ $("#airSelect").change( () => {
 });
 
 $("#fortuneSelect").change( () => {
-	console.log("changing style layer");
+
 	styleLayer = $("#fortuneSelect").select2('data');
 	styleLayer = [ styleLayer[0].text ];
 	$("#selectedFortuneLayer").text( styleLayer[0] );
@@ -217,7 +212,7 @@ $("#fortuneSelect").change( () => {
 });
 
 $("#taxSelect").change( () => {
-	console.log("changing style layer");
+
 	styleLayer = $("#taxSelect").select2('data');
 	styleLayer = [ styleLayer[0].text ];
 	$("#selectedTaxLayer").text( styleLayer[0] );
@@ -247,7 +242,7 @@ $("#taxSelect").change( () => {
 });
 
 $("#costSelect").change( () => {
-	console.log("changing style layer");
+
 	styleLayer = $("#costSelect").select2('data');
 	styleLayer = [ styleLayer[0].text ];
 	$("#selectedCostLayer").text( styleLayer[0] );
@@ -277,7 +272,7 @@ $("#costSelect").change( () => {
 });
 
 $("#livingSelect").change( () => {
-	console.log("changing style layer");
+
 	styleLayer = $("#livingSelect").select2('data');
 	styleLayer = [ styleLayer[0].text ];
 	$("#selectedLivingLayer").text( styleLayer[0] );

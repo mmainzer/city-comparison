@@ -42,6 +42,8 @@ const makeBlsCall = (series) => {
 			// data for the relevant MSAs
 			const features = map.queryRenderedFeatures( { layers : [ 'msaPoints' ] } );
 
+			console.log( features );
+
 			features.forEach( (feature) => {
 
 				feature.properties.NS_DOMESTIC = commas( feature.properties.NS_DOMESTIC );
@@ -95,6 +97,10 @@ const makeBlsCall = (series) => {
 				} else {
 					feature.properties['Property Tax per Capita'] = "$" + commas( feature.properties['Property Tax per Capita'] );
 				}
+
+				if (feature.properties['Property Tax Throw Back'] === undefined) {
+					feature.properties['Property Tax Throw Back'] = "Unknown";
+				}
 				
 				if (feature.properties['New Employers Rate'] === undefined) {
 					feature.properties['New Employers Rate'] = "Unknown";
@@ -128,12 +134,15 @@ const makeBlsCall = (series) => {
 				
 			});
 
+			console.log( features );
+
 			buildTable(features, "popTable", popHeaders, ['TOTPOP_CY','TOTPOP_FY','POP_ANNUAL_GROWTH','MEDAGE_CY','DIV_INDEX' ] );
 			buildTable(features, "workTable", workHeaders, ['NUMBER_OF_COLLEGES','ENROLLMENT','COMPLETIONS','COLLEGE_DEGREE' ] );
 			buildTable(features, "airTable", airHeaders, ['AIRPORT','NUMBER_AIRPORTS','NS_DOMESTIC','NS_INTERNATIONAL','NS_TOTAL'] );
 			buildTable(features, "fortuneTable", fortuneHeaders, ['Fortune 500','Fortune 1000'] );
-			buildTable(features, "personTaxTable", personTaxHeaders, ['Avg. Local Sales Tax','State Sales Tax','Total Sales Tax','Property Tax per Capita','Property Tax Rank','Graduated Individual Tax','Individual Tax Rate'] );
-			buildTable(features, "corporateTaxTable", corporateTaxHeaders, ['Franchise Tax Rate','Graduated Corporate Tax','Corporate Tax Rate','Corporate Tax Brackets'] );
+			buildTable(features, "personTaxTable", personTaxHeaders, ['Avg. Local Sales Tax','State Sales Tax','Total Sales Tax','Graduated Individual Tax','Individual Tax Brackets', 'Individual Tax Rate'] );
+			buildTable(features, "propertyTaxTable", propertyTaxHeaders, ['Property Tax Rank','Property Tax Throw Back','Property Tax per Capita'])
+			buildTable(features, "corporateTaxTable", corporateTaxHeaders, ['Franchise Tax Rate','Corporate Tax Rate','Corporate Tax Brackets','APPORTIONMENT'] );
 			buildTable(features, "codbTable", codbHeaders, ['MSA_CODB','UNIT_LABOR_COST','ENERGY_COST','STATE_LOCAL_TAX','OFFICE_RENT' ] );
 			buildTable(features, "employerCostsTable", employerCostsHeaders, ['Payroll Tax Notes','Taxable Wages Rate','New Employers Rate','Taxable Wage Base' ] );
 			buildTable(features, "housingTable", housingHeaders, ['HOME_VALUE','PERMIT_CHANGE','APT_RENT' ] );

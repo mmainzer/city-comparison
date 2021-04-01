@@ -9,11 +9,12 @@ let uRateMax;
 let unemployment = [];
 
 const popHeaders = [ 'Area', '2020 Population','2025 Population','Annual Growth Rate','Median Age','Diversity Index' ];
-const workHeaders = [ 'Area','Total Colleges','College Enrollment', 'College Completions', 'Degrees Conferred' ];
+const workHeaders = [ 'Area','Total Colleges','College Enrollment', 'Degrees Conferred', "% With Bachelor's" ];
 const airHeaders = [ 'Area', 'Airport(s)', 'Airports Serving MSA', 'Non-Stop Domestic Markets', 'Non-Stop International Markets', 'Total Non-Stop Markets' ];
 const fortuneHeaders = [ 'Area', 'Fortune 500 Companies in the MSA', 'Fortune 1,000 Companies in the MSA' ];
-const personTaxHeaders = [ 'Area', 'Avg. Local Sales Tax Rate','State Sales Tax Rate','Total Sales Tax Rate','Property Tax per Capita','Property Tax Rank','Graduated Income Tax','Income Tax Rate' ];
-const corporateTaxHeaders = [ 'Area', 'Franshise Tax Rate', 'Corporate Income Tax Apportionment','Corporate Income Tax Rate','Corporate Income Tax Brackets' ];
+const personTaxHeaders = [ 'Area', 'Avg. Local Sales Tax Rate','State Sales Tax Rate','Total Sales Tax Rate','Graduated Income Tax','Tax Brackets', 'Income Tax Rate' ];
+const propertyTaxHeaders = ['Area','Property Tax Rank','Property Tax Throw Back','Property Tax per Capita']
+const corporateTaxHeaders = [ 'Area', 'Franshise Tax Rate', 'Corporate Income Tax Rate','Corporate Income Tax Brackets','Apportionment' ];
 const codbHeaders = [ 'Area','Overall Cost of Doing Business','Labor','Energy','State and Local Taxes','Office Rent' ];
 const employerCostsHeaders = [ "Area", "Notes", "Taxable Wages Tax Rate", "New Employer's Tax Rate", "Taxable Wage Base" ];
 const housingHeaders = [ "Area", "Median Home Value", "YoY Change in Single Family Housing Units Permits", "Median Apartment Rent" ];

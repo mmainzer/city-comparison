@@ -107,6 +107,8 @@ const popup = new mapboxgl.Popup({
 
 popMap.on('load', function() {
 	popMap.setPaintProperty('msaPoints','circle-radius',["interpolate",["linear"],["get","TOTPOP_CY"],57491,5,19560212,50]);
+	let originalBounds = popMap.getBounds();
+	console.log(originalBounds);
 });
 
 workMap.on('load', function() {

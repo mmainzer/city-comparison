@@ -12,14 +12,27 @@ $("#printPreview").click( () => {
 	$(".data-section").css("padding-top", "0");
 	$("#map").css("width","100%");
 
-	popMap.flyTo({ center:[10.911,-2.003],zoom:3.57 });
-	workMap.flyTo({ center:[10.911,-2.003],zoom:3.57 });
-	map.flyTo({ center:[10.911,-2.003],zoom:3.57 });
-	airMap.flyTo({ center:[10.911,-2.003],zoom:3.57 });
-	fortuneMap.flyTo({ center:[10.911,-2.003],zoom:3.57 });
-	taxMap.flyTo({ center:[10.911,-2.003],zoom:3.57 });
-	costMap.flyTo({ center:[10.911,-2.003],zoom:3.57 });
-	livingMap.flyTo({ center:[10.911,-2.003],zoom:3.57 });
+	window.setTimeout(()=>popMap.resize(), 500);
+	popMap.fitBounds([[-22.368, -12.983],[20.676, 12.704]]);
+
+	window.setTimeout( () => {
+		popMap.resize();
+		popMap.fitBounds([[-17.6152, -13.9477],[15.9232, 13.6698]], {padding:{left:80,right:85}})
+		workMap.resize();
+		workMap.fitBounds([[-17.6152, -13.9477],[15.9232, 13.6698]], {padding:{left:80,right:85}})
+		map.resize();
+		map.fitBounds([[-17.6152, -13.9477],[15.9232, 13.6698]], {padding:{left:80,right:85}})
+		airMap.resize();
+		airMap.fitBounds([[-17.6152, -13.9477],[15.9232, 13.6698]], {padding:{left:80,right:85}})
+		fortuneMap.resize();
+		fortuneMap.fitBounds([[-17.6152, -13.9477],[15.9232, 13.6698]], {padding:{left:80,right:85}})
+		taxMap.resize();
+		taxMap.fitBounds([[-17.6152, -13.9477],[15.9232, 13.6698]], {padding:{left:80,right:85}})
+		costMap.resize();
+		costMap.fitBounds([[-17.6152, -13.9477],[15.9232, 13.6698]], {padding:{left:80,right:85}})
+		livingMap.resize();
+		livingMap.fitBounds([[-17.6152, -13.9477],[15.9232, 13.6698]], {padding:{left:80,right:85}})
+	}, 500);
 
 	$("thead").css("font-size","14px");
 	$("tbody").css("font-size","12px");

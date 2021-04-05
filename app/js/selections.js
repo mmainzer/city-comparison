@@ -33,7 +33,7 @@ $("#compareButton").click( () => {
 	popMap.setFilter('msaPoints',["all",["match",["get","cbsa"],msas,true,false]]);
 	workMap.setFilter('msaPoints',["all",["match",["get","cbsa"],msas,true,false]]);
 	workMap.setFilter('msaPointsLabel',["all",["match",["get","cbsa"],msas,true,false]]);
-	airMap.setFilter('msaPointsAirLabel',["all",["match",["get","cbsa"],msas,true,false]]);
+	airMap.setFilter('msaPointsAirLabel', ["all",[">",["get","NUMBER_AIRPORTS"],0],["match",["get","cbsa"],msas,true,false] ]);
 	airMap.setFilter('msaPoints',["all",["match",["get","cbsa"],msas,true,false]]);
 	fortuneMap.setFilter('msaPointsFortuneLabel', ["all",[">",["get","Fortune 500"],9],["match",["get","cbsa"],msas,true,false] ]);
 	fortuneMap.setFilter('msaPoints',["all",["match",["get","cbsa"],msas,true,false]]);

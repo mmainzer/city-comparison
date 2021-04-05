@@ -79,7 +79,7 @@ const buildLine = (dataset, width) => {
 
     	svg.append("path")
     		// .attr("class","line")
-    		.attr("class", () => {return d.key.slice(-2)+" line unemployment";})
+    		.attr("class", () => {return d.key+" line unemployment";})
     		.style("fill","none")
     		.style("stroke", () => {
     			if (d.key.slice(-2)==="GA") {return d.color = "#00bcf1";} else {return d.color = "#fdb714";}

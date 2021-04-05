@@ -6,6 +6,7 @@ let laborForceMin = 5;
 let laborForceMax;
 let uRateMin = 3;
 let uRateMax;
+let bounds;
 let unemployment = [];
 
 const popHeaders = [ 'Area', '2020 Population','2025 Population','Annual Growth Rate','Median Age','Diversity Index' ];

@@ -162,7 +162,7 @@ nav {
   z-index: 1000 !important;
 }
 
-#selectBoxRow {
+.selectBoxRow {
   justify-content: center;
 }
 

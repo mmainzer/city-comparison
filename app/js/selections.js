@@ -3,6 +3,11 @@ $("#msaSelect").select2({
 	maximumSelectionLength: 10
 });
 
+$("#metricsSelect").select2({
+	closeOnSelect: false,
+	maximumSelectionLength: 10
+});
+
 $(".layerSelect").select2({
 	closeOnSelect: true,
 });
@@ -15,19 +20,38 @@ $("#compareButton").click( () => {
 	selectedAreas = [];
 	msas = [];
 	msaLabels = [];
+	metrics = [];
 
 	$(".heading").hide();
 	selectedAreas = $("#msaSelect").select2('data');
 
 	selectedAreas.forEach((element) => {
 		msas.push(element.id);
-	});
-
-	selectedAreas.forEach((element) => {
 		msaLabels.push(element.text);
 	});
 
 	$("#msaList").text(msaLabels.join(' | '));
+
+	let selectedMetrics = $("#metricsSelect").select2('data');
+	selectedMetrics.forEach( (element) => {
+		metrics.push( element.id );
+	});
+
+	console.log(metrics);
+	if ( metrics.includes('all') ) {
+		console.log(" ")
+	} else {
+		console.log("Not All")
+		$( ".section" ).each( function() {
+			const classes =  $(this).attr("class").split(/\s+/);
+			const found = metrics.some(e => classes.includes( e ) );
+
+			if ( found === false ) {
+				$(this).hide();
+			}
+		});
+	}
+
 
 	map.setFilter('msaPoints',["all",["match",["get","cbsa"],msas,true,false]]);
 	popMap.setFilter('msaPoints',["all",["match",["get","cbsa"],msas,true,false]]);
@@ -65,8 +89,7 @@ $("#compareButton").click( () => {
 
   	}
 
-  	$("#printPreview").show();
-  	
+  	$("#printPreview").show();  	
 
 });
 

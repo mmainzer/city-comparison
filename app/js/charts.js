@@ -18,6 +18,8 @@ let line = d3.line()
 
 const buildLine = (dataset, width) => {
 
+	$("#lineContainer svg").remove();
+
 	// Set the ranges
 	x = d3.scaleTime().range([0, width]);  
 	y = d3.scaleLinear().range([height, 0]);
@@ -37,7 +39,8 @@ const buildLine = (dataset, width) => {
 		let seriesID = element.seriesID;
 		let geoid = [ seriesID.substr(3,15) ];
 
-		let area = geoid.map(id => areas.find(({ prefix }) => prefix === id).area)[0];
+		let area = geoid.map(id => areas.find(({ prefix }) => prefix === id).label)[0];
+		area = area.split(' ').join('-');
 		let state = geoid.map(id => areas.find(({ prefix }) => prefix === id).state)[0];
 		let data = element.data;
 		

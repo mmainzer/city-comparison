@@ -95,8 +95,8 @@
 
   <div id="allContent" class="container">
     
-    <div id="selectBoxRow" class="row no-print">
-      <h2>Select up to ten MSAs for comparison.</h2>
+    <div id="msaSelectRow" class="row no-print selectBoxRow">
+      <h2>Select up to ten MSAs for comparison</h2>
       <select id="msaSelect" class="select" name="msaList" multiple="multiple">
         <option value='10180'>Abilene, TX</option>
         <option value='10420'>Akron, OH</option>
@@ -482,6 +482,26 @@
       </select>
     </div>
 
+    <div id="metricSelectRow" class="row no-print selectBoxRow">
+      <h2>Choose metrics to include in report</h2>
+      <select id="metricsSelect" class="select" name="metricList" multiple="multiple">
+        <option value="all" selected>All</option>
+        <option value='population'>Population</option>
+        <option value='future-workforce'>Future Workforce</option>
+        <option value='workforce'>Workforce</option>
+        <option value='labor-force'>Labor Force</option>
+        <option value='airport'>Airports</option>
+        <option value='fortune'>Fortune 1,000</option>
+        <option value='taxes'>Taxes</option>
+        <option value='property-taxes'>Property Taxes</option>
+        <option value='corporate-taxes'>Corporate Taxes</option>
+        <option value='sales-taxes'>Sales Taxes</option>
+        <option value='codb'>Cost of Doing Business</option>
+        <option value='living'>Cost of Living</option>
+        <option value='housing'>Housing Costs</option>
+      </select>
+    </div>
+
     <div class="button-container row no-print">
       <button id="compareButton" type="button" class="btn btn-primary">Compare MSAs</button>
       <button id="printPreview" type="button" class="btn btn-primary">Print Preview</button>
@@ -545,7 +565,7 @@
         </div>
     </section>
 
-    <section class="sheet padding-10mm">
+    <section class="sheet padding-10mm population section">
         <h2 class="section-heading print-only">Population</h2>
             
             <div id="sectionPop" class="row data-section">
@@ -568,7 +588,7 @@
             </div>
     </section>
 
-    <section class="sheet padding-10mm">
+    <section class="sheet padding-10mm future-workforce section">
 
         <h2 class="section-heading">Future Workforce</h2>
         <div class="layer-select-container no-print row">
@@ -608,7 +628,7 @@
         </div>
     </section>
 
-    <section class="sheet padding-10mm">
+    <section class="sheet padding-10mm workforce section">
         <h2 class="section-heading print-only">Workforce</h2>
             
             <div id="sectionWork" class="row data-section">
@@ -631,7 +651,7 @@
             </div>
     </section>
 
-    <section class="sheet padding-10mm">
+    <section class="sheet padding-10mm labor-force section">
         <h2 class="section-heading">Labor Force & Unemployment</h2>
         <div class="layer-select-container no-print row">
       
@@ -669,7 +689,7 @@
         </div>
     </section>
 
-    <section class="sheet padding-10mm">
+    <section class="sheet padding-10mm labor-force section">
         <h2 class="section-heading print-only">Labor Force & Unemployment</h2>
             
             <div id="sectionLaborForce" class="row data-section">
@@ -698,7 +718,7 @@
     
     <!-- NOW THE AIR TRAVEL SECTION -->
     
-    <section class="sheet padding-10mm">
+    <section class="sheet padding-10mm airport section">
         <h2 class="section-heading">Airport Connectivity</h2>
         <div class="layer-select-container no-print row">
       
@@ -738,7 +758,7 @@
         </div>
     </section>
 
-    <section class="sheet padding-10mm">
+    <section class="sheet padding-10mm airport section">
         <h2 class="section-heading print-only">Airport Connectivity</h2>
             <div id="sectionAirTravel" class="row data-section">
               
@@ -764,7 +784,7 @@
 
     <!-- NOW THE FORTUNE THOUSAND SECTION -->
     
-    <section class="sheet padding-10mm">
+    <section class="sheet padding-10mm fortune section">
         <h2 class="section-heading">Fortune 1000 Companies</h2>
         <div class="layer-select-container no-print row">
       
@@ -802,7 +822,7 @@
         </div>
     </section>
 
-    <section class="sheet padding-10mm">
+    <section class="sheet padding-10mm fortune section">
         <h2 class="section-heading print-only">Fortune 1000 Companies</h2>
             <div id="sectionFortune" class="row data-section">
               
@@ -827,7 +847,7 @@
 
     <!-- SALES, INDIVIDUAL INCOME AND PROPERTY TAXES -->
 
-    <section class="sheet padding-10mm">
+    <section class="sheet padding-10mm taxes section">
         <h1 class="section-title">Taxes & Cost of Doing Business</h1>
         <h2 class="section-heading">Sales, Property, and Income Taxes</h2>
         <div class="layer-select-container no-print row">
@@ -871,7 +891,7 @@
         </div>
     </section>
 
-    <section class="sheet padding-10mm">
+    <section class="sheet padding-10mm taxes sales-taxes section">
         <h2 class="section-heading print-only">Sales and Individual Income Taxes</h2>
             <div id="sectionPersonTax" class="row data-section">
               
@@ -894,7 +914,7 @@
             </div>
     </section>
 
-    <section class="sheet padding-10mm">
+    <section class="sheet padding-10mm taxes property-taxes section">
         <h2 class="section-heading print-only">Property Taxes</h2>
             <div id="sectionPropertyTax" class="row data-section">
               
@@ -917,7 +937,7 @@
             </div>
     </section>
 
-    <section class="sheet padding-10mm">
+    <section class="sheet padding-10mm taxes corporate-taxes section">
         <h2 class="section-heading print-only">Corporate Taxes (State Level)</h2>
             <div id="sectionCorporateTax" class="row data-section">
               
@@ -942,7 +962,7 @@
 
     <!-- NOW A SECTION ON COST OF DOING BUSINESS, INCLUDING UNEMPLOYMENT INSURANCE -->
 
-    <section class="sheet padding-10mm">
+    <section class="sheet padding-10mm codb section">
         <h2 class="section-heading">Cost of Doing Business</h2>
         <div class="layer-select-container no-print row">
       
@@ -985,7 +1005,7 @@
         </div>
     </section>
 
-    <section class="sheet padding-10mm">
+    <section class="sheet padding-10mm codb section">
         <h2 class="section-heading print-only">Cost of Doing Business</h2>
             <div id="sectionCodb" class="row data-section">
               
@@ -1008,7 +1028,7 @@
             </div>
     </section>
 
-    <section class="sheet padding-10mm">
+    <section class="sheet padding-10mm codb employer-costs section">
         <h2 class="section-heading print-only">Employer Costs</h2>
             <div id="sectionEmployerCosts" class="row data-section">
               
@@ -1032,7 +1052,7 @@
     </section>
 
     <!-- LASTLY, COST OF LIVING -->
-    <section class="sheet padding-10mm">
+    <section class="sheet padding-10mm living section">
         <h2 class="section-heading">Cost of Living</h2>
         <div class="layer-select-container no-print row">
       
@@ -1090,7 +1110,7 @@
         </div>
     </section>
 
-    <section class="sheet padding-10mm">
+    <section class="sheet padding-10mm living section">
         <h2 class="section-heading print-only">Cost of Living</h2>
             <div id="sectionLiving" class="row data-section">
               
@@ -1113,7 +1133,7 @@
             </div>
     </section>
 
-    <section class="sheet padding-10mm">
+    <section class="sheet padding-10mm housing section">
         <h2 class="section-heading print-only">Housing</h2>
             <div id="sectionHousing" class="row data-section">
               
@@ -1161,16 +1181,14 @@
 <!-- LOCAL FILES -->
 <script type="text/javascript" src="./js/data.js"></script>
 <script type="text/javascript" src="./js/globals.js"></script>
-<!-- <script type="text/javascript" src="onLoad.js"></script> -->
 <script type="text/javascript" src="./js/map.js"></script>
 <script type="text/javascript" src="./js/selections.js"></script>
 <script type="text/javascript" src="./js/blsData.js"></script>
-<!-- <script type="text/javascript" src="driveTime.js"></script> -->
-<!-- <script type="text/javascript" src="radius.js"></script> -->
 <script type="text/javascript" src="./js/mapEvents.js"></script>
 <script type="text/javascript" src="./js/charts.js"></script>
 <script type="text/javascript" src="./js/print.js"></script>
 <script type="text/javascript" src="./js/mapFeatures.js"></script>
+<script type="text/javascript" src="./js/reset.js"></script>
 
 </body>
 

@@ -4,8 +4,7 @@ $("#msaSelect").select2({
 });
 
 $("#metricsSelect").select2({
-	closeOnSelect: false,
-	maximumSelectionLength: 10
+	closeOnSelect: false
 });
 
 $(".layerSelect").select2({
@@ -14,6 +13,11 @@ $(".layerSelect").select2({
 
 $('.select').on('select2:select', function (e) {
     $('.select2-search__field').val('');
+});
+
+$('#metricsSelect').on('select2:select', function (e) {
+	let newMetric = [ e.params.data.id ];
+	console.log( newMetric );
 });
 
 $("#compareButton").click( () => {
@@ -90,6 +94,14 @@ $("#compareButton").click( () => {
   	}
 
   	$("#printPreview").show();  	
+
+});
+
+$('#metricsSelect').on('select2:select', function (e) {
+	let newMetric = e.params.data.id;
+	console.log( newMetric );
+	console.log(".section."+newMetric);
+	$( ".section."+newMetric ).show();
 
 });
 

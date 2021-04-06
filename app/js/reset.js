@@ -54,3 +54,12 @@ $('#msaSelect').on('select2:unselect', function (e) {
 
 
 });
+
+$('#metricsSelect').on('select2:unselect', function (e) {
+	let newMetric = e.params.data.id;
+	console.log( newMetric );
+	console.log(".section."+newMetric);
+	$( ".section."+newMetric ).hide();
+
+});
+

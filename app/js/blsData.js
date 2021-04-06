@@ -42,8 +42,6 @@ const makeBlsCall = (series) => {
 			// data for the relevant MSAs
 			const features = map.queryRenderedFeatures( { layers : [ 'msaPoints' ] } );
 
-			console.log( features );
-
 			features.forEach( (feature) => {
 
 				feature.properties.NS_DOMESTIC = commas( feature.properties.NS_DOMESTIC );
@@ -134,7 +132,6 @@ const makeBlsCall = (series) => {
 				
 			});
 
-			console.log( features );
 
 			buildTable(features, "popTable", popHeaders, ['TOTPOP_CY','TOTPOP_FY','POP_ANNUAL_GROWTH','MEDAGE_CY','DIV_INDEX' ] );
 			buildTable(features, "workTable", workHeaders, ['NUMBER_OF_COLLEGES','ENROLLMENT','COMPLETIONS','COLLEGE_DEGREE' ] );

@@ -17,7 +17,6 @@ $('.select').on('select2:select', function (e) {
 
 $('#metricsSelect').on('select2:select', function (e) {
 	let newMetric = [ e.params.data.id ];
-	console.log( newMetric );
 });
 
 $("#compareButton").click( () => {
@@ -41,11 +40,9 @@ $("#compareButton").click( () => {
 		metrics.push( element.id );
 	});
 
-	console.log(metrics);
 	if ( metrics.includes('all') ) {
 		console.log(" ")
 	} else {
-		console.log("Not All")
 		$( ".section" ).each( function() {
 			const classes =  $(this).attr("class").split(/\s+/);
 			const found = metrics.some(e => classes.includes( e ) );
@@ -99,8 +96,6 @@ $("#compareButton").click( () => {
 
 $('#metricsSelect').on('select2:select', function (e) {
 	let newMetric = e.params.data.id;
-	console.log( newMetric );
-	console.log(".section."+newMetric);
 	$( ".section."+newMetric ).show();
 
 });

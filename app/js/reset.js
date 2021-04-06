@@ -1,7 +1,6 @@
 $('#msaSelect').on('select2:unselect', function (e) {
   	
   	let unselected = [ e.params.data.id ];
-  	console.log( unselected );
 
   	selectedAreas = [];
 	msas = [];
@@ -11,8 +10,6 @@ $('#msaSelect').on('select2:unselect', function (e) {
 	selectedAreas.forEach((element) => {
 		msas.push(element.id);
 	});
-
-	console.log(msas);
 
 	// correctly filter the maps
 	map.setFilter('msaPoints',["all",["match",["get","cbsa"],msas,true,false]]);
@@ -29,7 +26,6 @@ $('#msaSelect').on('select2:unselect', function (e) {
 
 	// remove the deselected item from the tables
 	let label = unselected.map(id => areas.find(({ geoid }) => geoid === id).label);
-	console.log( label );
 
 	$( "table" ).each( function() {
 		
@@ -45,8 +41,6 @@ $('#msaSelect').on('select2:unselect', function (e) {
 	$("#lineContainer path").each( function() {
 		let pathLabel = $(this).attr("class").split(' ')[0];
 		pathLabel = pathLabel.split('-').join(' ');
-		console.log(pathLabel);
-		console.log( label );
 		if ( pathLabel === label[0]) {
 	    	$(this).remove();
 	    }
@@ -57,8 +51,6 @@ $('#msaSelect').on('select2:unselect', function (e) {
 
 $('#metricsSelect').on('select2:unselect', function (e) {
 	let newMetric = e.params.data.id;
-	console.log( newMetric );
-	console.log(".section."+newMetric);
 	$( ".section."+newMetric ).hide();
 
 });
